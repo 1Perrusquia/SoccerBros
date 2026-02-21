@@ -12,11 +12,20 @@ public class Enemy : MonoBehaviour
     public int hitsToFreeze = 3;
 
     private int currentHits = 0;
-    private bool isFrozen = false;
     private int direction = 1;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+
+    public enum EnemyState
+    {
+        Normal,
+        FrozenPartial,
+        FrozenBall,
+        Dead
+    }
+
+    public EnemyState currentState = EnemyState.Normal;
 
     void Start()
     {
@@ -26,8 +35,29 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if (isFrozen) return;
+        switch (currentState)
+        {
+            case EnemyState.Normal:
+                HandleMovement(1f);
+                break;
 
+            case EnemyState.FrozenPartial:
+                HandleMovement(0.5f); // Se mueve más lento
+                break;
+
+            case EnemyState.FrozenBall:
+                rb.linearVelocity = Vector2.zero;
+                break;
+
+            case EnemyState.Dead:
+                break;
+        }
+
+        Flip();
+    }
+
+    void HandleMovement(float speedModifier)
+    {
         float movementX = direction;
 
         if (player != null)
@@ -41,9 +71,7 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        rb.linearVelocity = new Vector2(movementX * moveSpeed, rb.linearVelocity.y);
-
-        Flip();
+        rb.linearVelocity = new Vector2(movementX * moveSpeed * speedModifier, rb.linearVelocity.y);
     }
 
     void Flip()
@@ -64,27 +92,37 @@ public class Enemy : MonoBehaviour
 
     public void TakeHit()
     {
-        if (isFrozen) return;
+        if (currentState == EnemyState.FrozenBall || currentState == EnemyState.Dead)
+            return;
 
         currentHits++;
 
         if (currentHits >= hitsToFreeze)
         {
-            FreezeEnemy();
+            EnterFrozenBall();
+        }
+        else
+        {
+            EnterFrozenPartial();
         }
     }
 
-    void FreezeEnemy()
+    void EnterFrozenPartial()
     {
-        isFrozen = true;
+        currentState = EnemyState.FrozenPartial;
+        sr.color = new Color(0.6f, 0.9f, 1f); // tono azulado leve
+    }
+
+    void EnterFrozenBall()
+    {
+        currentState = EnemyState.FrozenBall;
 
         rb.linearVelocity = Vector2.zero;
-        rb.gravityScale = 1; // vuelve a tener gravedad
+        rb.gravityScale = 1;
         rb.freezeRotation = true;
 
         sr.color = Color.cyan;
 
-        // Reduce fricción para que se deslice
         PhysicsMaterial2D slippery = new PhysicsMaterial2D();
         slippery.friction = 0f;
         slippery.bounciness = 0f;
@@ -92,20 +130,9 @@ public class Enemy : MonoBehaviour
         GetComponent<Collider2D>().sharedMaterial = slippery;
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    public void Die()
     {
-        if (!isFrozen) return;
-
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            float impactForce = rb.linearVelocity.magnitude;
-
-            if (impactForce > 3f)
-            {
-                GameManager.Instance.AddScore(100);
-                Destroy(collision.gameObject);
-            }
-        }
+        currentState = EnemyState.Dead;
+        Destroy(gameObject);
     }
-
 }
