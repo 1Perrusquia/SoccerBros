@@ -2,30 +2,31 @@
 
 public class Enemy : MonoBehaviour
 {
+    public enum State
+    {
+        Walking,
+        Ball,
+        Rolling
+    }
+
+    public State currentState = State.Walking;
+
     [Header("Movement")]
-    public float moveSpeed = 2f;
-    public Transform player;
-    public float attractionStrength = 0.4f;
-    public float detectionRange = 5f;
+    public float walkSpeed = 2f;
+    public float rollSpeed = 10f;
 
-    [Header("Freeze Settings")]
+    [Header("Snow System")]
     public int hitsToFreeze = 3;
-
     private int currentHits = 0;
+
+    [Header("Rolling")]
+    public int maxBounces = 3;
+    private int bounceCount = 0;
+
     private int direction = 1;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-
-    public enum EnemyState
-    {
-        Normal,
-        FrozenPartial,
-        FrozenBall,
-        Dead
-    }
-
-    public EnemyState currentState = EnemyState.Normal;
 
     void Start()
     {
@@ -37,102 +38,75 @@ public class Enemy : MonoBehaviour
     {
         switch (currentState)
         {
-            case EnemyState.Normal:
-                HandleMovement(1f);
+            case State.Walking:
+                rb.linearVelocity = new Vector2(direction * walkSpeed, rb.linearVelocity.y);
                 break;
 
-            case EnemyState.FrozenPartial:
-                HandleMovement(0.5f); // Se mueve más lento
-                break;
-
-            case EnemyState.FrozenBall:
+            case State.Ball:
                 rb.linearVelocity = Vector2.zero;
                 break;
 
-            case EnemyState.Dead:
+            case State.Rolling:
+                rb.linearVelocity = new Vector2(direction * rollSpeed, rb.linearVelocity.y);
                 break;
         }
-
-        Flip();
     }
 
-    void HandleMovement(float speedModifier)
+    // ❄ Se llama desde Snowball
+    public void TakeSnowHit()
     {
-        float movementX = direction;
-
-        if (player != null)
-        {
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer < detectionRange)
-            {
-                float directionToPlayer = Mathf.Sign(player.position.x - transform.position.x);
-                movementX += directionToPlayer * attractionStrength;
-            }
-        }
-
-        rb.linearVelocity = new Vector2(movementX * moveSpeed * speedModifier, rb.linearVelocity.y);
-    }
-
-    void Flip()
-    {
-        if (rb.linearVelocity.x > 0)
-            sr.flipX = false;
-        else if (rb.linearVelocity.x < 0)
-            sr.flipX = true;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            direction *= -1;
-        }
-    }
-
-    public void TakeHit()
-    {
-        if (currentState == EnemyState.FrozenBall || currentState == EnemyState.Dead)
+        if (currentState != State.Walking)
             return;
 
         currentHits++;
 
+        // Cambia color gradualmente
+        sr.color = Color.Lerp(Color.white, Color.cyan, (float)currentHits / hitsToFreeze);
+
         if (currentHits >= hitsToFreeze)
         {
-            EnterFrozenBall();
+            currentState = State.Ball;
         }
-        else
+    }
+
+    // ⚽ Se llama cuando el jugador dispara cerca
+    public void Kick(int dir)
+    {
+        if (currentState != State.Ball)
+            return;
+
+        direction = dir;
+        bounceCount = 0;
+        currentState = State.Rolling;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Rebote contra pared
+        if (currentState == State.Rolling && collision.gameObject.CompareTag("Wall"))
         {
-            EnterFrozenPartial();
+            direction *= -1;
+            bounceCount++;
+
+            if (bounceCount >= maxBounces)
+            {
+                Destroy(gameObject);
+            }
         }
-    }
 
-    void EnterFrozenPartial()
-    {
-        currentState = EnemyState.FrozenPartial;
-        sr.color = new Color(0.6f, 0.9f, 1f); // tono azulado leve
-    }
+        // Mata enemigos
+        if (currentState == State.Rolling && collision.gameObject.CompareTag("Enemy"))
+        {
+            if (collision.gameObject != gameObject)
+            {
+                Destroy(collision.gameObject);
+            }
+        }
 
-    void EnterFrozenBall()
-    {
-        currentState = EnemyState.FrozenBall;
-
-        rb.linearVelocity = Vector2.zero;
-        rb.gravityScale = 1;
-        rb.freezeRotation = true;
-
-        sr.color = Color.cyan;
-
-        PhysicsMaterial2D slippery = new PhysicsMaterial2D();
-        slippery.friction = 0f;
-        slippery.bounciness = 0f;
-
-        GetComponent<Collider2D>().sharedMaterial = slippery;
-    }
-
-    public void Die()
-    {
-        currentState = EnemyState.Dead;
-        Destroy(gameObject);
+        // Cambio dirección al caminar
+        if (currentState == State.Walking && collision.gameObject.CompareTag("Wall"))
+        {
+            direction *= -1;
+        }
     }
 }

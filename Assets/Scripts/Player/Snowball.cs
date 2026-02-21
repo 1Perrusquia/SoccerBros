@@ -1,4 +1,5 @@
-using UnityEngine;
+﻿using UnityEngine;
+
 
 public class Snowball : MonoBehaviour
 {
@@ -20,7 +21,10 @@ public class Snowball : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            collision.GetComponent<Enemy>().TakeHit();
+            Enemy enemy = collision.GetComponent<Enemy>();
+            if (enemy != null)
+                enemy.TakeSnowHit();
+
             Destroy(gameObject);
         }
     }

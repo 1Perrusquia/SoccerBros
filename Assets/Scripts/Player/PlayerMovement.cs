@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -38,9 +38,29 @@ public class PlayerMovement : MonoBehaviour
 
     void Shoot()
     {
+        float kickRadius = 1f;
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, kickRadius);
+
+        foreach (var hit in hits)
+        {
+            if (hit.CompareTag("Enemy"))
+            {
+                Enemy enemy = hit.GetComponent<Enemy>();
+
+                if (enemy != null && enemy.currentState == Enemy.State.Ball)
+                {
+                    int dir = facingRight ? 1 : -1;
+                    enemy.Kick(dir);
+                    return; // Si pateó, no dispara
+                }
+            }
+        }
+
+        // Si no pateó ninguna bola → dispara
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
-        Vector2 dir = facingRight ? Vector2.right : Vector2.left;
-        snowball.GetComponent<Snowball>().SetDirection(dir);
+        Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
+        snowball.GetComponent<Snowball>().SetDirection(dirShoot);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
