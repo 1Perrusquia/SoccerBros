@@ -24,14 +24,17 @@ public class Enemy : MonoBehaviour
     private int bounceCount = 0;
 
     private int direction = 1;
+    private int comboCount = 0;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Collider2D myCollider;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        myCollider = GetComponent<Collider2D>();
     }
 
     void Update()
@@ -52,7 +55,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // ❄ Se llama desde Snowball
+    // ❄ Recibe impacto de nieve
     public void TakeSnowHit()
     {
         if (currentState != State.Walking)
@@ -60,16 +63,17 @@ public class Enemy : MonoBehaviour
 
         currentHits++;
 
-        // Cambia color gradualmente
+        // Cambio visual progresivo
         sr.color = Color.Lerp(Color.white, Color.cyan, (float)currentHits / hitsToFreeze);
 
         if (currentHits >= hitsToFreeze)
         {
             currentState = State.Ball;
+            rb.linearVelocity = Vector2.zero;
         }
     }
 
-    // ⚽ Se llama cuando el jugador dispara cerca
+    // ⚽ Patada
     public void Kick(int dir)
     {
         if (currentState != State.Ball)
@@ -77,12 +81,24 @@ public class Enemy : MonoBehaviour
 
         direction = dir;
         bounceCount = 0;
+        comboCount = 0;
         currentState = State.Rolling;
+
+        // Ignorar colisión con jugador actual
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Collider2D playerCollider = player.GetComponent<Collider2D>();
+            if (playerCollider != null)
+            {
+                Physics2D.IgnoreCollision(myCollider, playerCollider, true);
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Rebote contra pared
+        // 🔁 Rebote contra pared
         if (currentState == State.Rolling && collision.gameObject.CompareTag("Wall"))
         {
             direction *= -1;
@@ -90,23 +106,46 @@ public class Enemy : MonoBehaviour
 
             if (bounceCount >= maxBounces)
             {
-                Destroy(gameObject);
+                CheckAndDestroy();
             }
         }
 
-        // Mata enemigos
+        // 💥 Combo contra otro enemigo
         if (currentState == State.Rolling && collision.gameObject.CompareTag("Enemy"))
         {
             if (collision.gameObject != gameObject)
             {
+                comboCount++;
+
+                int points = 500 * (int)Mathf.Pow(2, comboCount - 1);
+
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.AddScore(points);
+                    GameManager.Instance.ShowFloatingText("+" + points, collision.transform.position);
+                }
+
                 Destroy(collision.gameObject);
+
+                // Revisar si ya no quedan enemigos
+                if (GameManager.Instance != null)
+                    GameManager.Instance.CheckLevelClear();
             }
         }
 
-        // Cambio dirección al caminar
+        // 🚶 Cambio dirección caminando
         if (currentState == State.Walking && collision.gameObject.CompareTag("Wall"))
         {
             direction *= -1;
         }
+    }
+
+    // ✅ Método seguro para destruir enemigo rodando
+    void CheckAndDestroy()
+    {
+        if (GameManager.Instance != null)
+            GameManager.Instance.CheckLevelClear();
+
+        Destroy(gameObject);
     }
 }

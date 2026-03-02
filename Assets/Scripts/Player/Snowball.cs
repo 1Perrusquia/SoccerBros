@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-
 public class Snowball : MonoBehaviour
 {
     public float speed = 8f;
@@ -19,13 +18,25 @@ public class Snowball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
-        {
-            Enemy enemy = collision.GetComponent<Enemy>();
-            if (enemy != null)
-                enemy.TakeSnowHit();
+        if (!collision.CompareTag("Enemy"))
+            return;
 
-            Destroy(gameObject);
+        Enemy enemy = collision.GetComponent<Enemy>();
+
+        if (enemy == null)
+            return;
+
+        if (enemy.currentState == Enemy.State.Walking)
+        {
+            enemy.TakeSnowHit();
+
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.AddScore(100);
+                GameManager.Instance.ShowFloatingText("+100", enemy.transform.position);
+            }
         }
+
+        Destroy(gameObject);
     }
 }

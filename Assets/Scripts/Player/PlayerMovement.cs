@@ -6,11 +6,11 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 7f;
     public GameObject snowballPrefab;
     public Transform firePoint;
+
     private bool facingRight = true;
-
-
     private Rigidbody2D rb;
     private bool isGrounded;
+    private bool isDead = false;
 
     void Start()
     {
@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return;
+
         float moveX = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
@@ -39,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
     void Shoot()
     {
         float kickRadius = 1f;
-
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, kickRadius);
 
         foreach (var hit in hits)
@@ -52,30 +53,46 @@ public class PlayerMovement : MonoBehaviour
                 {
                     int dir = facingRight ? 1 : -1;
                     enemy.Kick(dir);
-                    return; // Si pateó, no dispara
+                    return;
                 }
             }
         }
 
-        // Si no pateó ninguna bola → dispara
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
         Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
         snowball.GetComponent<Snowball>().SetDirection(dirShoot);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Die()
+    {
+        isDead = true;
+        rb.linearVelocity = Vector2.zero;
+        gameObject.SetActive(false);
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.PlayerDied();
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = true;
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+
+            // 🔥 SOLO WALKING MATA
+            if (enemy != null && enemy.currentState == Enemy.State.Walking)
+            {
+                Die();
+            }
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = false;
-        }
     }
 }
