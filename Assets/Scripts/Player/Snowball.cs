@@ -1,23 +1,37 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Snowball : MonoBehaviour
 {
-    public float speed = 8f;
-    private Vector2 direction;
+    public float forwardSpeed = 8f;
+    public float upwardForce = 3f; // La fuerza que crea la "parábola" al salir
+    public float lifeTime = 1.5f;  // Duración corta típica de los arcades
+
+    private Rigidbody2D rb;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     public void SetDirection(Vector2 dir)
     {
-        direction = dir.normalized;
-        Destroy(gameObject, 3f);
-    }
+        // Aplicamos la velocidad hacia adelante y un ligero impulso hacia arriba
+        rb.linearVelocity = new Vector2(dir.x * forwardSpeed, upwardForce);
 
-    void Update()
-    {
-        transform.Translate(direction * speed * Time.deltaTime);
+        // Destruimos el proyectil rápido para limitar el rango de ataque
+        Destroy(gameObject, lifeTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Si choca con el piso o paredes, se destruye al instante (típico de Snow Bros)
+        if (collision.CompareTag("Ground") || collision.CompareTag("Platform") || collision.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         if (!collision.CompareTag("Enemy"))
             return;
 
@@ -26,7 +40,7 @@ public class Snowball : MonoBehaviour
         if (enemy == null)
             return;
 
-        if (enemy.currentState == Enemy.State.Walking)
+        if (enemy.currentState == Enemy.State.Walking || enemy.currentState == Enemy.State.Ball)
         {
             enemy.TakeSnowHit();
 
@@ -37,6 +51,6 @@ public class Snowball : MonoBehaviour
             }
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject); // El balón se deshace al golpear al enemigo
     }
 }
