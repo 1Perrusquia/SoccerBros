@@ -1,0 +1,3952 @@
+fileFormatVersion: 2
+guid: 577dd611deac95a4a95cc4366d27bfb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4685856644893756634
+    second: AjolotesNuevo_1_0
+  - first:
+      213: 3110584743240726227
+    second: AjolotesNuevo_1_1
+  - first:
+      213: -2660041047166233006
+    second: AjolotesNuevo_1_2
+  - first:
+      213: -5152965408381762442
+    second: AjolotesNuevo_1_3
+  - first:
+      213: 1697500957734380191
+    second: AjolotesNuevo_1_4
+  - first:
+      213: -2049518200001132511
+    second: AjolotesNuevo_1_5
+  - first:
+      213: 4570036622650298783
+    second: AjolotesNuevo_1_6
+  - first:
+      213: 5443583120032956291
+    second: AjolotesNuevo_1_7
+  - first:
+      213: 7460120217638540117
+    second: AjolotesNuevo_1_8
+  - first:
+      213: -5517017946522082032
+    second: AjolotesNuevo_1_9
+  - first:
+      213: 7525644044399017930
+    second: AjolotesNuevo_1_10
+  - first:
+      213: 8094904446118121983
+    second: AjolotesNuevo_1_11
+  - first:
+      213: 6485172446307253707
+    second: AjolotesNuevo_1_12
+  - first:
+      213: 1086247369406866761
+    second: AjolotesNuevo_1_13
+  - first:
+      213: -5512601445823216337
+    second: AjolotesNuevo_1_14
+  - first:
+      213: 2710918774701476442
+    second: AjolotesNuevo_1_15
+  - first:
+      213: -5936587729607726627
+    second: AjolotesNuevo_1_16
+  - first:
+      213: -2430905704695388453
+    second: AjolotesNuevo_1_17
+  - first:
+      213: 1666037748955647626
+    second: AjolotesNuevo_1_18
+  - first:
+      213: -4035920362357229904
+    second: AjolotesNuevo_1_19
+  - first:
+      213: -9112575748262506583
+    second: AjolotesNuevo_1_20
+  - first:
+      213: -4312370174585516041
+    second: AjolotesNuevo_1_21
+  - first:
+      213: -5353982622496351740
+    second: AjolotesNuevo_1_22
+  - first:
+      213: -5009614450553882145
+    second: AjolotesNuevo_1_23
+  - first:
+      213: 8580843651042691657
+    second: AjolotesNuevo_1_24
+  - first:
+      213: 4557053920460560262
+    second: AjolotesNuevo_1_25
+  - first:
+      213: -1887619076100403224
+    second: AjolotesNuevo_1_26
+  - first:
+      213: 7440514349010066418
+    second: AjolotesNuevo_1_27
+  - first:
+      213: -4960838667839624978
+    second: AjolotesNuevo_1_28
+  - first:
+      213: 4849454883121517525
+    second: AjolotesNuevo_1_29
+  - first:
+      213: -1576823844763665244
+    second: AjolotesNuevo_1_30
+  - first:
+      213: -2538388289900952096
+    second: AjolotesNuevo_1_31
+  - first:
+      213: -2228722798326796492
+    second: AjolotesNuevo_1_32
+  - first:
+      213: -559773795696509895
+    second: AjolotesNuevo_1_33
+  - first:
+      213: -1846391919911657194
+    second: AjolotesNuevo_1_34
+  - first:
+      213: 896957847451818304
+    second: AjolotesNuevo_1_35
+  - first:
+      213: 5847447450478635514
+    second: AjolotesNuevo_1_36
+  - first:
+      213: -5607580869206818610
+    second: AjolotesNuevo_1_37
+  - first:
+      213: 6094606156906968526
+    second: AjolotesNuevo_1_38
+  - first:
+      213: 8857877288894360674
+    second: AjolotesNuevo_1_39
+  - first:
+      213: -7128892698695975634
+    second: AjolotesNuevo_1_40
+  - first:
+      213: -3968451900055904500
+    second: AjolotesNuevo_1_41
+  - first:
+      213: 3448759359036674273
+    second: AjolotesNuevo_1_42
+  - first:
+      213: 5247462313843153749
+    second: AjolotesNuevo_1_43
+  - first:
+      213: -7633046110917209683
+    second: AjolotesNuevo_1_44
+  - first:
+      213: 2037979199986334365
+    second: AjolotesNuevo_1_45
+  - first:
+      213: -1209263180185720342
+    second: AjolotesNuevo_1_46
+  - first:
+      213: -8688583570257526698
+    second: AjolotesNuevo_1_47
+  - first:
+      213: -2439292201150204165
+    second: AjolotesNuevo_1_48
+  - first:
+      213: -4197092415490036247
+    second: AjolotesNuevo_1_49
+  - first:
+      213: -7217552952279534108
+    second: AjolotesNuevo_1_50
+  - first:
+      213: -5533280835601961830
+    second: AjolotesNuevo_1_51
+  - first:
+      213: 7756313509646017112
+    second: AjolotesNuevo_1_52
+  - first:
+      213: 8116502454055058630
+    second: AjolotesNuevo_1_53
+  - first:
+      213: 3153123996887676308
+    second: AjolotesNuevo_1_54
+  - first:
+      213: 3616162121493885674
+    second: AjolotesNuevo_1_55
+  - first:
+      213: 1501679449434039745
+    second: AjolotesNuevo_1_56
+  - first:
+      213: -1733268749309704203
+    second: AjolotesNuevo_1_57
+  - first:
+      213: 5617462500131501050
+    second: AjolotesNuevo_1_58
+  - first:
+      213: 7911558602939942741
+    second: AjolotesNuevo_1_59
+  - first:
+      213: 7553754140247658957
+    second: AjolotesNuevo_1_60
+  - first:
+      213: 9185696541312853500
+    second: AjolotesNuevo_1_61
+  - first:
+      213: -2576621762854570880
+    second: AjolotesNuevo_1_62
+  - first:
+      213: -3195625787176280697
+    second: AjolotesNuevo_1_63
+  - first:
+      213: -2908089520696376391
+    second: AjolotesNuevo_1_64
+  - first:
+      213: -8613205853127317250
+    second: AjolotesNuevo_1_65
+  - first:
+      213: -253349562575174728
+    second: AjolotesNuevo_1_66
+  - first:
+      213: 2196276136526408821
+    second: AjolotesNuevo_1_67
+  - first:
+      213: -6454442510760559720
+    second: AjolotesNuevo_1_68
+  - first:
+      213: 2489106827883063621
+    second: AjolotesNuevo_1_69
+  - first:
+      213: -7725926344259587311
+    second: AjolotesNuevo_1_70
+  - first:
+      213: 3867621733398896672
+    second: AjolotesNuevo_1_71
+  - first:
+      213: 6299868172919552218
+    second: AjolotesNuevo_1_72
+  - first:
+      213: -558825364397275051
+    second: AjolotesNuevo_1_73
+  - first:
+      213: -7660372774125274134
+    second: AjolotesNuevo_1_74
+  - first:
+      213: 5350804242710084852
+    second: AjolotesNuevo_1_75
+  - first:
+      213: 2091357457385933905
+    second: AjolotesNuevo_1_76
+  - first:
+      213: 7944745337142323523
+    second: AjolotesNuevo_1_77
+  - first:
+      213: 7516584526520560687
+    second: AjolotesNuevo_1_78
+  - first:
+      213: 4695663433570947338
+    second: AjolotesNuevo_1_79
+  - first:
+      213: 2148507406423441711
+    second: AjolotesNuevo_1_80
+  - first:
+      213: -3285957943112179664
+    second: AjolotesNuevo_1_81
+  - first:
+      213: 3787207982237485828
+    second: AjolotesNuevo_1_82
+  - first:
+      213: -4277021475192487154
+    second: AjolotesNuevo_1_83
+  - first:
+      213: -1333766142448056307
+    second: AjolotesNuevo_1_84
+  - first:
+      213: -7840304718889177889
+    second: AjolotesNuevo_1_85
+  - first:
+      213: -7287635525435416708
+    second: AjolotesNuevo_1_86
+  - first:
+      213: 18723929221510827
+    second: AjolotesNuevo_1_87
+  - first:
+      213: -4515970914881924952
+    second: AjolotesNuevo_1_88
+  - first:
+      213: 6679749746557400808
+    second: AjolotesNuevo_1_89
+  - first:
+      213: -6226620848350690995
+    second: AjolotesNuevo_1_90
+  - first:
+      213: 8425719691060597086
+    second: AjolotesNuevo_1_91
+  - first:
+      213: 1710054485618721050
+    second: AjolotesNuevo_1_92
+  - first:
+      213: -8006475240231506401
+    second: AjolotesNuevo_1_93
+  - first:
+      213: 1743232583440493381
+    second: AjolotesNuevo_1_94
+  - first:
+      213: 6095973574451250092
+    second: AjolotesNuevo_1_95
+  - first:
+      213: 1390746346082029267
+    second: AjolotesNuevo_1_96
+  - first:
+      213: 160300243068280684
+    second: AjolotesNuevo_1_97
+  - first:
+      213: -1325942278227288482
+    second: AjolotesNuevo_1_98
+  - first:
+      213: 2621996495210271882
+    second: AjolotesNuevo_1_99
+  - first:
+      213: -6756877358341042841
+    second: AjolotesNuevo_1_100
+  - first:
+      213: -2493142163280201519
+    second: AjolotesNuevo_1_101
+  - first:
+      213: -5616360152859360697
+    second: AjolotesNuevo_1_102
+  - first:
+      213: 7074281434095830916
+    second: AjolotesNuevo_1_103
+  - first:
+      213: 8292997093717395413
+    second: AjolotesNuevo_1_104
+  - first:
+      213: 2599773498159310227
+    second: AjolotesNuevo_1_105
+  - first:
+      213: 1074564686228137380
+    second: AjolotesNuevo_1_106
+  - first:
+      213: -279050838211011879
+    second: AjolotesNuevo_1_107
+  - first:
+      213: 6676210296649587391
+    second: AjolotesNuevo_1_108
+  - first:
+      213: -3147308513260462483
+    second: AjolotesNuevo_1_109
+  - first:
+      213: 8428493583737640717
+    second: AjolotesNuevo_1_110
+  - first:
+      213: 1641059900877410438
+    second: AjolotesNuevo_1_111
+  - first:
+      213: 7518689410620157430
+    second: AjolotesNuevo_1_112
+  - first:
+      213: 6987584416527784221
+    second: AjolotesNuevo_1_113
+  - first:
+      213: 7466627652522705731
+    second: AjolotesNuevo_1_114
+  - first:
+      213: -4775905978949045451
+    second: AjolotesNuevo_1_115
+  - first:
+      213: -8873781537777988423
+    second: AjolotesNuevo_1_116
+  - first:
+      213: 6815493008647289217
+    second: AjolotesNuevo_1_117
+  - first:
+      213: 3658205173187574462
+    second: AjolotesNuevo_1_118
+  - first:
+      213: -7548986099184692527
+    second: AjolotesNuevo_1_119
+  - first:
+      213: -6120724877948293095
+    second: AjolotesNuevo_1_120
+  - first:
+      213: 8820047649810207463
+    second: AjolotesNuevo_1_121
+  - first:
+      213: -6493152140115327282
+    second: AjolotesNuevo_1_122
+  - first:
+      213: 5689208032129757384
+    second: AjolotesNuevo_1_123
+  - first:
+      213: -2168432109144023922
+    second: AjolotesNuevo_1_124
+  - first:
+      213: -4229888755139899967
+    second: AjolotesNuevo_1_125
+  - first:
+      213: 3007464092315999927
+    second: AjolotesNuevo_1_126
+  - first:
+      213: -3322398271999814556
+    second: AjolotesNuevo_1_127
+  - first:
+      213: -2334841877687516383
+    second: AjolotesNuevo_1_128
+  - first:
+      213: -1976348090591890826
+    second: AjolotesNuevo_1_129
+  - first:
+      213: -6098696116267730896
+    second: AjolotesNuevo_1_130
+  - first:
+      213: -6599882063873705152
+    second: AjolotesNuevo_1_131
+  - first:
+      213: 6319331309463294134
+    second: AjolotesNuevo_1_132
+  - first:
+      213: 7058096189467728059
+    second: AjolotesNuevo_1_133
+  - first:
+      213: 8075725379564514529
+    second: AjolotesNuevo_1_134
+  - first:
+      213: 2326692207229783359
+    second: AjolotesNuevo_1_135
+  - first:
+      213: -3726935851180133889
+    second: AjolotesNuevo_1_136
+  - first:
+      213: 8175477334956693158
+    second: AjolotesNuevo_1_137
+  - first:
+      213: 4768076897686981939
+    second: AjolotesNuevo_1_138
+  - first:
+      213: -5469320353314756764
+    second: AjolotesNuevo_1_139
+  - first:
+      213: -7453473357659502387
+    second: AjolotesNuevo_1_140
+  - first:
+      213: -961310118201228765
+    second: AjolotesNuevo_1_141
+  - first:
+      213: 1454060038295936360
+    second: AjolotesNuevo_1_142
+  - first:
+      213: 3915778578375249735
+    second: AjolotesNuevo_1_143
+  - first:
+      213: 3932812635645004391
+    second: AjolotesNuevo_1_144
+  - first:
+      213: -4187055529151313513
+    second: AjolotesNuevo_1_145
+  - first:
+      213: -1382009930612814475
+    second: AjolotesNuevo_1_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2287
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adccb43bac1870140800000000000000
+      internalID: 4685856644893756634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2276
+        width: 126
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6fc98e7540b2b20800000000000000
+      internalID: 3110584743240726227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2278
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256d2b7d2c2a51bd0800000000000000
+      internalID: -2660041047166233006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2273
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674878d334dfc78b0800000000000000
+      internalID: -5152965408381762442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_4
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2264
+        width: 170
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92a4a7902cbe8710800000000000000
+      internalID: 1697500957734380191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_5
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 2269
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1280c305e06ae83e0800000000000000
+      internalID: -2049518200001132511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2259
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91d89f58180c6f30800000000000000
+      internalID: 4570036622650298783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2273
+        width: 93
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f70ee910e7b8b40800000000000000
+      internalID: 5443583120032956291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_8
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2259
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5531e0200dba78760800000000000000
+      internalID: 7460120217638540117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_9
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2259
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015a816786d9f63b0800000000000000
+      internalID: -5517017946522082032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_10
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2259
+        width: 64
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfff64c265707860800000000000000
+      internalID: 7525644044399017930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_11
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 2267
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1d99184b0e65070800000000000000
+      internalID: 8094904446118121983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2099
+        width: 55
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd7b41eaf5fff950800000000000000
+      internalID: 6485172446307253707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2099
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945e2bf2a30231f00800000000000000
+      internalID: 1086247369406866761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2099
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f250769213e4f73b0800000000000000
+      internalID: -5512601445823216337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2099
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ac405334e1f9520800000000000000
+      internalID: 2710918774701476442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_16
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2104
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9e9cec9e00d9da0800000000000000
+      internalID: -5936587729607726627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2099
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6292d1420b34ed0800000000000000
+      internalID: -2430905704695388453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2099
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e84e07184fe1710800000000000000
+      internalID: 1666037748955647626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_19
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2099
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67eeb40d78df7c0800000000000000
+      internalID: -4035920362357229904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1963
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af49ff23a0a98180800000000000000
+      internalID: -9112575748262506583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1958
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff47d39c226724c0800000000000000
+      internalID: -4312370174585516041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1958
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a9d74eb25d2b5b0800000000000000
+      internalID: -5353982622496351740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_23
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1963
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9721503364a7ab0800000000000000
+      internalID: -5009614450553882145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_24
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1963
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac09d56d7451770800000000000000
+      internalID: 8580843651042691657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1958
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6875a577568ed3f30800000000000000
+      internalID: 4557053920460560262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1958
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efc8c98374ddc5e0800000000000000
+      internalID: -1887619076100403224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_27
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1963
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb11fef064024760800000000000000
+      internalID: 7440514349010066418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_28
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1963
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8a567e38f872bb0800000000000000
+      internalID: -4960838667839624978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_29
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1958
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3ddbec589bc4340800000000000000
+      internalID: 4849454883121517525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_30
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1958
+        width: 109
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acfe7b411ffd1ae0800000000000000
+      internalID: -1576823844763665244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_31
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1958
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5417e9c45d5ccd0800000000000000
+      internalID: -2538388289900952096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_32
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1953
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43faae65c6cf111e0800000000000000
+      internalID: -2228722798326796492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_33
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1944
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cffe8d2b84b38f0800000000000000
+      internalID: -559773795696509895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_34
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1936
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611a389d45c4066e0800000000000000
+      internalID: -1846391919911657194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_35
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1931
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0495dd3f862a27c00800000000000000
+      internalID: 896957847451818304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_36
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 2005
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9ea80a97e462150800000000000000
+      internalID: 5847447450478635514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1963
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0c6a1e8eedd22b0800000000000000
+      internalID: -5607580869206818610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1784
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec539545204649450800000000000000
+      internalID: 6094606156906968526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1786
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c6c8496708dea70800000000000000
+      internalID: 8857877288894360674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1784
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db95c6cd5111d90800000000000000
+      internalID: -7128892698695975634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1784
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f91fcc50a3de8c0800000000000000
+      internalID: -3968451900055904500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1789
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e05f2f5d547cdf20800000000000000
+      internalID: 3448759359036674273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_43
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1785
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bded41c2bb2d840800000000000000
+      internalID: 5247462313843153749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_44
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1789
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da15a94f009f11690800000000000000
+      internalID: -7633046110917209683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_45
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1789
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9af1d2e84b584c10800000000000000
+      internalID: 2037979199986334365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1614
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae922196b85d73fe0800000000000000
+      internalID: -1209263180185720342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_47
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1611
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6504185e643fb6780800000000000000
+      internalID: -8688583570257526698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_48
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1615
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6bf0fbaa4e52ed0800000000000000
+      internalID: -2439292201150204165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1615
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edea3d6faee0c5c0800000000000000
+      internalID: -4197092415490036247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_50
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1615
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e57ec384d916db90800000000000000
+      internalID: -7217552952279534108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_51
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1615
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ce7778566d533b0800000000000000
+      internalID: -5533280835601961830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_52
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1615
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852a305da06f3ab60800000000000000
+      internalID: 7756313509646017112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_53
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1615
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb9889afb93a070800000000000000
+      internalID: 8116502454055058630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_54
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1436
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ff37b19522cb20800000000000000
+      internalID: 3153123996887676308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1436
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2bddd4a403f2230800000000000000
+      internalID: 3616162121493885674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1437
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c52506c08907d410800000000000000
+      internalID: 1501679449434039745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_57
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1436
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f70c19714132f7e0800000000000000
+      internalID: -1733268749309704203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_58
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1436
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af37a6b916c35fd40800000000000000
+      internalID: 5617462500131501050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_59
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1436
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557cbe3d1a08bcd60800000000000000
+      internalID: 7911558602939942741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_60
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1437
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1191a7e5354d860800000000000000
+      internalID: 7553754140247658957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_61
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1436
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ac7f16562a7f70800000000000000
+      internalID: 9185696541312853500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_62
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1436
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084338088200e3cd0800000000000000
+      internalID: -2576621762854570880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_63
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1436
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d9748174bd6a3d0800000000000000
+      internalID: -3195625787176280697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_64
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1436
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b34bd71df364a7d0800000000000000
+      internalID: -2908089520696376391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_65
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1437
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8e70b49eeb77880800000000000000
+      internalID: -8613205853127317250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_66
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1436
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3c4b64aebeb7cf0800000000000000
+      internalID: -253349562575174728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_67
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1436
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce252828dba7e10800000000000000
+      internalID: 2196276136526408821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_68
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1253
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bbfeacbb63d66a0800000000000000
+      internalID: -6454442510760559720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_69
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1257
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54928fbd8751b8220800000000000000
+      internalID: 2489106827883063621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_70
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1253
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11333917ceef7c490800000000000000
+      internalID: -7725926344259587311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_71
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1253
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02062d8997d8ca530800000000000000
+      internalID: 3867621733398896672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_72
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1253
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8b8a2a9b0ad6750800000000000000
+      internalID: 6299868172919552218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_73
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1252
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5584f97ba47ae38f0800000000000000
+      internalID: -558825364397275051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_74
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1253
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb703f5c83e0b590800000000000000
+      internalID: -7660372774125274134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_75
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1248
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc3365eb10e14a40800000000000000
+      internalID: 5350804242710084852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_76
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1253
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c4ad9e68ef50d10800000000000000
+      internalID: 2091357457385933905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_77
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1250
+        width: 63
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3492f438ac7614e60800000000000000
+      internalID: 7944745337142323523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_78
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1249
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ca4736dc5405860800000000000000
+      internalID: 7516584526520560687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_79
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1251
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0199ce93095a2140800000000000000
+      internalID: 4695663433570947338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_80
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1253
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f214a255a1801dd10800000000000000
+      internalID: 2148507406423441711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_81
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1201
+        width: 143
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ece519aee562d0800000000000000
+      internalID: -3285957943112179664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_82
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1017
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b0ac7289dde8430800000000000000
+      internalID: 3787207982237485828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_83
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1015
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e034f6201a7f4a4c0800000000000000
+      internalID: -4277021475192487154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_84
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1017
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08c0f192c28d7de0800000000000000
+      internalID: -1333766142448056307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_85
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1015
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcaacbd564a13390800000000000000
+      internalID: -7840304718889177889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_86
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1017
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f97e5e91e1dda90800000000000000
+      internalID: -7287635525435416708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_87
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1017
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba63c0e7055824000800000000000000
+      internalID: 18723929221510827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_88
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1013
+        width: 101
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0977a216c0451c0800000000000000
+      internalID: -4515970914881924952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_89
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 966
+        width: 128
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e63f00f00d33bc50800000000000000
+      internalID: 6679749746557400808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_90
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 985
+        width: 66
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41040714599699a0800000000000000
+      internalID: -6226620848350690995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_91
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 782
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e515eaaea6b2ee470800000000000000
+      internalID: 8425719691060597086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_92
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 779
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110ed19e755bb710800000000000000
+      internalID: 1710054485618721050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_93
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 782
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e6a0b603943e090800000000000000
+      internalID: -8006475240231506401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_94
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 778
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b6bd07cc4313810800000000000000
+      internalID: 1743232583440493381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_95
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 782
+        width: 84
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3c5590baf399450800000000000000
+      internalID: 6095973574451250092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_96
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 782
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de44eaee6cec4310800000000000000
+      internalID: 1390746346082029267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_97
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 782
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f5e75c830893200800000000000000
+      internalID: 160300243068280684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_98
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 782
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e1799e58e499de0800000000000000
+      internalID: -1325942278227288482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_99
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 782
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84d353abe3336420800000000000000
+      internalID: 2621996495210271882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_100
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 782
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dc33197dfba32a0800000000000000
+      internalID: -6756877358341042841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_101
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 778
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d872276964966dd0800000000000000
+      internalID: -2493142163280201519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_102
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 778
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742c82e923eae02b0800000000000000
+      internalID: -5616360152859360697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_103
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 731
+        width: 200
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4874c60bb75ec2260800000000000000
+      internalID: 7074281434095830916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_104
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 510
+        width: 121
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d74f562be4a61370800000000000000
+      internalID: 8292997093717395413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_105
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 510
+        width: 138
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395a24ee830441420800000000000000
+      internalID: 2599773498159310227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_106
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 510
+        width: 138
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5aeca83ee99ee00800000000000000
+      internalID: 1074564686228137380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_107
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 581
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da582abdbc902cf0800000000000000
+      internalID: -279050838211011879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_108
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 613
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba9a9984e9a6ac50800000000000000
+      internalID: 6676210296649587391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_109
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 594
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1c8415938254d0800000000000000
+      internalID: -3147308513260462483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_110
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 510
+        width: 101
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d075752224608f470800000000000000
+      internalID: 8428493583737640717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_111
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 510
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6809feef84736c610800000000000000
+      internalID: 1641059900877410438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_112
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 510
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd6188ee20c75860800000000000000
+      internalID: 7518689410620157430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_113
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 510
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1991394103e8f060800000000000000
+      internalID: 6987584416527784221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_114
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 571
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34389b24a4ace9760800000000000000
+      internalID: 7466627652522705731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_115
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 458
+        width: 249
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f314e0d298bdb0800000000000000
+      internalID: -4775905978949045451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_116
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 509
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcc25ae4bef9d480800000000000000
+      internalID: -8873781537777988423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_117
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 514
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189749508ce759e50800000000000000
+      internalID: 6815493008647289217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_118
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 510
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba7757193e84c230800000000000000
+      internalID: 3658205173187574462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_119
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 481
+        width: 175
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d21cb7932d9c3790800000000000000
+      internalID: -7548986099184692527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_120
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 279
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910fef90721de0ba0800000000000000
+      internalID: -6120724877948293095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 279
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2d4fc5b9a176a70800000000000000
+      internalID: 8820047649810207463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_122
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 279
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6cbdfd780b3e5a0800000000000000
+      internalID: -6493152140115327282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_123
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 279
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0b460009024fe40800000000000000
+      internalID: 5689208032129757384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_124
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 279
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c5bee4c7e28e1e0800000000000000
+      internalID: -2168432109144023922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_125
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 279
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd877e869a6c45c0800000000000000
+      internalID: -4229888755139899967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_126
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 279
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bedc3168a8acb920800000000000000
+      internalID: 3007464092315999927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_127
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 275
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464541bdf5874e1d0800000000000000
+      internalID: -3322398271999814556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_128
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 276
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123cab9cea9f89fd0800000000000000
+      internalID: -2334841877687516383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_129
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 279
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672bfbbf1e99294e0800000000000000
+      internalID: -1976348090591890826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_130
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 279
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038beccc1341d5ba0800000000000000
+      internalID: -6098696116267730896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_131
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 279
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bf5570b328864a0800000000000000
+      internalID: -6599882063873705152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_132
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 279
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0509e3856c2b750800000000000000
+      internalID: 6319331309463294134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_133
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 279
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb813c3c61563f160800000000000000
+      internalID: 7058096189467728059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_134
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 274
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecac88127db21070800000000000000
+      internalID: 8075725379564514529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_135
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 279
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc9913c321a4020800000000000000
+      internalID: 2326692207229783359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_136
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 274
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff17db9e693474cc0800000000000000
+      internalID: -3726935851180133889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_137
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6d9531251257170800000000000000
+      internalID: 8175477334956693158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_138
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 49
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d01641dac9b2240800000000000000
+      internalID: 4768076897686981939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_139
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 49
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4672cd9cd121914b0800000000000000
+      internalID: -5469320353314756764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_140
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 49
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc80edda871ff8890800000000000000
+      internalID: -7453473357659502387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_141
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 44
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32280ad6a8db8a2f0800000000000000
+      internalID: -961310118201228765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_142
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 44
+        width: 139
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d58b0a6ebdd2410800000000000000
+      internalID: 1454060038295936360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_143
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 44
+        width: 139
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f042fced3a75630800000000000000
+      internalID: 3915778578375249735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_144
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 44
+        width: 141
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ac9c35148249630800000000000000
+      internalID: 3932812635645004391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_145
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 44
+        width: 242
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799c9122e2794e5c0800000000000000
+      internalID: -4187055529151313513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesNuevo_1_146
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 44
+        width: 283
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dc2c15a4d12dce0800000000000000
+      internalID: -1382009930612814475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AjolotesNuevo_1_0: 4685856644893756634
+      AjolotesNuevo_1_1: 3110584743240726227
+      AjolotesNuevo_1_10: 7525644044399017930
+      AjolotesNuevo_1_100: -6756877358341042841
+      AjolotesNuevo_1_101: -2493142163280201519
+      AjolotesNuevo_1_102: -5616360152859360697
+      AjolotesNuevo_1_103: 7074281434095830916
+      AjolotesNuevo_1_104: 8292997093717395413
+      AjolotesNuevo_1_105: 2599773498159310227
+      AjolotesNuevo_1_106: 1074564686228137380
+      AjolotesNuevo_1_107: -279050838211011879
+      AjolotesNuevo_1_108: 6676210296649587391
+      AjolotesNuevo_1_109: -3147308513260462483
+      AjolotesNuevo_1_11: 8094904446118121983
+      AjolotesNuevo_1_110: 8428493583737640717
+      AjolotesNuevo_1_111: 1641059900877410438
+      AjolotesNuevo_1_112: 7518689410620157430
+      AjolotesNuevo_1_113: 6987584416527784221
+      AjolotesNuevo_1_114: 7466627652522705731
+      AjolotesNuevo_1_115: -4775905978949045451
+      AjolotesNuevo_1_116: -8873781537777988423
+      AjolotesNuevo_1_117: 6815493008647289217
+      AjolotesNuevo_1_118: 3658205173187574462
+      AjolotesNuevo_1_119: -7548986099184692527
+      AjolotesNuevo_1_12: 6485172446307253707
+      AjolotesNuevo_1_120: -6120724877948293095
+      AjolotesNuevo_1_121: 8820047649810207463
+      AjolotesNuevo_1_122: -6493152140115327282
+      AjolotesNuevo_1_123: 5689208032129757384
+      AjolotesNuevo_1_124: -2168432109144023922
+      AjolotesNuevo_1_125: -4229888755139899967
+      AjolotesNuevo_1_126: 3007464092315999927
+      AjolotesNuevo_1_127: -3322398271999814556
+      AjolotesNuevo_1_128: -2334841877687516383
+      AjolotesNuevo_1_129: -1976348090591890826
+      AjolotesNuevo_1_13: 1086247369406866761
+      AjolotesNuevo_1_130: -6098696116267730896
+      AjolotesNuevo_1_131: -6599882063873705152
+      AjolotesNuevo_1_132: 6319331309463294134
+      AjolotesNuevo_1_133: 7058096189467728059
+      AjolotesNuevo_1_134: 8075725379564514529
+      AjolotesNuevo_1_135: 2326692207229783359
+      AjolotesNuevo_1_136: -3726935851180133889
+      AjolotesNuevo_1_137: 8175477334956693158
+      AjolotesNuevo_1_138: 4768076897686981939
+      AjolotesNuevo_1_139: -5469320353314756764
+      AjolotesNuevo_1_14: -5512601445823216337
+      AjolotesNuevo_1_140: -7453473357659502387
+      AjolotesNuevo_1_141: -961310118201228765
+      AjolotesNuevo_1_142: 1454060038295936360
+      AjolotesNuevo_1_143: 3915778578375249735
+      AjolotesNuevo_1_144: 3932812635645004391
+      AjolotesNuevo_1_145: -4187055529151313513
+      AjolotesNuevo_1_146: -1382009930612814475
+      AjolotesNuevo_1_15: 2710918774701476442
+      AjolotesNuevo_1_16: -5936587729607726627
+      AjolotesNuevo_1_17: -2430905704695388453
+      AjolotesNuevo_1_18: 1666037748955647626
+      AjolotesNuevo_1_19: -4035920362357229904
+      AjolotesNuevo_1_2: -2660041047166233006
+      AjolotesNuevo_1_20: -9112575748262506583
+      AjolotesNuevo_1_21: -4312370174585516041
+      AjolotesNuevo_1_22: -5353982622496351740
+      AjolotesNuevo_1_23: -5009614450553882145
+      AjolotesNuevo_1_24: 8580843651042691657
+      AjolotesNuevo_1_25: 4557053920460560262
+      AjolotesNuevo_1_26: -1887619076100403224
+      AjolotesNuevo_1_27: 7440514349010066418
+      AjolotesNuevo_1_28: -4960838667839624978
+      AjolotesNuevo_1_29: 4849454883121517525
+      AjolotesNuevo_1_3: -5152965408381762442
+      AjolotesNuevo_1_30: -1576823844763665244
+      AjolotesNuevo_1_31: -2538388289900952096
+      AjolotesNuevo_1_32: -2228722798326796492
+      AjolotesNuevo_1_33: -559773795696509895
+      AjolotesNuevo_1_34: -1846391919911657194
+      AjolotesNuevo_1_35: 896957847451818304
+      AjolotesNuevo_1_36: 5847447450478635514
+      AjolotesNuevo_1_37: -5607580869206818610
+      AjolotesNuevo_1_38: 6094606156906968526
+      AjolotesNuevo_1_39: 8857877288894360674
+      AjolotesNuevo_1_4: 1697500957734380191
+      AjolotesNuevo_1_40: -7128892698695975634
+      AjolotesNuevo_1_41: -3968451900055904500
+      AjolotesNuevo_1_42: 3448759359036674273
+      AjolotesNuevo_1_43: 5247462313843153749
+      AjolotesNuevo_1_44: -7633046110917209683
+      AjolotesNuevo_1_45: 2037979199986334365
+      AjolotesNuevo_1_46: -1209263180185720342
+      AjolotesNuevo_1_47: -8688583570257526698
+      AjolotesNuevo_1_48: -2439292201150204165
+      AjolotesNuevo_1_49: -4197092415490036247
+      AjolotesNuevo_1_5: -2049518200001132511
+      AjolotesNuevo_1_50: -7217552952279534108
+      AjolotesNuevo_1_51: -5533280835601961830
+      AjolotesNuevo_1_52: 7756313509646017112
+      AjolotesNuevo_1_53: 8116502454055058630
+      AjolotesNuevo_1_54: 3153123996887676308
+      AjolotesNuevo_1_55: 3616162121493885674
+      AjolotesNuevo_1_56: 1501679449434039745
+      AjolotesNuevo_1_57: -1733268749309704203
+      AjolotesNuevo_1_58: 5617462500131501050
+      AjolotesNuevo_1_59: 7911558602939942741
+      AjolotesNuevo_1_6: 4570036622650298783
+      AjolotesNuevo_1_60: 7553754140247658957
+      AjolotesNuevo_1_61: 9185696541312853500
+      AjolotesNuevo_1_62: -2576621762854570880
+      AjolotesNuevo_1_63: -3195625787176280697
+      AjolotesNuevo_1_64: -2908089520696376391
+      AjolotesNuevo_1_65: -8613205853127317250
+      AjolotesNuevo_1_66: -253349562575174728
+      AjolotesNuevo_1_67: 2196276136526408821
+      AjolotesNuevo_1_68: -6454442510760559720
+      AjolotesNuevo_1_69: 2489106827883063621
+      AjolotesNuevo_1_7: 5443583120032956291
+      AjolotesNuevo_1_70: -7725926344259587311
+      AjolotesNuevo_1_71: 3867621733398896672
+      AjolotesNuevo_1_72: 6299868172919552218
+      AjolotesNuevo_1_73: -558825364397275051
+      AjolotesNuevo_1_74: -7660372774125274134
+      AjolotesNuevo_1_75: 5350804242710084852
+      AjolotesNuevo_1_76: 2091357457385933905
+      AjolotesNuevo_1_77: 7944745337142323523
+      AjolotesNuevo_1_78: 7516584526520560687
+      AjolotesNuevo_1_79: 4695663433570947338
+      AjolotesNuevo_1_8: 7460120217638540117
+      AjolotesNuevo_1_80: 2148507406423441711
+      AjolotesNuevo_1_81: -3285957943112179664
+      AjolotesNuevo_1_82: 3787207982237485828
+      AjolotesNuevo_1_83: -4277021475192487154
+      AjolotesNuevo_1_84: -1333766142448056307
+      AjolotesNuevo_1_85: -7840304718889177889
+      AjolotesNuevo_1_86: -7287635525435416708
+      AjolotesNuevo_1_87: 18723929221510827
+      AjolotesNuevo_1_88: -4515970914881924952
+      AjolotesNuevo_1_89: 6679749746557400808
+      AjolotesNuevo_1_9: -5517017946522082032
+      AjolotesNuevo_1_90: -6226620848350690995
+      AjolotesNuevo_1_91: 8425719691060597086
+      AjolotesNuevo_1_92: 1710054485618721050
+      AjolotesNuevo_1_93: -8006475240231506401
+      AjolotesNuevo_1_94: 1743232583440493381
+      AjolotesNuevo_1_95: 6095973574451250092
+      AjolotesNuevo_1_96: 1390746346082029267
+      AjolotesNuevo_1_97: 160300243068280684
+      AjolotesNuevo_1_98: -1325942278227288482
+      AjolotesNuevo_1_99: 2621996495210271882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

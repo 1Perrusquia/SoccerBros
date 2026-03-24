@@ -1,0 +1,3822 @@
+fileFormatVersion: 2
+guid: 4617fd25da38e964e8582922d48d1a8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1516240056325483648
+    second: Nuevo_1_0
+  - first:
+      213: 7674811754666080771
+    second: Nuevo_1_1
+  - first:
+      213: 9031082913962962562
+    second: Nuevo_1_2
+  - first:
+      213: -5930293157360032712
+    second: Nuevo_1_3
+  - first:
+      213: 8726342929266437601
+    second: Nuevo_1_4
+  - first:
+      213: -2116413189940680287
+    second: Nuevo_1_5
+  - first:
+      213: -726104719541046330
+    second: Nuevo_1_6
+  - first:
+      213: -235182669354225675
+    second: Nuevo_1_7
+  - first:
+      213: 5542828922242574227
+    second: Nuevo_1_8
+  - first:
+      213: 6464486726786474137
+    second: Nuevo_1_9
+  - first:
+      213: 711110993833554660
+    second: Nuevo_1_10
+  - first:
+      213: -3722120490637388992
+    second: Nuevo_1_11
+  - first:
+      213: -6121577067073460826
+    second: Nuevo_1_12
+  - first:
+      213: 3507222096727801070
+    second: Nuevo_1_13
+  - first:
+      213: -4173622586522470334
+    second: Nuevo_1_14
+  - first:
+      213: -2612603566303213571
+    second: Nuevo_1_15
+  - first:
+      213: -7169900617301957049
+    second: Nuevo_1_16
+  - first:
+      213: 5472727834925247194
+    second: Nuevo_1_17
+  - first:
+      213: -4719727742475742184
+    second: Nuevo_1_18
+  - first:
+      213: -5534922302798383076
+    second: Nuevo_1_19
+  - first:
+      213: -5727775457728289347
+    second: Nuevo_1_20
+  - first:
+      213: 6877181159659592846
+    second: Nuevo_1_21
+  - first:
+      213: 8089321559769271992
+    second: Nuevo_1_22
+  - first:
+      213: 7479647766409141104
+    second: Nuevo_1_23
+  - first:
+      213: 5103555313976899220
+    second: Nuevo_1_24
+  - first:
+      213: -2892665036077286349
+    second: Nuevo_1_25
+  - first:
+      213: 659406061047913956
+    second: Nuevo_1_26
+  - first:
+      213: -780562948210323528
+    second: Nuevo_1_27
+  - first:
+      213: 448659625039117335
+    second: Nuevo_1_28
+  - first:
+      213: 8682987652767538942
+    second: Nuevo_1_29
+  - first:
+      213: 3177134184912626997
+    second: Nuevo_1_30
+  - first:
+      213: -4469256932969561889
+    second: Nuevo_1_31
+  - first:
+      213: -6920920003156691353
+    second: Nuevo_1_32
+  - first:
+      213: -6457124828422692674
+    second: Nuevo_1_33
+  - first:
+      213: 7205793533259759294
+    second: Nuevo_1_34
+  - first:
+      213: -541385406021644652
+    second: Nuevo_1_35
+  - first:
+      213: 7399490896643330684
+    second: Nuevo_1_36
+  - first:
+      213: 5034701560680966798
+    second: Nuevo_1_37
+  - first:
+      213: 2575726838955864428
+    second: Nuevo_1_38
+  - first:
+      213: -1292376740317922164
+    second: Nuevo_1_39
+  - first:
+      213: -7573132895473243198
+    second: Nuevo_1_40
+  - first:
+      213: -2475361613163300673
+    second: Nuevo_1_41
+  - first:
+      213: 1762764653472513155
+    second: Nuevo_1_42
+  - first:
+      213: -1725311279796475006
+    second: Nuevo_1_43
+  - first:
+      213: 6186208263196851441
+    second: Nuevo_1_44
+  - first:
+      213: 4294269680228458702
+    second: Nuevo_1_45
+  - first:
+      213: -5763314096420505183
+    second: Nuevo_1_46
+  - first:
+      213: 7580225390403110743
+    second: Nuevo_1_47
+  - first:
+      213: 2719366744703890486
+    second: Nuevo_1_48
+  - first:
+      213: 5253253123390915827
+    second: Nuevo_1_49
+  - first:
+      213: 5894791304085782713
+    second: Nuevo_1_50
+  - first:
+      213: 3137375754107072643
+    second: Nuevo_1_51
+  - first:
+      213: 6237272199181148212
+    second: Nuevo_1_52
+  - first:
+      213: -6184538043279644210
+    second: Nuevo_1_53
+  - first:
+      213: 8788460329626132771
+    second: Nuevo_1_54
+  - first:
+      213: 6394257869800524539
+    second: Nuevo_1_55
+  - first:
+      213: -4755760093701208690
+    second: Nuevo_1_56
+  - first:
+      213: 8419284586362713491
+    second: Nuevo_1_57
+  - first:
+      213: -6413446293299480043
+    second: Nuevo_1_58
+  - first:
+      213: 691523058894220119
+    second: Nuevo_1_59
+  - first:
+      213: -4999984746333533536
+    second: Nuevo_1_60
+  - first:
+      213: 950302310798129164
+    second: Nuevo_1_61
+  - first:
+      213: -4617482098979659430
+    second: Nuevo_1_62
+  - first:
+      213: -4362372630850750151
+    second: Nuevo_1_63
+  - first:
+      213: -1029541279375538933
+    second: Nuevo_1_64
+  - first:
+      213: -5533040536883708532
+    second: Nuevo_1_65
+  - first:
+      213: 6452077721609357092
+    second: Nuevo_1_66
+  - first:
+      213: 1771992333433515304
+    second: Nuevo_1_67
+  - first:
+      213: 7613493185695214880
+    second: Nuevo_1_68
+  - first:
+      213: 4415288907325597572
+    second: Nuevo_1_69
+  - first:
+      213: -6795798989468367250
+    second: Nuevo_1_70
+  - first:
+      213: -8078362637069667039
+    second: Nuevo_1_71
+  - first:
+      213: -1115616196970884995
+    second: Nuevo_1_72
+  - first:
+      213: 6095924709219367306
+    second: Nuevo_1_73
+  - first:
+      213: -39923789630208932
+    second: Nuevo_1_74
+  - first:
+      213: 7620269600733951472
+    second: Nuevo_1_75
+  - first:
+      213: 6001680122145499172
+    second: Nuevo_1_76
+  - first:
+      213: -4530600689358892594
+    second: Nuevo_1_77
+  - first:
+      213: -5275804858762199706
+    second: Nuevo_1_78
+  - first:
+      213: 4403260425554604454
+    second: Nuevo_1_79
+  - first:
+      213: -28314587884020837
+    second: Nuevo_1_80
+  - first:
+      213: -2147714728224570561
+    second: Nuevo_1_81
+  - first:
+      213: -1920659682456881231
+    second: Nuevo_1_82
+  - first:
+      213: 3984444085016796661
+    second: Nuevo_1_83
+  - first:
+      213: 7398407276319220645
+    second: Nuevo_1_84
+  - first:
+      213: 5832620390318460333
+    second: Nuevo_1_85
+  - first:
+      213: -1381525322493009815
+    second: Nuevo_1_86
+  - first:
+      213: -1704089481589043299
+    second: Nuevo_1_87
+  - first:
+      213: 6168968559266919046
+    second: Nuevo_1_88
+  - first:
+      213: -1961396998294872027
+    second: Nuevo_1_89
+  - first:
+      213: 2864942587464591473
+    second: Nuevo_1_90
+  - first:
+      213: 132677661173803148
+    second: Nuevo_1_91
+  - first:
+      213: -399763557636363864
+    second: Nuevo_1_92
+  - first:
+      213: 8164040170043182043
+    second: Nuevo_1_93
+  - first:
+      213: 8960354918014690789
+    second: Nuevo_1_94
+  - first:
+      213: 6313386806029456292
+    second: Nuevo_1_95
+  - first:
+      213: -9125528359156577382
+    second: Nuevo_1_96
+  - first:
+      213: -4678935234478754129
+    second: Nuevo_1_97
+  - first:
+      213: 2292091118179303682
+    second: Nuevo_1_98
+  - first:
+      213: 1900068451416279941
+    second: Nuevo_1_99
+  - first:
+      213: -2444778855216448742
+    second: Nuevo_1_100
+  - first:
+      213: -3276765960734377579
+    second: Nuevo_1_101
+  - first:
+      213: -3033720766924981077
+    second: Nuevo_1_102
+  - first:
+      213: 8185434720138702782
+    second: Nuevo_1_103
+  - first:
+      213: 8869220019553383413
+    second: Nuevo_1_104
+  - first:
+      213: 1965047793511779768
+    second: Nuevo_1_105
+  - first:
+      213: -9119270221981220458
+    second: Nuevo_1_106
+  - first:
+      213: -8401672341032112019
+    second: Nuevo_1_107
+  - first:
+      213: -3393170873908401080
+    second: Nuevo_1_108
+  - first:
+      213: -1567859882506308258
+    second: Nuevo_1_109
+  - first:
+      213: -881690424912737531
+    second: Nuevo_1_110
+  - first:
+      213: 7226288515373634614
+    second: Nuevo_1_111
+  - first:
+      213: 7047963881974762221
+    second: Nuevo_1_112
+  - first:
+      213: 9182327918547745321
+    second: Nuevo_1_113
+  - first:
+      213: -5183574649510205228
+    second: Nuevo_1_114
+  - first:
+      213: -3635729434376261283
+    second: Nuevo_1_115
+  - first:
+      213: -4579202399333394411
+    second: Nuevo_1_116
+  - first:
+      213: 7257749208399855190
+    second: Nuevo_1_117
+  - first:
+      213: -6149022644307160679
+    second: Nuevo_1_118
+  - first:
+      213: -8479223223828760939
+    second: Nuevo_1_119
+  - first:
+      213: 839143145981484932
+    second: Nuevo_1_120
+  - first:
+      213: -3026536907792680485
+    second: Nuevo_1_121
+  - first:
+      213: 4944137852395909952
+    second: Nuevo_1_122
+  - first:
+      213: -6374720347873760098
+    second: Nuevo_1_123
+  - first:
+      213: -7648919422368581532
+    second: Nuevo_1_124
+  - first:
+      213: -4515957127045623839
+    second: Nuevo_1_125
+  - first:
+      213: -5026458996412086222
+    second: Nuevo_1_126
+  - first:
+      213: -3915808286037215300
+    second: Nuevo_1_127
+  - first:
+      213: -2028915205666138253
+    second: Nuevo_1_128
+  - first:
+      213: -4594778561763684921
+    second: Nuevo_1_129
+  - first:
+      213: -518688110878013168
+    second: Nuevo_1_130
+  - first:
+      213: 1498201518608503894
+    second: Nuevo_1_131
+  - first:
+      213: -7071309452731251594
+    second: Nuevo_1_132
+  - first:
+      213: 3129938081245071241
+    second: Nuevo_1_133
+  - first:
+      213: 2718658419422641400
+    second: Nuevo_1_134
+  - first:
+      213: -7981407553825332427
+    second: Nuevo_1_135
+  - first:
+      213: 6350280165126615638
+    second: Nuevo_1_136
+  - first:
+      213: -7371323754586516173
+    second: Nuevo_1_137
+  - first:
+      213: -207134216750456388
+    second: Nuevo_1_138
+  - first:
+      213: -6396249331319347629
+    second: Nuevo_1_139
+  - first:
+      213: -3423670144649235042
+    second: Nuevo_1_140
+  - first:
+      213: -4702971221787110545
+    second: Nuevo_1_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nuevo_1_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2289
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0835080c3bb35fae0800000000000000
+      internalID: -1516240056325483648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2266
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a3dd2c0a8628a60800000000000000
+      internalID: 7674811754666080771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2288
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eacdfbf0ad45d70800000000000000
+      internalID: 9031082913962962562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2288
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83420ad1bcd53bda0800000000000000
+      internalID: -5930293157360032712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 2270
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edea27f8a23a1970800000000000000
+      internalID: 8726342929266437601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 2281
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a962afba6df0a2e0800000000000000
+      internalID: -2116413189940680287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_6
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2270
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3750aca9b5ce5f0800000000000000
+      internalID: -726104719541046330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2107
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff20d7bb967cbcf0800000000000000
+      internalID: -235182669354225675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2103
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397a701a9851cec40800000000000000
+      internalID: 5542828922242574227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2107
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e55d7d6876b950800000000000000
+      internalID: 6464486726786474137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2107
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2f2576eaf5ed900800000000000000
+      internalID: 711110993833554660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2107
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0431b58622f585cc0800000000000000
+      internalID: -3722120490637388992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2107
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5a8eb471acb0ba0800000000000000
+      internalID: -6121577067073460826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_13
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2107
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec7cd73ae72ca030800000000000000
+      internalID: 3507222096727801070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2107
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248f7cfce505416c0800000000000000
+      internalID: -4173622586522470334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1968
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7049b06ea2ebbd0800000000000000
+      internalID: -2612603566303213571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1968
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ecd650656f7c90800000000000000
+      internalID: -7169900617301957049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1958
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaac1958f803fb40800000000000000
+      internalID: 5472727834925247194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1958
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8145d29df98208eb0800000000000000
+      internalID: -4719727742475742184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_19
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1972
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18b05aad710033b0800000000000000
+      internalID: -5534922302798383076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1972
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5a7e8719ad280b0800000000000000
+      internalID: -5727775457728289347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1954
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cd48de3d7a07f50800000000000000
+      internalID: 6877181159659592846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1958
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bec4fb791b034070800000000000000
+      internalID: 8089321559769271992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1972
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b5cd1c30c0dc760800000000000000
+      internalID: 7479647766409141104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_24
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1972
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496762da48873d640800000000000000
+      internalID: 5103555313976899220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_25
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2001
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cbb66c9703bd7d0800000000000000
+      internalID: -2892665036077286349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_26
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1949
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed108f915ea62900800000000000000
+      internalID: 659406061047913956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_27
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1972
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf871b5222ea25f0800000000000000
+      internalID: -780562948210323528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_28
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1944
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c34874d85f93600800000000000000
+      internalID: 448659625039117335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_29
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1940
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efedf48044b208870800000000000000
+      internalID: 8682987652767538942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_30
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1949
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535a77f35b2771c20800000000000000
+      internalID: 3177134184912626997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_31
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1972
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c564af720af1c0800000000000000
+      internalID: -4469256932969561889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1786
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76633fcfce3f3ff90800000000000000
+      internalID: -6920920003156691353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1786
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0a28b0e2fa366a0800000000000000
+      internalID: -6457124828422692674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1786
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe31c26a0f100460800000000000000
+      internalID: 7205793533259759294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1786
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ecf7377dc9c78f0800000000000000
+      internalID: -541385406021644652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1791
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72992d24c540b660800000000000000
+      internalID: 7399490896643330684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_37
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1786
+        width: 55
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a6e7af46aded540800000000000000
+      internalID: 5034701560680966798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_38
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1786
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61776ac9e1deb320800000000000000
+      internalID: 2575726838955864428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1786
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c7f55b33e801ee0800000000000000
+      internalID: -1292376740317922164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1614
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbed7871c3d6e690800000000000000
+      internalID: -7573132895473243198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1615
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb873c45abfb5add0800000000000000
+      internalID: -2475361613163300673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_42
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1615
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cf7d0ec19967810800000000000000
+      internalID: 1762764653472513155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_43
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1615
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ba1c838867e08e0800000000000000
+      internalID: -1725311279796475006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_44
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1614
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc3f62b3a3d9d550800000000000000
+      internalID: 6186208263196851441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_45
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1615
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec06fbba58f489b30800000000000000
+      internalID: 4294269680228458702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_46
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1614
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9bad95d589400b0800000000000000
+      internalID: -5763314096420505183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_47
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1614
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757cf50b4de523960800000000000000
+      internalID: 7580225390403110743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1433
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634f51085a12db520800000000000000
+      internalID: 2719366744703890486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_49
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1433
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f44deef1ed47e840800000000000000
+      internalID: 5253253123390915827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_50
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1438
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0481985718ec150800000000000000
+      internalID: 5894791304085782713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1431
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380b97630a23a8b20800000000000000
+      internalID: 3137375754107072643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_52
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1433
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ac97c40e3f8650800000000000000
+      internalID: 6237272199181148212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_53
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1433
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec96d6eaa6b1c2aa0800000000000000
+      internalID: -6184538043279644210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1433
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3216af54b12e6f970800000000000000
+      internalID: 8788460329626132771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_55
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1433
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfac4b387a7fcb850800000000000000
+      internalID: 6394257869800524539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_56
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1433
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8506f15465200eb0800000000000000
+      internalID: -4755760093701208690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_57
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1438
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395321959be47d470800000000000000
+      internalID: 8419284586362713491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_58
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1433
+        width: 65
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ab6dd739cdef6a0800000000000000
+      internalID: -6413446293299480043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_59
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1435
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ba167ee88c89900800000000000000
+      internalID: 691523058894220119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_60
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1433
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa0b604d5c7c9ab0800000000000000
+      internalID: -4999984746333533536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_61
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1433
+        width: 65
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08fa50bae6203d00800000000000000
+      internalID: 950302310798129164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_62
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1247
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51a795de786befb0800000000000000
+      internalID: -4617482098979659430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_63
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1252
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9393140843db573c0800000000000000
+      internalID: -4362372630850750151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_64
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1243
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05483149a556b1f0800000000000000
+      internalID: -1029541279375538933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1247
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db53f62f0b633b0800000000000000
+      internalID: -5533040536883708532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_66
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1252
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ccb3d0826a8950800000000000000
+      internalID: 6452077721609357092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_67
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1243
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d250b83a1679810800000000000000
+      internalID: 1771992333433515304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_68
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1247
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d6831e6bf88a960800000000000000
+      internalID: 7613493185695214880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_69
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1245
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876dd53ed1464d30800000000000000
+      internalID: 4415288907325597572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_70
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1252
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6687c323d870b1a0800000000000000
+      internalID: -6795798989468367250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_71
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1243
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125bcaa8bf3e3ef80800000000000000
+      internalID: -8078362637069667039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_72
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1243
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d0e9caf88480f0800000000000000
+      internalID: -1115616196970884995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_73
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1242
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89fb86b933199450800000000000000
+      internalID: 6095924709219367306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_74
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1247
+        width: 65
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54010d5689227ff0800000000000000
+      internalID: -39923789630208932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1196
+        width: 124
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f57474f3d2a0c960800000000000000
+      internalID: 7620269600733951472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_76
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1010
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4286108d5404a4350800000000000000
+      internalID: 6001680122145499172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_77
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1008
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec19f9b5da21021c0800000000000000
+      internalID: -4530600689358892594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_78
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1007
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df231fe6398c6b0800000000000000
+      internalID: -5275804858762199706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_79
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1006
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1b7be07068b1d30800000000000000
+      internalID: 4403260425554604454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_80
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1005
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b163748086b9ff0800000000000000
+      internalID: -28314587884020837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_81
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1006
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33cc4175d8c132e0800000000000000
+      internalID: -2147714728224570561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_82
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1010
+        width: 90
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b73eb4e1327855e0800000000000000
+      internalID: -1920659682456881231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_83
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 959
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd15dae8c69b4730800000000000000
+      internalID: 3984444085016796661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_84
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 769
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a32ca8283c6ca660800000000000000
+      internalID: 7398407276319220645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_85
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 768
+        width: 86
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadc1aaa751a1f050800000000000000
+      internalID: 5832620390318460333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_86
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 768
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960e890f906d3dce0800000000000000
+      internalID: -1381525322493009815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_87
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 764
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fc76825abd958e0800000000000000
+      internalID: -1704089481589043299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_88
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 768
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68278a558349c9550800000000000000
+      internalID: 6168968559266919046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_89
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 768
+        width: 91
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520ed1d62d7b7c4e0800000000000000
+      internalID: -1961396998294872027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_90
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 770
+        width: 86
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17827bbaa1252c720800000000000000
+      internalID: 2864942587464591473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_91
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 768
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88e4ef31ad57d100800000000000000
+      internalID: 132677661173803148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_92
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 773
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a920f09921c37af0800000000000000
+      internalID: -399763557636363864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_93
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 769
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb817b974f7c4170800000000000000
+      internalID: 8164040170043182043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_94
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 768
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a0bde253995c70800000000000000
+      internalID: 8960354918014690789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_95
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 768
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3160fa9d7ad9750800000000000000
+      internalID: 6313386806029456292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_96
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 722
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b08b47e4c9b5180800000000000000
+      internalID: -9125528359156577382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_97
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 611
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6b5ddb135111fb0800000000000000
+      internalID: -4678935234478754129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_98
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 601
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c7eb5ab42fcf10800000000000000
+      internalID: 2292091118179303682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_99
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 499
+        width: 151
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b089780366e5a10800000000000000
+      internalID: 1900068451416279941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_100
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 615
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bff6c8596621ed0800000000000000
+      internalID: -2444778855216448742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_101
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 499
+        width: 145
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599f55248b69682d0800000000000000
+      internalID: -3276765960734377579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_102
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 499
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacf5bb290f06e5d0800000000000000
+      internalID: -3033720766924981077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_103
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 592
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf240a7281889170800000000000000
+      internalID: 8185434720138702782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_104
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 499
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3334cdd9cc51b70800000000000000
+      internalID: 8869220019553383413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_105
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 499
+        width: 135
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd4fe29e80454b10800000000000000
+      internalID: 1965047793511779768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_106
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 495
+        width: 83
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69103009c08d17180800000000000000
+      internalID: -9119270221981220458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_107
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 494
+        width: 111
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d607e811583476b80800000000000000
+      internalID: -8401672341032112019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_108
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 499
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cec76611909e0d0800000000000000
+      internalID: -3393170873908401080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_109
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 499
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5530a56eb7dd3ae0800000000000000
+      internalID: -1567859882506308258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_110
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 522
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b863dda3b93c3f0800000000000000
+      internalID: -881690424912737531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_111
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 497
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63494534e1fe84460800000000000000
+      internalID: 7226288515373634614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_112
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 494
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea83e61fc56fc160800000000000000
+      internalID: 7047963881974762221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_113
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 494
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ab034879e2e6f70800000000000000
+      internalID: 9182327918547745321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_114
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 443
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8693de15e3018b0800000000000000
+      internalID: -5183574649510205228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_115
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 262
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d513294a75b4b8dc0800000000000000
+      internalID: -3635729434376261283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_116
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 258
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518dd11fda76370c0800000000000000
+      internalID: -4579202399333394411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_117
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ebb8ba374b8b460800000000000000
+      internalID: 7257749208399855190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_118
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 257
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9911d32eb784aaaa0800000000000000
+      internalID: -6149022644307160679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_119
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 257
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596b17c176fb35a80800000000000000
+      internalID: -8479223223828760939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_120
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 257
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f1eebce3c35ab00800000000000000
+      internalID: 839143145981484932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_121
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 257
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd97867b7b49ff5d0800000000000000
+      internalID: -3026536907792680485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_122
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 257
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043fe9c7e2b1d9440800000000000000
+      internalID: 4944137852395909952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_123
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 257
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ca78a4e917887a0800000000000000
+      internalID: -6374720347873760098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_124
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 257
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687222af4499d590800000000000000
+      internalID: -7648919422368581532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_125
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 257
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef4d856be81451c0800000000000000
+      internalID: -4515957127045623839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_126
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 257
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2388ac09c2e6e3ab0800000000000000
+      internalID: -5026458996412086222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_127
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 257
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb778365c1148a9c0800000000000000
+      internalID: -3915808286037215300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_128
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 253
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37791eebe58d7d3e0800000000000000
+      internalID: -2028915205666138253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_129
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 262
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdce740e311c30c0800000000000000
+      internalID: -4594778561763684921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_130
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 248
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019c5e949ef3dc8f0800000000000000
+      internalID: -518688110878013168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_131
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 252
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6545c96e75eaac410800000000000000
+      internalID: 1498201518608503894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_132
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 215
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6748715a489addd90800000000000000
+      internalID: -7071309452731251594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 25
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987849d0a16cf6b20800000000000000
+      internalID: 3129938081245071241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_134
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 25
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcbf4bad6d9ab520800000000000000
+      internalID: 2718658419422641400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_135
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 25
+        width: 83
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5332f9afd185c3190800000000000000
+      internalID: -7981407553825332427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 25
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652b49a3a2ab02850800000000000000
+      internalID: 6350280165126615638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_137
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 21
+        width: 138
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335d873a91cc3b990800000000000000
+      internalID: -7371323754586516173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_138
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 25
+        width: 132
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1a2cdf68c102df0800000000000000
+      internalID: -207134216750456388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_139
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 20
+        width: 152
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35661e73f15fb37a0800000000000000
+      internalID: -6396249331319347629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_140
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 20
+        width: 141
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e957210942eac70d0800000000000000
+      internalID: -3423670144649235042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevo_1_141
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 57
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f639e785790bbbeb0800000000000000
+      internalID: -4702971221787110545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nuevo_1_0: -1516240056325483648
+      Nuevo_1_1: 7674811754666080771
+      Nuevo_1_10: 711110993833554660
+      Nuevo_1_100: -2444778855216448742
+      Nuevo_1_101: -3276765960734377579
+      Nuevo_1_102: -3033720766924981077
+      Nuevo_1_103: 8185434720138702782
+      Nuevo_1_104: 8869220019553383413
+      Nuevo_1_105: 1965047793511779768
+      Nuevo_1_106: -9119270221981220458
+      Nuevo_1_107: -8401672341032112019
+      Nuevo_1_108: -3393170873908401080
+      Nuevo_1_109: -1567859882506308258
+      Nuevo_1_11: -3722120490637388992
+      Nuevo_1_110: -881690424912737531
+      Nuevo_1_111: 7226288515373634614
+      Nuevo_1_112: 7047963881974762221
+      Nuevo_1_113: 9182327918547745321
+      Nuevo_1_114: -5183574649510205228
+      Nuevo_1_115: -3635729434376261283
+      Nuevo_1_116: -4579202399333394411
+      Nuevo_1_117: 7257749208399855190
+      Nuevo_1_118: -6149022644307160679
+      Nuevo_1_119: -8479223223828760939
+      Nuevo_1_12: -6121577067073460826
+      Nuevo_1_120: 839143145981484932
+      Nuevo_1_121: -3026536907792680485
+      Nuevo_1_122: 4944137852395909952
+      Nuevo_1_123: -6374720347873760098
+      Nuevo_1_124: -7648919422368581532
+      Nuevo_1_125: -4515957127045623839
+      Nuevo_1_126: -5026458996412086222
+      Nuevo_1_127: -3915808286037215300
+      Nuevo_1_128: -2028915205666138253
+      Nuevo_1_129: -4594778561763684921
+      Nuevo_1_13: 3507222096727801070
+      Nuevo_1_130: -518688110878013168
+      Nuevo_1_131: 1498201518608503894
+      Nuevo_1_132: -7071309452731251594
+      Nuevo_1_133: 3129938081245071241
+      Nuevo_1_134: 2718658419422641400
+      Nuevo_1_135: -7981407553825332427
+      Nuevo_1_136: 6350280165126615638
+      Nuevo_1_137: -7371323754586516173
+      Nuevo_1_138: -207134216750456388
+      Nuevo_1_139: -6396249331319347629
+      Nuevo_1_14: -4173622586522470334
+      Nuevo_1_140: -3423670144649235042
+      Nuevo_1_141: -4702971221787110545
+      Nuevo_1_15: -2612603566303213571
+      Nuevo_1_16: -7169900617301957049
+      Nuevo_1_17: 5472727834925247194
+      Nuevo_1_18: -4719727742475742184
+      Nuevo_1_19: -5534922302798383076
+      Nuevo_1_2: 9031082913962962562
+      Nuevo_1_20: -5727775457728289347
+      Nuevo_1_21: 6877181159659592846
+      Nuevo_1_22: 8089321559769271992
+      Nuevo_1_23: 7479647766409141104
+      Nuevo_1_24: 5103555313976899220
+      Nuevo_1_25: -2892665036077286349
+      Nuevo_1_26: 659406061047913956
+      Nuevo_1_27: -780562948210323528
+      Nuevo_1_28: 448659625039117335
+      Nuevo_1_29: 8682987652767538942
+      Nuevo_1_3: -5930293157360032712
+      Nuevo_1_30: 3177134184912626997
+      Nuevo_1_31: -4469256932969561889
+      Nuevo_1_32: -6920920003156691353
+      Nuevo_1_33: -6457124828422692674
+      Nuevo_1_34: 7205793533259759294
+      Nuevo_1_35: -541385406021644652
+      Nuevo_1_36: 7399490896643330684
+      Nuevo_1_37: 5034701560680966798
+      Nuevo_1_38: 2575726838955864428
+      Nuevo_1_39: -1292376740317922164
+      Nuevo_1_4: 8726342929266437601
+      Nuevo_1_40: -7573132895473243198
+      Nuevo_1_41: -2475361613163300673
+      Nuevo_1_42: 1762764653472513155
+      Nuevo_1_43: -1725311279796475006
+      Nuevo_1_44: 6186208263196851441
+      Nuevo_1_45: 4294269680228458702
+      Nuevo_1_46: -5763314096420505183
+      Nuevo_1_47: 7580225390403110743
+      Nuevo_1_48: 2719366744703890486
+      Nuevo_1_49: 5253253123390915827
+      Nuevo_1_5: -2116413189940680287
+      Nuevo_1_50: 5894791304085782713
+      Nuevo_1_51: 3137375754107072643
+      Nuevo_1_52: 6237272199181148212
+      Nuevo_1_53: -6184538043279644210
+      Nuevo_1_54: 8788460329626132771
+      Nuevo_1_55: 6394257869800524539
+      Nuevo_1_56: -4755760093701208690
+      Nuevo_1_57: 8419284586362713491
+      Nuevo_1_58: -6413446293299480043
+      Nuevo_1_59: 691523058894220119
+      Nuevo_1_6: -726104719541046330
+      Nuevo_1_60: -4999984746333533536
+      Nuevo_1_61: 950302310798129164
+      Nuevo_1_62: -4617482098979659430
+      Nuevo_1_63: -4362372630850750151
+      Nuevo_1_64: -1029541279375538933
+      Nuevo_1_65: -5533040536883708532
+      Nuevo_1_66: 6452077721609357092
+      Nuevo_1_67: 1771992333433515304
+      Nuevo_1_68: 7613493185695214880
+      Nuevo_1_69: 4415288907325597572
+      Nuevo_1_7: -235182669354225675
+      Nuevo_1_70: -6795798989468367250
+      Nuevo_1_71: -8078362637069667039
+      Nuevo_1_72: -1115616196970884995
+      Nuevo_1_73: 6095924709219367306
+      Nuevo_1_74: -39923789630208932
+      Nuevo_1_75: 7620269600733951472
+      Nuevo_1_76: 6001680122145499172
+      Nuevo_1_77: -4530600689358892594
+      Nuevo_1_78: -5275804858762199706
+      Nuevo_1_79: 4403260425554604454
+      Nuevo_1_8: 5542828922242574227
+      Nuevo_1_80: -28314587884020837
+      Nuevo_1_81: -2147714728224570561
+      Nuevo_1_82: -1920659682456881231
+      Nuevo_1_83: 3984444085016796661
+      Nuevo_1_84: 7398407276319220645
+      Nuevo_1_85: 5832620390318460333
+      Nuevo_1_86: -1381525322493009815
+      Nuevo_1_87: -1704089481589043299
+      Nuevo_1_88: 6168968559266919046
+      Nuevo_1_89: -1961396998294872027
+      Nuevo_1_9: 6464486726786474137
+      Nuevo_1_90: 2864942587464591473
+      Nuevo_1_91: 132677661173803148
+      Nuevo_1_92: -399763557636363864
+      Nuevo_1_93: 8164040170043182043
+      Nuevo_1_94: 8960354918014690789
+      Nuevo_1_95: 6313386806029456292
+      Nuevo_1_96: -9125528359156577382
+      Nuevo_1_97: -4678935234478754129
+      Nuevo_1_98: 2292091118179303682
+      Nuevo_1_99: 1900068451416279941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
