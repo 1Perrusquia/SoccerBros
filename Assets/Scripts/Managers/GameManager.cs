@@ -21,6 +21,14 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     public Transform spawnPoint;
 
+    // --- VARIABLES DE TRANSICIÓN ---
+    [Header("Level Transition")]
+    public Transform mainCamera;
+    public float cameraHeight = 10f;
+    public float transitionSpeed = 5f;
+
+    private bool isTransitioningLevel = false;
+    private Vector3 cameraTargetPosition;
     private GameObject currentPlayer;
 
     void Awake()
@@ -36,6 +44,21 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
         UpdateLivesUI();
         SpawnPlayer();
+    }
+
+    void Update()
+    {
+        // Movimiento de la cámara durante la transición
+        if (isTransitioningLevel && mainCamera != null)
+        {
+            mainCamera.position = Vector3.MoveTowards(mainCamera.position, cameraTargetPosition, transitionSpeed * Time.deltaTime);
+
+            // Terminamos la transición cuando la cámara llega a su destino
+            if (Vector3.Distance(mainCamera.position, cameraTargetPosition) < 0.01f)
+            {
+                FinishLevelTransition();
+            }
+        }
     }
 
     void SpawnPlayer()
@@ -109,10 +132,41 @@ public class GameManager : MonoBehaviour
     {
         Enemy[] enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
 
-        if (enemies.Length == 0)
+        // Agregamos !isTransitioningLevel para que no se llame varias veces
+        if (enemies.Length == 0 && !isTransitioningLevel)
         {
             ShowFloatingText("LEVEL CLEAR!", spawnPoint.position + Vector3.up * 3f);
-            Invoke(nameof(ReloadScene), 3f);
+            Invoke(nameof(StartLevelTransition), 2f); // Esperamos 2 segundos antes de subir
+        }
+    }
+
+    // --- MÉTODOS DE TRANSICIÓN ---
+    void StartLevelTransition()
+    {
+        isTransitioningLevel = true;
+
+        // Calculamos la nueva posición de la cámara
+        cameraTargetPosition = mainCamera.position + new Vector3(0, cameraHeight, 0);
+
+        // Actualizamos el spawnPoint para que reviva en el nuevo nivel si muere
+        spawnPoint.position += new Vector3(0, cameraHeight, 0);
+
+        if (currentPlayer != null)
+        {
+            // Calculamos a dónde debe flotar el jugador
+            float playerNewY = currentPlayer.transform.position.y + cameraHeight;
+            currentPlayer.GetComponent<PlayerMovement>().StartTransitionToNextLevel(playerNewY);
+        }
+    }
+
+    void FinishLevelTransition()
+    {
+        isTransitioningLevel = false;
+
+        // Le devolvemos el control al jugador
+        if (currentPlayer != null)
+        {
+            currentPlayer.GetComponent<PlayerMovement>().EndTransition();
         }
     }
 }

@@ -16,14 +16,28 @@ public class PlayerMovement : MonoBehaviour
     // Referencia a la plataforma actual para dejarse caer
     private GameObject currentOneWayPlatform;
 
+    // --- VARIABLES DE TRANSICIÓN ---
+    public bool isTransitioning = false;
+    private Vector3 targetTransitionPosition;
+    private float originalGravity;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        originalGravity = rb.gravityScale; // Guardamos la gravedad configurada
     }
 
     void Update()
     {
         if (isDead) return;
+
+        // Bloqueamos el control y movemos al jugador hacia arriba si está en transición
+        if (isTransitioning)
+        {
+            rb.linearVelocity = Vector2.zero;
+            transform.position = Vector3.MoveTowards(transform.position, targetTransitionPosition, moveSpeed * Time.deltaTime);
+            return;
+        }
 
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical"); // Captura arriba/abajo
@@ -59,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Shoot()
     {
-        // Lógica de patear balones (se mantiene igual)
+        // Lógica de patear balones
         float kickRadius = 1f;
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, kickRadius);
 
@@ -139,5 +153,23 @@ public class PlayerMovement : MonoBehaviour
         {
             currentOneWayPlatform = null;
         }
+    }
+
+    // --- MÉTODOS DE TRANSICIÓN ---
+    public void StartTransitionToNextLevel(float targetY)
+    {
+        isTransitioning = true;
+        rb.gravityScale = 0f; // Quitamos gravedad para que flote
+        GetComponent<Collider2D>().enabled = false; // Desactivamos colisiones
+
+        // Mantiene su X actual, pero sube a la nueva Y
+        targetTransitionPosition = new Vector3(transform.position.x, targetY, transform.position.z);
+    }
+
+    public void EndTransition()
+    {
+        isTransitioning = false;
+        rb.gravityScale = originalGravity; // Regresamos la gravedad a la normalidad
+        GetComponent<Collider2D>().enabled = true; // Reactivamos colisiones
     }
 }

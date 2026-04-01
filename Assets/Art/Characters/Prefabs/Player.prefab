@@ -184,6 +184,7 @@ MonoBehaviour:
   jumpForce: 7
   snowballPrefab: {fileID: 1624819258267408592, guid: 2c9d3365c7996f14f959391d385df335, type: 3}
   firePoint: {fileID: 4368397341668583896}
+  isTransitioning: 0
 --- !u!1 &6648211463665754040
 GameObject:
   m_ObjectHideFlags: 0
