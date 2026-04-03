@@ -4,19 +4,18 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 7f;
+    public float jumpForce = 11f;
     public GameObject snowballPrefab;
     public Transform firePoint;
 
     private bool facingRight = true;
     private Rigidbody2D rb;
+    private Animator anim; // <--- AGREGADO: La variable de nuestro cerebro
     private bool isGrounded;
     private bool isDead = false;
 
-    // Referencia a la plataforma actual para dejarse caer
     private GameObject currentOneWayPlatform;
 
-    // --- VARIABLES DE TRANSICIÓN ---
     public bool isTransitioning = false;
     private Vector3 targetTransitionPosition;
     private float originalGravity;
@@ -24,14 +23,14 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        originalGravity = rb.gravityScale; // Guardamos la gravedad configurada
+        anim = GetComponent<Animator>(); // <--- AGREGADO: Enlazamos el componente al iniciar
+        originalGravity = rb.gravityScale;
     }
 
     void Update()
     {
         if (isDead) return;
 
-        // Bloqueamos el control y movemos al jugador hacia arriba si está en transición
         if (isTransitioning)
         {
             rb.linearVelocity = Vector2.zero;
@@ -40,26 +39,30 @@ public class PlayerMovement : MonoBehaviour
         }
 
         float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical"); // Captura arriba/abajo
+        float moveY = Input.GetAxis("Vertical");
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        if (moveX > 0) facingRight = true;
-        if (moveX < 0) facingRight = false;
+        // <--- AGREGADO: Lógica para voltear el dibujo visualmente
+        if (moveX > 0 && !facingRight) Flip();
+        else if (moveX < 0 && facingRight) Flip();
 
-        // Lógica de Salto y Dejarse Caer
+        // <--- AGREGADO: Le mandamos la velocidad y si toca el suelo al Animator en tiempo real
+        anim.SetFloat("Speed", Mathf.Abs(moveX));
+        anim.SetBool("isGrounded", isGrounded);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isGrounded)
             {
                 if (moveY < -0.1f && currentOneWayPlatform != null)
                 {
-                    // Dejarse caer: Abajo + Espacio
                     StartCoroutine(DisableCollision());
                 }
                 else
                 {
-                    // Salto normal
+                    isGrounded = false;
+                    anim.SetBool("isGrounded", false); // <--- AGREGADO: Le avisa al cerebro al instante para reaccionar rápido
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
@@ -71,9 +74,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // <--- AGREGADO: Función que voltea el sprite del ajolote hacia la izquierda/derecha
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+
     void Shoot()
     {
-        // Lógica de patear balones
         float kickRadius = 1f;
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, kickRadius);
 
@@ -85,13 +96,14 @@ public class PlayerMovement : MonoBehaviour
                 if (enemy != null && enemy.currentState == Enemy.State.Ball)
                 {
                     int dir = facingRight ? 1 : -1;
+                    anim.SetTrigger("Kick"); // <--- AGREGADO: Activa la animación de la patada
                     enemy.Kick(dir);
                     return;
                 }
             }
         }
 
-        // Lógica de disparar
+        anim.SetTrigger("Shot"); // <--- AGREGADO: Activa la animación de escupir/disparar
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
         Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
         snowball.GetComponent<Snowball>().SetDirection(dirShoot);
@@ -99,38 +111,60 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DisableCollision()
     {
-        BoxCollider2D platformCollider = currentOneWayPlatform.GetComponent<BoxCollider2D>();
+        Collider2D platformCollider = currentOneWayPlatform.GetComponent<Collider2D>();
         Collider2D playerCollider = GetComponent<Collider2D>();
 
         if (platformCollider != null)
         {
             Physics2D.IgnoreCollision(playerCollider, platformCollider, true);
-            yield return new WaitForSeconds(0.3f); // Tiempo suficiente para atravesarla hacia abajo
+            yield return new WaitForSeconds(0.4f);
             Physics2D.IgnoreCollision(playerCollider, platformCollider, false);
         }
     }
 
     void Die()
     {
+        if (isDead) return; // Evita morir dos veces
         isDead = true;
         rb.linearVelocity = Vector2.zero;
+
+        anim.SetTrigger("Die"); // <--- AGREGADO: Dispara la animación de muerte
+
+        StartCoroutine(DieRoutine()); // <--- AGREGADO: Cambiado a corrutina para darle tiempo a la animación
+    }
+
+    // <--- AGREGADO: Espera un momento antes de desaparecer al jugador
+    private IEnumerator DieRoutine()
+    {
+        yield return new WaitForSeconds(1.5f); // Espera segundo y medio
         gameObject.SetActive(false);
 
         if (GameManager.Instance != null)
             GameManager.Instance.PlayerDied();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void EvaluateCollision(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Platform"))
         {
-            isGrounded = true;
+            foreach (ContactPoint2D contact in collision.contacts)
+            {
+                if (contact.normal.y > 0.5f)
+                {
+                    isGrounded = true;
+                    if (collision.gameObject.CompareTag("Platform"))
+                    {
+                        currentOneWayPlatform = collision.gameObject;
+                    }
+                    return;
+                }
+            }
         }
+    }
 
-        if (collision.gameObject.CompareTag("Platform"))
-        {
-            currentOneWayPlatform = collision.gameObject;
-        }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        EvaluateCollision(collision);
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
@@ -140,6 +174,11 @@ public class PlayerMovement : MonoBehaviour
                 Die();
             }
         }
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        EvaluateCollision(collision);
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -155,21 +194,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // --- MÉTODOS DE TRANSICIÓN ---
     public void StartTransitionToNextLevel(float targetY)
     {
         isTransitioning = true;
-        rb.gravityScale = 0f; // Quitamos gravedad para que flote
-        GetComponent<Collider2D>().enabled = false; // Desactivamos colisiones
+        rb.gravityScale = 0f;
+        rb.linearVelocity = Vector2.zero;
+        GetComponent<Collider2D>().enabled = false;
 
-        // Mantiene su X actual, pero sube a la nueva Y
+        anim.SetTrigger("Transition"); // <--- AGREGADO: Dispara la animación de aparición/transición
+
         targetTransitionPosition = new Vector3(transform.position.x, targetY, transform.position.z);
     }
 
     public void EndTransition()
     {
         isTransitioning = false;
-        rb.gravityScale = originalGravity; // Regresamos la gravedad a la normalidad
-        GetComponent<Collider2D>().enabled = true; // Reactivamos colisiones
+        rb.gravityScale = originalGravity;
+        GetComponent<Collider2D>().enabled = true;
     }
 }

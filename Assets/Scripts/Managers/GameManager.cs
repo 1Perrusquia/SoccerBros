@@ -27,7 +27,10 @@ public class GameManager : MonoBehaviour
     public float cameraHeight = 10f;
     public float transitionSpeed = 5f;
 
-    private bool isTransitioningLevel = false;
+    // Ahora es pública para que FloatingText pueda saber cuándo pausarse
+    [HideInInspector]
+    public bool isTransitioningLevel = false;
+
     private Vector3 cameraTargetPosition;
     private GameObject currentPlayer;
 
@@ -37,6 +40,20 @@ public class GameManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        // --- SOLUCIÓN AL ERROR ---
+        // Si olvidaste asignar la cámara en el Inspector, Unity la busca automáticamente.
+        if (mainCamera == null)
+        {
+            if (Camera.main != null)
+            {
+                mainCamera = Camera.main.transform;
+            }
+            else
+            {
+                Debug.LogError("¡No hay ninguna cámara etiquetada como 'MainCamera' en la escena!");
+            }
+        }
     }
 
     void Start()
@@ -48,12 +65,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // Movimiento de la cámara durante la transición
         if (isTransitioningLevel && mainCamera != null)
         {
             mainCamera.position = Vector3.MoveTowards(mainCamera.position, cameraTargetPosition, transitionSpeed * Time.deltaTime);
 
-            // Terminamos la transición cuando la cámara llega a su destino
             if (Vector3.Distance(mainCamera.position, cameraTargetPosition) < 0.01f)
             {
                 FinishLevelTransition();
@@ -130,30 +145,42 @@ public class GameManager : MonoBehaviour
 
     void VerifyEnemies()
     {
-        Enemy[] enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+        // Encontramos a todos los enemigos de toda la escena
+        Enemy[] allEnemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
 
-        // Agregamos !isTransitioningLevel para que no se llame varias veces
-        if (enemies.Length == 0 && !isTransitioningLevel)
+        int enemiesInCurrentScreen = 0;
+
+        // Calculamos los límites del nivel actual basándonos en la altura de la cámara
+        float currentCameraY = mainCamera.position.y;
+        float halfCameraHeight = cameraHeight / 2f; // Mitad de la altura para calcular arriba y abajo
+
+        foreach (Enemy enemy in allEnemies)
+        {
+            // Solo contamos a los enemigos que están en el rango de visión vertical de la cámara actual
+            // Le damos un margen extra de 1f por si algún enemigo salta o está ligeramente fuera
+            if (enemy.transform.position.y < (currentCameraY + halfCameraHeight + 1f) &&
+                enemy.transform.position.y > (currentCameraY - halfCameraHeight - 1f))
+            {
+                enemiesInCurrentScreen++;
+            }
+        }
+
+        // Ahora comprobamos si limpiamos la pantalla actual
+        if (enemiesInCurrentScreen == 0 && !isTransitioningLevel)
         {
             ShowFloatingText("LEVEL CLEAR!", spawnPoint.position + Vector3.up * 3f);
             Invoke(nameof(StartLevelTransition), 2f); // Esperamos 2 segundos antes de subir
         }
     }
 
-    // --- MÉTODOS DE TRANSICIÓN ---
     void StartLevelTransition()
     {
         isTransitioningLevel = true;
-
-        // Calculamos la nueva posición de la cámara
         cameraTargetPosition = mainCamera.position + new Vector3(0, cameraHeight, 0);
-
-        // Actualizamos el spawnPoint para que reviva en el nuevo nivel si muere
         spawnPoint.position += new Vector3(0, cameraHeight, 0);
 
         if (currentPlayer != null)
         {
-            // Calculamos a dónde debe flotar el jugador
             float playerNewY = currentPlayer.transform.position.y + cameraHeight;
             currentPlayer.GetComponent<PlayerMovement>().StartTransitionToNextLevel(playerNewY);
         }
@@ -163,7 +190,6 @@ public class GameManager : MonoBehaviour
     {
         isTransitioningLevel = false;
 
-        // Le devolvemos el control al jugador
         if (currentPlayer != null)
         {
             currentPlayer.GetComponent<PlayerMovement>().EndTransition();

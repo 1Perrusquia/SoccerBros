@@ -18,6 +18,22 @@ public class FloatingText : MonoBehaviour
 
     void Update()
     {
+        // Si el nivel está transicionando, el texto se congela y sube junto con la cámara
+        if (GameManager.Instance != null && GameManager.Instance.isTransitioningLevel)
+        {
+            if (transform.parent == null)
+            {
+                transform.SetParent(GameManager.Instance.mainCamera);
+            }
+            return; // Detiene el movimiento y el temporizador temporalmente
+        }
+
+        // Si ya pasó la transición, lo soltamos de la cámara para que desaparezca normal
+        if (transform.parent != null)
+        {
+            transform.SetParent(null);
+        }
+
         // Movimiento hacia arriba
         transform.position += Vector3.up * moveSpeed * Time.deltaTime;
 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6774719617866334089}
   - component: {fileID: 5384371750123664209}
   - component: {fileID: 4298554707698585329}
+  - component: {fileID: 8949849672843221656}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -132,7 +133,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 80409106bbeea1a4f9de401ecf9b99e7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -160,7 +161,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.72, y: 0.94019526}
+    oldSize: {x: 0.9729729, y: 1.270534}
     newSize: {x: 0.72, y: 0.94019526}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -181,10 +182,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
-  jumpForce: 7
+  jumpForce: 11
   snowballPrefab: {fileID: 1624819258267408592, guid: 2c9d3365c7996f14f959391d385df335, type: 3}
   firePoint: {fileID: 4368397341668583896}
   isTransitioning: 0
+--- !u!95 &8949849672843221656
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866888898921704918}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1c0f9cb130f3c545bddafe58b447131, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6648211463665754040
 GameObject:
   m_ObjectHideFlags: 0
