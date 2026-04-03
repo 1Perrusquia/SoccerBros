@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 110299217}
   - component: {fileID: 110299216}
   m_Layer: 0
-  m_Name: Wall (1)
+  m_Name: Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2025,8 +2025,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 145795321}
     m_Modifications:
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: jumpForce
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: detectionRange
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: attractionStrength
@@ -2038,6 +2046,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4066462930851341835, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
@@ -2194,7 +2206,7 @@ GameObject:
   - component: {fileID: 462293782}
   - component: {fileID: 462293781}
   - component: {fileID: 462293780}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3059,8 +3071,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 145795321}
     m_Modifications:
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: jumpForce
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: detectionRange
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: attractionStrength
@@ -3075,6 +3095,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_AngularDamping
       value: 0
       objectReference: {fileID: 0}
@@ -3085,6 +3109,14 @@ PrefabInstance:
     - target: {fileID: 7186918671774182211, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186918671774182211, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186918671774182211, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8599594644177915161, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5158,7 +5190,7 @@ GameObject:
   - component: {fileID: 969177499}
   - component: {fileID: 969177498}
   - component: {fileID: 969177501}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (1)
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -5660,9 +5692,9 @@ GameObject:
   - component: {fileID: 998059219}
   - component: {fileID: 998059218}
   - component: {fileID: 998059220}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlataformasOneWay
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11784,8 +11816,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 145795321}
     m_Modifications:
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: jumpForce
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: detectionRange
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: attractionStrength
@@ -11797,6 +11837,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4066462930851341835, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
@@ -12365,8 +12409,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 145795321}
     m_Modifications:
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: jumpForce
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: detectionRange
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1941582424556585186, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: attractionStrength
@@ -12381,6 +12433,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162566040926674598, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_AngularDamping
       value: 0
       objectReference: {fileID: 0}
@@ -12392,13 +12448,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7186918671774182211, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186918671774182211, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8599594644177915161, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.2349997
+      value: 7.97
       objectReference: {fileID: 0}
     - target: {fileID: 8599594644177915161, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7389998
+      value: -2.06
       objectReference: {fileID: 0}
     - target: {fileID: 8599594644177915161, guid: 159fb4b6392d82643af6bf4f6823eb2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13148,7 +13212,7 @@ GameObject:
   - component: {fileID: 2098937605}
   - component: {fileID: 2098937604}
   - component: {fileID: 2098937607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (3)
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -13582,7 +13646,7 @@ GameObject:
   - component: {fileID: 2142148960}
   - component: {fileID: 2142148959}
   - component: {fileID: 2142148962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (2)
   m_TagString: Platform
   m_Icon: {fileID: 0}
