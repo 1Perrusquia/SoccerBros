@@ -1,0 +1,4134 @@
+fileFormatVersion: 2
+guid: 9b68f15960936984a8c87764f5026948
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3880571235541036775
+    second: AjolotesVerdeAzulNuevo_0
+  - first:
+      213: 5572294882218281342
+    second: AjolotesVerdeAzulNuevo_1
+  - first:
+      213: -3650448462653373355
+    second: AjolotesVerdeAzulNuevo_2
+  - first:
+      213: -5486181596566208847
+    second: AjolotesVerdeAzulNuevo_3
+  - first:
+      213: -8885217552769358283
+    second: AjolotesVerdeAzulNuevo_4
+  - first:
+      213: 5238381477597034896
+    second: AjolotesVerdeAzulNuevo_5
+  - first:
+      213: 5415204431379999859
+    second: AjolotesVerdeAzulNuevo_6
+  - first:
+      213: 7571603784466580909
+    second: AjolotesVerdeAzulNuevo_7
+  - first:
+      213: -6091888300610377823
+    second: AjolotesVerdeAzulNuevo_8
+  - first:
+      213: -4963680376143084885
+    second: AjolotesVerdeAzulNuevo_9
+  - first:
+      213: -4304573079810581561
+    second: AjolotesVerdeAzulNuevo_10
+  - first:
+      213: 6521994286802191635
+    second: AjolotesVerdeAzulNuevo_11
+  - first:
+      213: -3096966055715902843
+    second: AjolotesVerdeAzulNuevo_12
+  - first:
+      213: 2389382389789688368
+    second: AjolotesVerdeAzulNuevo_13
+  - first:
+      213: -6326597288844847656
+    second: AjolotesVerdeAzulNuevo_14
+  - first:
+      213: -6227307842078352392
+    second: AjolotesVerdeAzulNuevo_15
+  - first:
+      213: 3113757063561668807
+    second: AjolotesVerdeAzulNuevo_16
+  - first:
+      213: 1491411669404730120
+    second: AjolotesVerdeAzulNuevo_17
+  - first:
+      213: -723979095175318572
+    second: AjolotesVerdeAzulNuevo_18
+  - first:
+      213: -6342739169169900652
+    second: AjolotesVerdeAzulNuevo_19
+  - first:
+      213: 7124124350589367268
+    second: AjolotesVerdeAzulNuevo_20
+  - first:
+      213: 8834307339331442666
+    second: AjolotesVerdeAzulNuevo_21
+  - first:
+      213: 4716084968848033870
+    second: AjolotesVerdeAzulNuevo_22
+  - first:
+      213: -3088020153527737766
+    second: AjolotesVerdeAzulNuevo_23
+  - first:
+      213: 6673527972981184581
+    second: AjolotesVerdeAzulNuevo_24
+  - first:
+      213: -941060548938940839
+    second: AjolotesVerdeAzulNuevo_25
+  - first:
+      213: 1256675203724118787
+    second: AjolotesVerdeAzulNuevo_26
+  - first:
+      213: -2760362274783755293
+    second: AjolotesVerdeAzulNuevo_27
+  - first:
+      213: 8798904819818844498
+    second: AjolotesVerdeAzulNuevo_28
+  - first:
+      213: -2060392283819328578
+    second: AjolotesVerdeAzulNuevo_29
+  - first:
+      213: -6488348444627656046
+    second: AjolotesVerdeAzulNuevo_30
+  - first:
+      213: -7529817449373869248
+    second: AjolotesVerdeAzulNuevo_31
+  - first:
+      213: 104237397273301096
+    second: AjolotesVerdeAzulNuevo_32
+  - first:
+      213: 1225432769773641800
+    second: AjolotesVerdeAzulNuevo_33
+  - first:
+      213: 3853581866856774938
+    second: AjolotesVerdeAzulNuevo_34
+  - first:
+      213: 4077864172406297685
+    second: AjolotesVerdeAzulNuevo_35
+  - first:
+      213: 6700496528878287274
+    second: AjolotesVerdeAzulNuevo_36
+  - first:
+      213: -5024294172965680374
+    second: AjolotesVerdeAzulNuevo_37
+  - first:
+      213: -7580184672183070874
+    second: AjolotesVerdeAzulNuevo_38
+  - first:
+      213: -5379457073955096518
+    second: AjolotesVerdeAzulNuevo_39
+  - first:
+      213: -6334442662293295556
+    second: AjolotesVerdeAzulNuevo_40
+  - first:
+      213: 6895880126643001433
+    second: AjolotesVerdeAzulNuevo_41
+  - first:
+      213: -641709559420153934
+    second: AjolotesVerdeAzulNuevo_42
+  - first:
+      213: 6558018958299906289
+    second: AjolotesVerdeAzulNuevo_43
+  - first:
+      213: 3495594272372681542
+    second: AjolotesVerdeAzulNuevo_44
+  - first:
+      213: -5083267926373928939
+    second: AjolotesVerdeAzulNuevo_45
+  - first:
+      213: 2859712984052397797
+    second: AjolotesVerdeAzulNuevo_46
+  - first:
+      213: 6912684544116825160
+    second: AjolotesVerdeAzulNuevo_47
+  - first:
+      213: 2923281650288535186
+    second: AjolotesVerdeAzulNuevo_48
+  - first:
+      213: 7241514428082190687
+    second: AjolotesVerdeAzulNuevo_49
+  - first:
+      213: 5102233300073959847
+    second: AjolotesVerdeAzulNuevo_50
+  - first:
+      213: -30682546726685000
+    second: AjolotesVerdeAzulNuevo_51
+  - first:
+      213: 6750262566210717159
+    second: AjolotesVerdeAzulNuevo_52
+  - first:
+      213: -541630790928564462
+    second: AjolotesVerdeAzulNuevo_53
+  - first:
+      213: 8824059283507228604
+    second: AjolotesVerdeAzulNuevo_54
+  - first:
+      213: -2007224078668532166
+    second: AjolotesVerdeAzulNuevo_55
+  - first:
+      213: -5038830736203582404
+    second: AjolotesVerdeAzulNuevo_56
+  - first:
+      213: -1405050571498454710
+    second: AjolotesVerdeAzulNuevo_57
+  - first:
+      213: -2462040287243812265
+    second: AjolotesVerdeAzulNuevo_58
+  - first:
+      213: 3166850785547321601
+    second: AjolotesVerdeAzulNuevo_59
+  - first:
+      213: 8380039194454817416
+    second: AjolotesVerdeAzulNuevo_60
+  - first:
+      213: 1125733798110937246
+    second: AjolotesVerdeAzulNuevo_61
+  - first:
+      213: -3006601075582427313
+    second: AjolotesVerdeAzulNuevo_62
+  - first:
+      213: 5521125770493330651
+    second: AjolotesVerdeAzulNuevo_63
+  - first:
+      213: 466875439243791435
+    second: AjolotesVerdeAzulNuevo_64
+  - first:
+      213: 4951466517314202147
+    second: AjolotesVerdeAzulNuevo_65
+  - first:
+      213: -5179693061822546439
+    second: AjolotesVerdeAzulNuevo_66
+  - first:
+      213: -5635169286606297746
+    second: AjolotesVerdeAzulNuevo_67
+  - first:
+      213: -4000559461177256725
+    second: AjolotesVerdeAzulNuevo_68
+  - first:
+      213: 3843436243256840593
+    second: AjolotesVerdeAzulNuevo_69
+  - first:
+      213: 5837732940818041073
+    second: AjolotesVerdeAzulNuevo_70
+  - first:
+      213: -3431098332723862101
+    second: AjolotesVerdeAzulNuevo_71
+  - first:
+      213: -111743720804621140
+    second: AjolotesVerdeAzulNuevo_72
+  - first:
+      213: 52394812120614661
+    second: AjolotesVerdeAzulNuevo_73
+  - first:
+      213: 5576813016941788952
+    second: AjolotesVerdeAzulNuevo_74
+  - first:
+      213: 9062608131651173521
+    second: AjolotesVerdeAzulNuevo_75
+  - first:
+      213: 2626632127275077141
+    second: AjolotesVerdeAzulNuevo_76
+  - first:
+      213: -2244202021160093792
+    second: AjolotesVerdeAzulNuevo_77
+  - first:
+      213: -411140499680358076
+    second: AjolotesVerdeAzulNuevo_78
+  - first:
+      213: 6431379098292911911
+    second: AjolotesVerdeAzulNuevo_79
+  - first:
+      213: 7074507415754533987
+    second: AjolotesVerdeAzulNuevo_80
+  - first:
+      213: 1023699597696388988
+    second: AjolotesVerdeAzulNuevo_81
+  - first:
+      213: -4607934468919756624
+    second: AjolotesVerdeAzulNuevo_82
+  - first:
+      213: 2785517435996031534
+    second: AjolotesVerdeAzulNuevo_83
+  - first:
+      213: 2301735189309595123
+    second: AjolotesVerdeAzulNuevo_84
+  - first:
+      213: 7035319315119903452
+    second: AjolotesVerdeAzulNuevo_85
+  - first:
+      213: 4050319958663309013
+    second: AjolotesVerdeAzulNuevo_86
+  - first:
+      213: -620620262015027141
+    second: AjolotesVerdeAzulNuevo_87
+  - first:
+      213: 6739514567999273200
+    second: AjolotesVerdeAzulNuevo_88
+  - first:
+      213: 1900346627667325821
+    second: AjolotesVerdeAzulNuevo_89
+  - first:
+      213: -4518947660760269676
+    second: AjolotesVerdeAzulNuevo_90
+  - first:
+      213: -4253051568640438636
+    second: AjolotesVerdeAzulNuevo_91
+  - first:
+      213: -3124700065491094473
+    second: AjolotesVerdeAzulNuevo_92
+  - first:
+      213: 5707679654360641329
+    second: AjolotesVerdeAzulNuevo_93
+  - first:
+      213: 5506969778534082978
+    second: AjolotesVerdeAzulNuevo_94
+  - first:
+      213: 222250882227666818
+    second: AjolotesVerdeAzulNuevo_95
+  - first:
+      213: 3711788395584605079
+    second: AjolotesVerdeAzulNuevo_96
+  - first:
+      213: 4852837742328456441
+    second: AjolotesVerdeAzulNuevo_97
+  - first:
+      213: 189446349734515640
+    second: AjolotesVerdeAzulNuevo_98
+  - first:
+      213: 7488370317988626506
+    second: AjolotesVerdeAzulNuevo_99
+  - first:
+      213: 3218219310224124975
+    second: AjolotesVerdeAzulNuevo_100
+  - first:
+      213: -2575130744830190012
+    second: AjolotesVerdeAzulNuevo_101
+  - first:
+      213: 2317591737554229626
+    second: AjolotesVerdeAzulNuevo_102
+  - first:
+      213: 2100964922711925839
+    second: AjolotesVerdeAzulNuevo_103
+  - first:
+      213: -7215048093006791789
+    second: AjolotesVerdeAzulNuevo_104
+  - first:
+      213: 7606609074509608060
+    second: AjolotesVerdeAzulNuevo_105
+  - first:
+      213: 6786751731240809659
+    second: AjolotesVerdeAzulNuevo_106
+  - first:
+      213: 7653067990733251282
+    second: AjolotesVerdeAzulNuevo_107
+  - first:
+      213: -652060811136257502
+    second: AjolotesVerdeAzulNuevo_108
+  - first:
+      213: -5608354061879765308
+    second: AjolotesVerdeAzulNuevo_109
+  - first:
+      213: 8095336865224734707
+    second: AjolotesVerdeAzulNuevo_110
+  - first:
+      213: -5551093406684867099
+    second: AjolotesVerdeAzulNuevo_111
+  - first:
+      213: 386474628806178348
+    second: AjolotesVerdeAzulNuevo_112
+  - first:
+      213: -3171156399264639758
+    second: AjolotesVerdeAzulNuevo_113
+  - first:
+      213: -153583351039784093
+    second: AjolotesVerdeAzulNuevo_114
+  - first:
+      213: -4380505803670831871
+    second: AjolotesVerdeAzulNuevo_115
+  - first:
+      213: 5035967758873078936
+    second: AjolotesVerdeAzulNuevo_116
+  - first:
+      213: -6334481427735639543
+    second: AjolotesVerdeAzulNuevo_117
+  - first:
+      213: 1123497022179412769
+    second: AjolotesVerdeAzulNuevo_118
+  - first:
+      213: 3124468083186095572
+    second: AjolotesVerdeAzulNuevo_119
+  - first:
+      213: 1212361916882603428
+    second: AjolotesVerdeAzulNuevo_120
+  - first:
+      213: -6011313186138003596
+    second: AjolotesVerdeAzulNuevo_121
+  - first:
+      213: 7784979934885155875
+    second: AjolotesVerdeAzulNuevo_122
+  - first:
+      213: 1147500745639707119
+    second: AjolotesVerdeAzulNuevo_123
+  - first:
+      213: -3194171848612016961
+    second: AjolotesVerdeAzulNuevo_124
+  - first:
+      213: 4470632979013525403
+    second: AjolotesVerdeAzulNuevo_125
+  - first:
+      213: 2664494336504339870
+    second: AjolotesVerdeAzulNuevo_126
+  - first:
+      213: -180745209271643088
+    second: AjolotesVerdeAzulNuevo_127
+  - first:
+      213: -7891782645125195103
+    second: AjolotesVerdeAzulNuevo_128
+  - first:
+      213: -2437782230097603044
+    second: AjolotesVerdeAzulNuevo_129
+  - first:
+      213: -8850540970821533426
+    second: AjolotesVerdeAzulNuevo_130
+  - first:
+      213: -719273990113158438
+    second: AjolotesVerdeAzulNuevo_131
+  - first:
+      213: -2232827407124789949
+    second: AjolotesVerdeAzulNuevo_132
+  - first:
+      213: 7172896417008162314
+    second: AjolotesVerdeAzulNuevo_133
+  - first:
+      213: -4148146085196798638
+    second: AjolotesVerdeAzulNuevo_134
+  - first:
+      213: 6671454150580412032
+    second: AjolotesVerdeAzulNuevo_135
+  - first:
+      213: 1902767482213418812
+    second: AjolotesVerdeAzulNuevo_136
+  - first:
+      213: -229760651030859234
+    second: AjolotesVerdeAzulNuevo_137
+  - first:
+      213: -3011026785041151557
+    second: AjolotesVerdeAzulNuevo_138
+  - first:
+      213: -2837813366565248329
+    second: AjolotesVerdeAzulNuevo_139
+  - first:
+      213: -5894871312738256512
+    second: AjolotesVerdeAzulNuevo_140
+  - first:
+      213: -1256860755118784697
+    second: AjolotesVerdeAzulNuevo_141
+  - first:
+      213: -4201862471092018357
+    second: AjolotesVerdeAzulNuevo_142
+  - first:
+      213: -2559280615142591452
+    second: AjolotesVerdeAzulNuevo_143
+  - first:
+      213: 7972027985477292825
+    second: AjolotesVerdeAzulNuevo_144
+  - first:
+      213: 1840346202288036006
+    second: AjolotesVerdeAzulNuevo_145
+  - first:
+      213: -8756453069608685732
+    second: AjolotesVerdeAzulNuevo_146
+  - first:
+      213: 2644472142338269341
+    second: AjolotesVerdeAzulNuevo_147
+  - first:
+      213: -4119843104668272992
+    second: AjolotesVerdeAzulNuevo_148
+  - first:
+      213: 2809732672506709897
+    second: AjolotesVerdeAzulNuevo_149
+  - first:
+      213: -3980667910324127464
+    second: AjolotesVerdeAzulNuevo_150
+  - first:
+      213: -2277102755914571894
+    second: AjolotesVerdeAzulNuevo_151
+  - first:
+      213: -7489023690321843593
+    second: AjolotesVerdeAzulNuevo_152
+  - first:
+      213: 5882308372695729764
+    second: AjolotesVerdeAzulNuevo_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 74
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2273
+        width: 635
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eea5048afe8ad530800000000000000
+      internalID: 3880571235541036775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 2348
+        width: 971
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79095e0ca4c45d40800000000000000
+      internalID: 5572294882218281342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_2
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2268
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554cca0d670075dc0800000000000000
+      internalID: -3650448462653373355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1577
+        width: 22
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beb26ba7ea2dd3b0800000000000000
+      internalID: -5486181596566208847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_4
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2273
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536ed1f26bd51b480800000000000000
+      internalID: -8885217552769358283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_5
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2273
+        width: 102
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0993822233872b840800000000000000
+      internalID: 5238381477597034896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_6
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 2273
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ca6864dbba62b40800000000000000
+      internalID: 5415204431379999859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_7
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2273
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da54221a68db31960800000000000000
+      internalID: 7571603784466580909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_8
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2264
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7a2c6edd3457ba0800000000000000
+      internalID: -6091888300610377823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_9
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2268
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba20a612ff67d1bb0800000000000000
+      internalID: -4963680376143084885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_10
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 2264
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb5e2c27951344c0800000000000000
+      internalID: -4304573079810581561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2097
+        width: 160
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315c8f3bf37c28a50800000000000000
+      internalID: 6521994286802191635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2099
+        width: 139
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a6c9fd7cd5505d0800000000000000
+      internalID: -3096966055715902843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_13
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2095
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0320dffbf9ac82120800000000000000
+      internalID: 2389382389789688368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_14
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2094
+        width: 67
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5147919496338a0800000000000000
+      internalID: -6326597288844847656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2094
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb5ae5e2882499a0800000000000000
+      internalID: -6227307842078352392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_16
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2094
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8e47a4d89463b20800000000000000
+      internalID: 3113757063561668807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_17
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 2094
+        width: 153
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803cdb0f20f82b410800000000000000
+      internalID: 1491411669404730120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_18
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2094
+        width: 140
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3344749d8e3f5f0800000000000000
+      internalID: -723979095175318572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_19
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2094
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bfba6b4501af7a0800000000000000
+      internalID: -6342739169169900652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_20
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 2094
+        width: 270
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3f6940a59fdd260800000000000000
+      internalID: 7124124350589367268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1958
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae71a7d08b3c99a70800000000000000
+      internalID: 8834307339331442666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1958
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e480fb2da46e27140800000000000000
+      internalID: 4716084968848033870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1953
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a526bb908062525d0800000000000000
+      internalID: -3088020153527737766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1958
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5481d2465522d9c50800000000000000
+      internalID: 6673527972981184581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_25
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1963
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e3c5caa6ea0f2f0800000000000000
+      internalID: -941060548938940839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_26
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1948
+        width: 164
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b840c807b907110800000000000000
+      internalID: 1256675203724118787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_27
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1953
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e30028d22931b9d0800000000000000
+      internalID: -2760362274783755293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_28
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1958
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25156c5a05dfb1a70800000000000000
+      internalID: 8798904819818844498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_29
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1963
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb3ef062240863e0800000000000000
+      internalID: -2060392283819328578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_30
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1953
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a2036771c4f5a0800000000000000
+      internalID: -6488348444627656046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_31
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1953
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b588aace6b08790800000000000000
+      internalID: -7529817449373869248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_32
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1982
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86059cc4c53527100800000000000000
+      internalID: 104237397273301096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_33
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1953
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8402b7a8c9c910110800000000000000
+      internalID: 1225432769773641800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_34
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1953
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d72ee6a4caa7530800000000000000
+      internalID: 3853581866856774938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_35
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1967
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554d19efbdb779830800000000000000
+      internalID: 4077864172406297685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_36
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1958
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9378e9712fcfc50800000000000000
+      internalID: 6700496528878287274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_37
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1953
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bc05dc11f164ab0800000000000000
+      internalID: -5024294172965680374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_38
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1958
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fcaa2c336cdc690800000000000000
+      internalID: -7580184672183070874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_39
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1967
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38b176fa445855b0800000000000000
+      internalID: -5379457073955096518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_40
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1963
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eadefb5f98718a0800000000000000
+      internalID: -6334442662293295556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1779
+        width: 342
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9585b32707613bf50800000000000000
+      internalID: 6895880126643001433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1761
+        width: 363
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf0acd3e803817f0800000000000000
+      internalID: -641709559420153934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1870
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f04eb72f73c20b50800000000000000
+      internalID: 6558018958299906289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_44
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1779
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64be9a36878d28030800000000000000
+      internalID: 3495594272372681542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_45
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1779
+        width: 191
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5107856d0ca9479b0800000000000000
+      internalID: -5083267926373928939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_46
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1779
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6f30ebecdbfa720800000000000000
+      internalID: 2859712984052397797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_47
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1779
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c9a68c7f9ceef50800000000000000
+      internalID: 6912684544116825160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_48
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1779
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296add73c25919820800000000000000
+      internalID: 2923281650288535186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_49
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1779
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5974b151070f7460800000000000000
+      internalID: 7241514428082190687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1610
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1d3145726cec640800000000000000
+      internalID: 5102233300073959847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_51
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1605
+        width: 181
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b63d85e26ef29ff0800000000000000
+      internalID: -30682546726685000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_52
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1605
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e54b9f1a00cdad50800000000000000
+      internalID: 6750262566210717159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_53
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1605
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ff9435aadbb78f0800000000000000
+      internalID: -541630790928564462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_54
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1605
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfaf6e9a2b557a70800000000000000
+      internalID: 8824059283507228604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_55
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1605
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36f95ec558e424e0800000000000000
+      internalID: -2007224078668532166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_56
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1607
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f34d642a721ab0800000000000000
+      internalID: -5038830736203582404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_57
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1610
+        width: 171
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41006213f1408ce0800000000000000
+      internalID: -1405050571498454710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_58
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1610
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752c128376315ddd0800000000000000
+      internalID: -2462040287243812265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1610
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1010731c20ae2fb20800000000000000
+      internalID: 3166850785547321601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_60
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1610
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a745d7f31eb4470800000000000000
+      internalID: 8380039194454817416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_61
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1610
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90cd0ccce86f9f00800000000000000
+      internalID: 1125733798110937246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_62
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1606
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f1a9c50486646d0800000000000000
+      internalID: -3006601075582427313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_63
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1610
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd48286d2aafe9c40800000000000000
+      internalID: 5521125770493330651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_64
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1431
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c0b760dbcaa7600800000000000000
+      internalID: 466875439243791435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1431
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ae0c1409427b440800000000000000
+      internalID: 4951466517314202147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_66
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1431
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdf28c7a980e18b0800000000000000
+      internalID: -5179693061822546439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_67
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1431
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65e3a6e36bdbc1b0800000000000000
+      internalID: -5635169286606297746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_68
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1431
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be493bdad582b78c0800000000000000
+      internalID: -4000559461177256725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_69
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1431
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1919f2c56e0a65530800000000000000
+      internalID: 3843436243256840593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_70
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1431
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f84e071e2bc30150800000000000000
+      internalID: 5837732940818041073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_71
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1427
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba52f80ce3a4260d0800000000000000
+      internalID: -3431098332723862101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_72
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1431
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca46f8f8da1037ef0800000000000000
+      internalID: -111743720804621140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_73
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1436
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c584ddc42ab000800000000000000
+      internalID: 52394812120614661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_74
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1431
+        width: 73
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ff69544e1d46d40800000000000000
+      internalID: 5576813016941788952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_75
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1431
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c72a9741ad4cd70800000000000000
+      internalID: 9062608131651173521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_76
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1431
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e0cd5d00ca37420800000000000000
+      internalID: 2626632127275077141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_77
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1431
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7f98ce62efad0e0800000000000000
+      internalID: -2244202021160093792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_78
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1243
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44196c3d4e55b4af0800000000000000
+      internalID: -411140499680358076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_79
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1243
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ffe990739d04950800000000000000
+      internalID: 6431379098292911911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_80
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1248
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c6ae42303bd2260800000000000000
+      internalID: 7074507415754533987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_81
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1248
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f476d3c59e43e00800000000000000
+      internalID: 1023699597696388988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_82
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1248
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b872cfa3045d00c0800000000000000
+      internalID: -4607934468919756624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_83
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1248
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a4338895528a620800000000000000
+      internalID: 2785517435996031534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_84
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1248
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd90d5a5f761ff10800000000000000
+      internalID: 2301735189309595123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_85
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1248
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd29a2374a972a160800000000000000
+      internalID: 7035319315119903452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_86
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1248
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d62dcafa80a53830800000000000000
+      internalID: 4050319958663309013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_87
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1248
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b383f2ee82d1367f0800000000000000
+      internalID: -620620262015027141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_88
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1248
+        width: 74
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8ba28cac0978d50800000000000000
+      internalID: 6739514567999273200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_89
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1248
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73f83c70336f5a10800000000000000
+      internalID: 1900346627667325821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_90
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1248
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c3dc18b097941c0800000000000000
+      internalID: -4518947660760269676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_91
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1196
+        width: 146
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec4c7c1202af4c0800000000000000
+      internalID: -4253051568640438636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_92
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 961
+        width: 202
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73473c688d5d2a4d0800000000000000
+      internalID: -3124700065491094473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_93
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1013
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fe3e1b760c53f40800000000000000
+      internalID: 5707679654360641329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_94
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1013
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9e55e16dfac6c40800000000000000
+      internalID: 5506969778534082978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_95
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1013
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f7236fff7951300800000000000000
+      internalID: 222250882227666818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_96
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1013
+        width: 98
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bcc3041ebe28330800000000000000
+      internalID: 3711788395584605079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_97
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1008
+        width: 102
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4a818173eb85340800000000000000
+      internalID: 4852837742328456441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_98
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 777
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b39beb837c01a200800000000000000
+      internalID: 189446349734515640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_99
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 726
+        width: 205
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a408a4e01290ce760800000000000000
+      internalID: 7488370317988626506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_100
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 777
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c263b696969ac20800000000000000
+      internalID: 3218219310224124975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_101
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 777
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e95303b3c434cd0800000000000000
+      internalID: -2575130744830190012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_102
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 777
+        width: 102
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79dc4bf76db92020800000000000000
+      internalID: 2317591737554229626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_103
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 777
+        width: 102
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44eccf3770282d10800000000000000
+      internalID: 2100964922711925839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_104
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 777
+        width: 108
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b78f28cfffedb90800000000000000
+      internalID: -7215048093006791789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_105
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 777
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c747867d6aa109960800000000000000
+      internalID: 7606609074509608060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_106
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 777
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb43067edb26f2e50800000000000000
+      internalID: 6786751731240809659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_107
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 777
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d261953ac8253a60800000000000000
+      internalID: 7653067990733251282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_108
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 782
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2223544a52a63f6f0800000000000000
+      internalID: -652060811136257502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_109
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 505
+        width: 129
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6990fe1bf1b22b0800000000000000
+      internalID: -5608354061879765308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_110
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 505
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f738dcecf9685070800000000000000
+      internalID: 8095336865224734707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_111
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 505
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5198325fd86f2b0800000000000000
+      internalID: -5551093406684867099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_112
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 618
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2671b490a80d5500800000000000000
+      internalID: 386474628806178348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_113
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 608
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4df9e6e0acdf3d0800000000000000
+      internalID: -3171156399264639758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_114
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 594
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b0cd581cc5eddf0800000000000000
+      internalID: -153583351039784093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_115
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 505
+        width: 109
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10db9a33e215533c0800000000000000
+      internalID: -4380505803670831871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_116
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 505
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c23f7bef953e540800000000000000
+      internalID: 5035967758873078936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_117
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 505
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0287f3b66718a0800000000000000
+      internalID: -6334481427735639543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_118
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 505
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b8631d696779f00800000000000000
+      internalID: 1123497022179412769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_119
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 505
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d55a52ea275c5b20800000000000000
+      internalID: 3124468083186095572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_120
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 558
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adcff27dbc23d010800000000000000
+      internalID: 1212361916882603428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_121
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 476
+        width: 204
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4776f9aa186839ca0800000000000000
+      internalID: -6011313186138003596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_122
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 458
+        width: 246
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3249f52110ec90c60800000000000000
+      internalID: 7784979934885155875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_123
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 505
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1c95339ddbcef00800000000000000
+      internalID: 1147500745639707119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_124
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 274
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc8deb80a50ca3d0800000000000000
+      internalID: -3194171848612016961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_125
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 274
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f5f3b0201ea0e30800000000000000
+      internalID: 4470632979013525403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_126
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 274
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d91616b7f2af420800000000000000
+      internalID: 2664494336504339870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_127
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0349286903ddd7df0800000000000000
+      internalID: -180745209271643088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_128
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa58b82f71ca7290800000000000000
+      internalID: -7891782645125195103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_129
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16d5474af14b2ed0800000000000000
+      internalID: -2437782230097603044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_130
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01442411ef8c2580800000000000000
+      internalID: -8850540970821533426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_131
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada902bed10a406f0800000000000000
+      internalID: -719273990113158438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_132
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 274
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3450291ad476301e0800000000000000
+      internalID: -2232827407124789949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_133
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 274
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a069172a94f3b8360800000000000000
+      internalID: 7172896417008162314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_134
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 274
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255ea630d13de66c0800000000000000
+      internalID: -4148146085196798638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_135
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 274
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e96acf334c59c50800000000000000
+      internalID: 6671454150580412032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_136
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 274
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37ce7b91fcf76a10800000000000000
+      internalID: 1902767482213418812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_137
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 274
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1271fbb7e9bfccf0800000000000000
+      internalID: -229760651030859234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_138
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 274
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb98f64971fa636d0800000000000000
+      internalID: -3011026785041151557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_139
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 275
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2e50b47cf0e98d0800000000000000
+      internalID: -2837813366565248329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_140
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089789ff5c5313ea0800000000000000
+      internalID: -5894871312738256512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_141
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 39
+        width: 81
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ff3076dcbbe8ee0800000000000000
+      internalID: -1256860755118784697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_142
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 39
+        width: 88
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43e38f485cffa5c0800000000000000
+      internalID: -4201862471092018357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_143
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 39
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f1e517db9b7cd0800000000000000
+      internalID: -2559280615142591452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_144
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 39
+        width: 146
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d8d5173552ae60800000000000000
+      internalID: 7972027985477292825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_145
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 39
+        width: 149
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81e13de193a8910800000000000000
+      internalID: 1840346202288036006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_146
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 16
+        width: 312
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f689da354da7680800000000000000
+      internalID: -8756453069608685732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 444
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d902d76076d03b420800000000000000
+      internalID: 2644472142338269341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_148
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 137
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6b7ef268063d6c0800000000000000
+      internalID: -4119843104668272992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_149
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 136
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9874292aafc2ef620800000000000000
+      internalID: 2809732672506709897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_150
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819755440a3d1c8c0800000000000000
+      internalID: -3980667910324127464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_151
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 73
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f16acab1b1660e0800000000000000
+      internalID: -2277102755914571894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_152
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 198
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa1e7d1a4a11890800000000000000
+      internalID: -7489023690321843593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AjolotesVerdeAzulNuevo_153
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466c5d59c4822a150800000000000000
+      internalID: 5882308372695729764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AjolotesVerdeAzulNuevo_0: 3880571235541036775
+      AjolotesVerdeAzulNuevo_1: 5572294882218281342
+      AjolotesVerdeAzulNuevo_10: -4304573079810581561
+      AjolotesVerdeAzulNuevo_100: 3218219310224124975
+      AjolotesVerdeAzulNuevo_101: -2575130744830190012
+      AjolotesVerdeAzulNuevo_102: 2317591737554229626
+      AjolotesVerdeAzulNuevo_103: 2100964922711925839
+      AjolotesVerdeAzulNuevo_104: -7215048093006791789
+      AjolotesVerdeAzulNuevo_105: 7606609074509608060
+      AjolotesVerdeAzulNuevo_106: 6786751731240809659
+      AjolotesVerdeAzulNuevo_107: 7653067990733251282
+      AjolotesVerdeAzulNuevo_108: -652060811136257502
+      AjolotesVerdeAzulNuevo_109: -5608354061879765308
+      AjolotesVerdeAzulNuevo_11: 6521994286802191635
+      AjolotesVerdeAzulNuevo_110: 8095336865224734707
+      AjolotesVerdeAzulNuevo_111: -5551093406684867099
+      AjolotesVerdeAzulNuevo_112: 386474628806178348
+      AjolotesVerdeAzulNuevo_113: -3171156399264639758
+      AjolotesVerdeAzulNuevo_114: -153583351039784093
+      AjolotesVerdeAzulNuevo_115: -4380505803670831871
+      AjolotesVerdeAzulNuevo_116: 5035967758873078936
+      AjolotesVerdeAzulNuevo_117: -6334481427735639543
+      AjolotesVerdeAzulNuevo_118: 1123497022179412769
+      AjolotesVerdeAzulNuevo_119: 3124468083186095572
+      AjolotesVerdeAzulNuevo_12: -3096966055715902843
+      AjolotesVerdeAzulNuevo_120: 1212361916882603428
+      AjolotesVerdeAzulNuevo_121: -6011313186138003596
+      AjolotesVerdeAzulNuevo_122: 7784979934885155875
+      AjolotesVerdeAzulNuevo_123: 1147500745639707119
+      AjolotesVerdeAzulNuevo_124: -3194171848612016961
+      AjolotesVerdeAzulNuevo_125: 4470632979013525403
+      AjolotesVerdeAzulNuevo_126: 2664494336504339870
+      AjolotesVerdeAzulNuevo_127: -180745209271643088
+      AjolotesVerdeAzulNuevo_128: -7891782645125195103
+      AjolotesVerdeAzulNuevo_129: -2437782230097603044
+      AjolotesVerdeAzulNuevo_13: 2389382389789688368
+      AjolotesVerdeAzulNuevo_130: -8850540970821533426
+      AjolotesVerdeAzulNuevo_131: -719273990113158438
+      AjolotesVerdeAzulNuevo_132: -2232827407124789949
+      AjolotesVerdeAzulNuevo_133: 7172896417008162314
+      AjolotesVerdeAzulNuevo_134: -4148146085196798638
+      AjolotesVerdeAzulNuevo_135: 6671454150580412032
+      AjolotesVerdeAzulNuevo_136: 1902767482213418812
+      AjolotesVerdeAzulNuevo_137: -229760651030859234
+      AjolotesVerdeAzulNuevo_138: -3011026785041151557
+      AjolotesVerdeAzulNuevo_139: -2837813366565248329
+      AjolotesVerdeAzulNuevo_14: -6326597288844847656
+      AjolotesVerdeAzulNuevo_140: -5894871312738256512
+      AjolotesVerdeAzulNuevo_141: -1256860755118784697
+      AjolotesVerdeAzulNuevo_142: -4201862471092018357
+      AjolotesVerdeAzulNuevo_143: -2559280615142591452
+      AjolotesVerdeAzulNuevo_144: 7972027985477292825
+      AjolotesVerdeAzulNuevo_145: 1840346202288036006
+      AjolotesVerdeAzulNuevo_146: -8756453069608685732
+      AjolotesVerdeAzulNuevo_147: 2644472142338269341
+      AjolotesVerdeAzulNuevo_148: -4119843104668272992
+      AjolotesVerdeAzulNuevo_149: 2809732672506709897
+      AjolotesVerdeAzulNuevo_15: -6227307842078352392
+      AjolotesVerdeAzulNuevo_150: -3980667910324127464
+      AjolotesVerdeAzulNuevo_151: -2277102755914571894
+      AjolotesVerdeAzulNuevo_152: -7489023690321843593
+      AjolotesVerdeAzulNuevo_153: 5882308372695729764
+      AjolotesVerdeAzulNuevo_16: 3113757063561668807
+      AjolotesVerdeAzulNuevo_17: 1491411669404730120
+      AjolotesVerdeAzulNuevo_18: -723979095175318572
+      AjolotesVerdeAzulNuevo_19: -6342739169169900652
+      AjolotesVerdeAzulNuevo_2: -3650448462653373355
+      AjolotesVerdeAzulNuevo_20: 7124124350589367268
+      AjolotesVerdeAzulNuevo_21: 8834307339331442666
+      AjolotesVerdeAzulNuevo_22: 4716084968848033870
+      AjolotesVerdeAzulNuevo_23: -3088020153527737766
+      AjolotesVerdeAzulNuevo_24: 6673527972981184581
+      AjolotesVerdeAzulNuevo_25: -941060548938940839
+      AjolotesVerdeAzulNuevo_26: 1256675203724118787
+      AjolotesVerdeAzulNuevo_27: -2760362274783755293
+      AjolotesVerdeAzulNuevo_28: 8798904819818844498
+      AjolotesVerdeAzulNuevo_29: -2060392283819328578
+      AjolotesVerdeAzulNuevo_3: -5486181596566208847
+      AjolotesVerdeAzulNuevo_30: -6488348444627656046
+      AjolotesVerdeAzulNuevo_31: -7529817449373869248
+      AjolotesVerdeAzulNuevo_32: 104237397273301096
+      AjolotesVerdeAzulNuevo_33: 1225432769773641800
+      AjolotesVerdeAzulNuevo_34: 3853581866856774938
+      AjolotesVerdeAzulNuevo_35: 4077864172406297685
+      AjolotesVerdeAzulNuevo_36: 6700496528878287274
+      AjolotesVerdeAzulNuevo_37: -5024294172965680374
+      AjolotesVerdeAzulNuevo_38: -7580184672183070874
+      AjolotesVerdeAzulNuevo_39: -5379457073955096518
+      AjolotesVerdeAzulNuevo_4: -8885217552769358283
+      AjolotesVerdeAzulNuevo_40: -6334442662293295556
+      AjolotesVerdeAzulNuevo_41: 6895880126643001433
+      AjolotesVerdeAzulNuevo_42: -641709559420153934
+      AjolotesVerdeAzulNuevo_43: 6558018958299906289
+      AjolotesVerdeAzulNuevo_44: 3495594272372681542
+      AjolotesVerdeAzulNuevo_45: -5083267926373928939
+      AjolotesVerdeAzulNuevo_46: 2859712984052397797
+      AjolotesVerdeAzulNuevo_47: 6912684544116825160
+      AjolotesVerdeAzulNuevo_48: 2923281650288535186
+      AjolotesVerdeAzulNuevo_49: 7241514428082190687
+      AjolotesVerdeAzulNuevo_5: 5238381477597034896
+      AjolotesVerdeAzulNuevo_50: 5102233300073959847
+      AjolotesVerdeAzulNuevo_51: -30682546726685000
+      AjolotesVerdeAzulNuevo_52: 6750262566210717159
+      AjolotesVerdeAzulNuevo_53: -541630790928564462
+      AjolotesVerdeAzulNuevo_54: 8824059283507228604
+      AjolotesVerdeAzulNuevo_55: -2007224078668532166
+      AjolotesVerdeAzulNuevo_56: -5038830736203582404
+      AjolotesVerdeAzulNuevo_57: -1405050571498454710
+      AjolotesVerdeAzulNuevo_58: -2462040287243812265
+      AjolotesVerdeAzulNuevo_59: 3166850785547321601
+      AjolotesVerdeAzulNuevo_6: 5415204431379999859
+      AjolotesVerdeAzulNuevo_60: 8380039194454817416
+      AjolotesVerdeAzulNuevo_61: 1125733798110937246
+      AjolotesVerdeAzulNuevo_62: -3006601075582427313
+      AjolotesVerdeAzulNuevo_63: 5521125770493330651
+      AjolotesVerdeAzulNuevo_64: 466875439243791435
+      AjolotesVerdeAzulNuevo_65: 4951466517314202147
+      AjolotesVerdeAzulNuevo_66: -5179693061822546439
+      AjolotesVerdeAzulNuevo_67: -5635169286606297746
+      AjolotesVerdeAzulNuevo_68: -4000559461177256725
+      AjolotesVerdeAzulNuevo_69: 3843436243256840593
+      AjolotesVerdeAzulNuevo_7: 7571603784466580909
+      AjolotesVerdeAzulNuevo_70: 5837732940818041073
+      AjolotesVerdeAzulNuevo_71: -3431098332723862101
+      AjolotesVerdeAzulNuevo_72: -111743720804621140
+      AjolotesVerdeAzulNuevo_73: 52394812120614661
+      AjolotesVerdeAzulNuevo_74: 5576813016941788952
+      AjolotesVerdeAzulNuevo_75: 9062608131651173521
+      AjolotesVerdeAzulNuevo_76: 2626632127275077141
+      AjolotesVerdeAzulNuevo_77: -2244202021160093792
+      AjolotesVerdeAzulNuevo_78: -411140499680358076
+      AjolotesVerdeAzulNuevo_79: 6431379098292911911
+      AjolotesVerdeAzulNuevo_8: -6091888300610377823
+      AjolotesVerdeAzulNuevo_80: 7074507415754533987
+      AjolotesVerdeAzulNuevo_81: 1023699597696388988
+      AjolotesVerdeAzulNuevo_82: -4607934468919756624
+      AjolotesVerdeAzulNuevo_83: 2785517435996031534
+      AjolotesVerdeAzulNuevo_84: 2301735189309595123
+      AjolotesVerdeAzulNuevo_85: 7035319315119903452
+      AjolotesVerdeAzulNuevo_86: 4050319958663309013
+      AjolotesVerdeAzulNuevo_87: -620620262015027141
+      AjolotesVerdeAzulNuevo_88: 6739514567999273200
+      AjolotesVerdeAzulNuevo_89: 1900346627667325821
+      AjolotesVerdeAzulNuevo_9: -4963680376143084885
+      AjolotesVerdeAzulNuevo_90: -4518947660760269676
+      AjolotesVerdeAzulNuevo_91: -4253051568640438636
+      AjolotesVerdeAzulNuevo_92: -3124700065491094473
+      AjolotesVerdeAzulNuevo_93: 5707679654360641329
+      AjolotesVerdeAzulNuevo_94: 5506969778534082978
+      AjolotesVerdeAzulNuevo_95: 222250882227666818
+      AjolotesVerdeAzulNuevo_96: 3711788395584605079
+      AjolotesVerdeAzulNuevo_97: 4852837742328456441
+      AjolotesVerdeAzulNuevo_98: 189446349734515640
+      AjolotesVerdeAzulNuevo_99: 7488370317988626506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

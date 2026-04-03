@@ -7,15 +7,16 @@ TagManager:
   - Ground
   - Enemy
   - Wall
+  - Platform
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - EnemyBall
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Suelo
   - 
   - 
   - 

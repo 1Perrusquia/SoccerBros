@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -5607580869206818610, guid: 577dd611deac95a4a95cc4366d27bfb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1.7
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -156,7 +156,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.49999997
+  m_Radius: 0.5
 --- !u!114 &1657090961708791655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,4 +169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a37db50e79e4154298e2845fc4648c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Snowball
-  speed: 8
+  forwardSpeed: 8
+  upwardForce: 3
+  lifeTime: 1.5
