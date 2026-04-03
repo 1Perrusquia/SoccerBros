@@ -14,21 +14,27 @@ public class Enemy : MonoBehaviour
     [Header("Movement")]
     public float baseWalkSpeed = 2f;
     public float rollSpeed = 10f;
+    public float jumpForce = 12f; // <-- Ajustado para que alcance a subir bien
     private float currentWalkSpeed;
+    private int direction = 1;
+
+    [Header("Inteligencia (Sensor de Abismos)")]
+    public Transform detectorSuelo; 
+    public float distanciaDeteccion = 0.5f;
+    public LayerMask capaSuelo;
 
     [Header("Ball System (Nieve/Balón)")]
     public int hitsToFreeze = 3;
     private int currentHits = 0;
 
     [Header("Thawing (Descongelamiento)")]
-    public float thawTimeWalk = 3f; // Segundos para perder un impacto si sigue caminando
-    public float thawTimeBall = 5f; // Segundos para liberarse si ya es un balón
+    public float thawTimeWalk = 3f;
+    public float thawTimeBall = 5f;
     private float thawTimer = 0f;
 
     [Header("Rolling")]
     public int maxBounces = 3;
     private int bounceCount = 0;
-    private int direction = 1;
     private int comboCount = 0;
 
     private Rigidbody2D rb;
@@ -41,6 +47,8 @@ public class Enemy : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         myCollider = GetComponent<Collider2D>();
         currentWalkSpeed = baseWalkSpeed;
+
+        ActualizarMirada();
     }
 
     void Update()
@@ -50,12 +58,53 @@ public class Enemy : MonoBehaviour
         switch (currentState)
         {
             case State.Walking:
+                // 1. Moverse
                 rb.linearVelocity = new Vector2(direction * currentWalkSpeed, rb.linearVelocity.y);
+
+                // Verificamos si tocamos piso
+                bool tocandoPiso = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, capaSuelo);
+                
+                if (!tocandoPiso) 
+                {
+                    Debug.Log("ERROR: No estoy tocando piso. Revisa la capa del suelo.");
+                }
+
+                // 2. Abismos
+                if (detectorSuelo != null)
+                {
+                    RaycastHit2D haySuelo = Physics2D.Raycast(detectorSuelo.position, Vector2.down, distanciaDeteccion, capaSuelo);
+                    if (haySuelo.collider == false && tocandoPiso)
+                    {
+                        Girar();
+                    }
+                }
+
+                // 3. Radar hacia arriba
+                if (tocandoPiso)
+                {
+                    RaycastHit2D plataformaArriba = Physics2D.Raycast(transform.position, Vector2.up, 3.0f, capaSuelo);
+                    
+                    if (plataformaArriba.collider != null)
+                    {
+                        if (plataformaArriba.distance > 1f)
+                        {
+                            Debug.Log("¡Veo una plataforma arriba! Preparando salto...");
+                            if (Random.Range(0, 20) < 1) 
+                            {
+                                Debug.Log("¡BRINCO!");
+                                Saltar();
+                            }
+                        }
+                        else
+                        {
+                            Debug.Log("La plataforma me está aplastando la cabeza (muy cerca).");
+                        }
+                    }
+                }
                 break;
 
             case State.Ball:
                 rb.linearVelocity = Vector2.zero;
-                // Efecto visual retro: El balón "tiembla" cuando está a punto de liberarse
                 if (thawTimer > thawTimeBall * 0.7f)
                 {
                     transform.position += new Vector3(Mathf.Sin(Time.time * 50f) * 0.02f, 0, 0);
@@ -68,10 +117,28 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // ⏱ Sistema de tiempo para perder impactos
+    void Saltar()
+    {
+        // Le damos un empujón hacia arriba manteniendo su velocidad horizontal
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+    }
+
+    void Girar()
+    {
+        direction *= -1;
+        ActualizarMirada();
+    }
+
+    void ActualizarMirada()
+    {
+        if (sr != null)
+        {
+            sr.flipX = (direction == -1);
+        }
+    }
+
     void HandleThawing()
     {
-        // Si no tiene impactos o ya está rodando como ataque, no se descongela
         if (currentHits == 0 || currentState == State.Rolling) return;
 
         thawTimer += Time.deltaTime;
@@ -85,19 +152,17 @@ public class Enemy : MonoBehaviour
             if (currentState == State.Ball)
             {
                 currentState = State.Walking;
-                // En el arcade original, salen furiosos. Podríamos aumentar su velocidad aquí luego.
             }
 
             UpdateVisualsAndSpeed();
         }
     }
 
-    // ⚽ Recibe impacto de balonazo
     public void TakeSnowHit()
     {
         if (currentState != State.Walking && currentState != State.Ball) return;
 
-        thawTimer = 0f; // Reseteamos el reloj porque acaba de recibir un golpe
+        thawTimer = 0f; 
 
         if (currentHits < hitsToFreeze)
         {
@@ -105,7 +170,6 @@ public class Enemy : MonoBehaviour
             if (currentHits >= hitsToFreeze)
             {
                 currentState = State.Ball;
-                // Ajustamos la posición para que quede a ras de suelo y no flote al ser balón
                 rb.linearVelocity = Vector2.zero;
             }
         }
@@ -113,23 +177,19 @@ public class Enemy : MonoBehaviour
         UpdateVisualsAndSpeed();
     }
 
-    // 🎨 Actualiza color y velocidad según el daño
     void UpdateVisualsAndSpeed()
     {
-        // Ralentización progresiva: nunca llega a cero hasta ser balón (mínimo 20% de velocidad)
         float slowFactor = 1f - ((float)currentHits / hitsToFreeze);
         currentWalkSpeed = baseWalkSpeed * Mathf.Max(slowFactor, 0.2f);
-
-        // Cambio visual progresivo hacia cyan (o el color del balón de la copa del mundo)
         sr.color = Color.Lerp(Color.white, Color.cyan, (float)currentHits / hitsToFreeze);
     }
 
-    // 🦵 Patada (Se mantiene igual a tu lógica original)
     public void Kick(int dir)
     {
         if (currentState != State.Ball) return;
 
         direction = dir;
+        ActualizarMirada(); 
         bounceCount = 0;
         comboCount = 0;
         currentState = State.Rolling;
@@ -149,7 +209,7 @@ public class Enemy : MonoBehaviour
     {
         if (currentState == State.Rolling && collision.gameObject.CompareTag("Wall"))
         {
-            direction *= -1;
+            Girar();
             bounceCount++;
 
             if (bounceCount >= maxBounces)
@@ -169,18 +229,16 @@ public class Enemy : MonoBehaviour
                 {
                     GameManager.Instance.AddScore(points);
                     GameManager.Instance.ShowFloatingText("+" + points, collision.transform.position);
+                    GameManager.Instance.CheckLevelClear();
                 }
 
                 Destroy(collision.gameObject);
-
-                if (GameManager.Instance != null)
-                    GameManager.Instance.CheckLevelClear();
             }
         }
 
-        if (currentState == State.Walking && collision.gameObject.CompareTag("Wall"))
+        if (currentState == State.Walking && (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Enemy")))
         {
-            direction *= -1;
+            Girar();
         }
     }
 

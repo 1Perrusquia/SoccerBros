@@ -8,9 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public GameObject snowballPrefab;
     public Transform firePoint;
 
+    [Header("Inmunidad")]
+    public float tiempoInmunidad = 2.5f; // Tiempo que serás intocable al aparecer
+    private bool esInmune = false;
+    private SpriteRenderer playerSR; // Para hacer el efecto de parpadeo
+
     private bool facingRight = true;
     private Rigidbody2D rb;
-    private Animator anim; // <--- AGREGADO: La variable de nuestro cerebro
+    private Animator anim; 
     private bool isGrounded;
     private bool isDead = false;
 
@@ -23,8 +28,12 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // <--- AGREGADO: Enlazamos el componente al iniciar
+        anim = GetComponent<Animator>(); 
+        playerSR = GetComponent<SpriteRenderer>(); // Enlazamos el dibujo
         originalGravity = rb.gravityScale;
+
+        // Activamos la inmunidad nada más nacer
+        StartCoroutine(ActivarInmunidad());
     }
 
     void Update()
@@ -43,11 +52,9 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        // <--- AGREGADO: Lógica para voltear el dibujo visualmente
         if (moveX > 0 && !facingRight) Flip();
         else if (moveX < 0 && facingRight) Flip();
 
-        // <--- AGREGADO: Le mandamos la velocidad y si toca el suelo al Animator en tiempo real
         anim.SetFloat("Speed", Mathf.Abs(moveX));
         anim.SetBool("isGrounded", isGrounded);
 
@@ -62,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
                 else
                 {
                     isGrounded = false;
-                    anim.SetBool("isGrounded", false); // <--- AGREGADO: Le avisa al cerebro al instante para reaccionar rápido
+                    anim.SetBool("isGrounded", false); 
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
@@ -74,7 +81,25 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // <--- AGREGADO: Función que voltea el sprite del ajolote hacia la izquierda/derecha
+    // Rutina de parpadeo de invencibilidad
+    private IEnumerator ActivarInmunidad()
+    {
+        esInmune = true;
+        float tiempoPasado = 0;
+        
+        // Mientras no se acabe el tiempo, parpadea
+        while (tiempoPasado < tiempoInmunidad)
+        {
+            playerSR.enabled = !playerSR.enabled; 
+            yield return new WaitForSeconds(0.15f); // Velocidad del parpadeo
+            tiempoPasado += 0.15f;
+        }
+        
+        // Al terminar, aseguramos que quede visible y sea mortal otra vez
+        playerSR.enabled = true; 
+        esInmune = false;
+    }
+
     void Flip()
     {
         facingRight = !facingRight;
@@ -96,14 +121,14 @@ public class PlayerMovement : MonoBehaviour
                 if (enemy != null && enemy.currentState == Enemy.State.Ball)
                 {
                     int dir = facingRight ? 1 : -1;
-                    anim.SetTrigger("Kick"); // <--- AGREGADO: Activa la animación de la patada
+                    anim.SetTrigger("Kick"); 
                     enemy.Kick(dir);
                     return;
                 }
             }
         }
 
-        anim.SetTrigger("Shot"); // <--- AGREGADO: Activa la animación de escupir/disparar
+        anim.SetTrigger("Shot"); 
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
         Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
         snowball.GetComponent<Snowball>().SetDirection(dirShoot);
@@ -124,19 +149,18 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return; // Evita morir dos veces
+        if (isDead) return; 
         isDead = true;
         rb.linearVelocity = Vector2.zero;
 
-        anim.SetTrigger("Die"); // <--- AGREGADO: Dispara la animación de muerte
+        anim.SetTrigger("Die"); 
 
-        StartCoroutine(DieRoutine()); // <--- AGREGADO: Cambiado a corrutina para darle tiempo a la animación
+        StartCoroutine(DieRoutine()); 
     }
 
-    // <--- AGREGADO: Espera un momento antes de desaparecer al jugador
     private IEnumerator DieRoutine()
     {
-        yield return new WaitForSeconds(1.5f); // Espera segundo y medio
+        yield return new WaitForSeconds(1.5f); 
         gameObject.SetActive(false);
 
         if (GameManager.Instance != null)
@@ -168,6 +192,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            // SI SOMOS INMUNES, IGNORAMOS EL CHOQUE Y SALIMOS DE AQUÍ
+            if (esInmune) return; 
+
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
             if (enemy != null && enemy.currentState == Enemy.State.Walking)
             {
@@ -201,7 +228,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;
 
-        anim.SetTrigger("Transition"); // <--- AGREGADO: Dispara la animación de aparición/transición
+        anim.SetTrigger("Transition"); 
 
         targetTransitionPosition = new Vector3(transform.position.x, targetY, transform.position.z);
     }
