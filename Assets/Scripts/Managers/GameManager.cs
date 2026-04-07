@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,13 +21,11 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     public Transform spawnPoint;
 
-    // --- VARIABLES DE TRANSICIÓN ---
     [Header("Level Transition")]
     public Transform mainCamera;
     public float cameraHeight = 10f;
     public float transitionSpeed = 5f;
 
-    // Ahora es pública para que FloatingText pueda saber cuándo pausarse
     [HideInInspector]
     public bool isTransitioningLevel = false;
 
@@ -37,23 +34,21 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        // Singleton pattern
         if (Instance == null)
             Instance = this;
         else
+        {
             Destroy(gameObject);
+            return; // Importante para evitar que el código siga ejecutándose en la instancia destruida
+        }
 
-        // --- SOLUCIÓN AL ERROR ---
-        // Si olvidaste asignar la cámara en el Inspector, Unity la busca automáticamente.
         if (mainCamera == null)
         {
             if (Camera.main != null)
-            {
                 mainCamera = Camera.main.transform;
-            }
             else
-            {
-                UnityEngine.Debug.Log("¡No hay ninguna cámara etiquetada como 'MainCamera' en la escena!");
-            }
+                UnityEngine.Debug.LogError("¡No hay ninguna cámara etiquetada como 'MainCamera'!");
         }
     }
 
@@ -68,10 +63,13 @@ public class GameManager : MonoBehaviour
     {
         if (isTransitioningLevel && mainCamera != null)
         {
+            // Movimiento suave de la cámara hacia el objetivo
             mainCamera.position = Vector3.MoveTowards(mainCamera.position, cameraTargetPosition, transitionSpeed * Time.deltaTime);
 
             if (Vector3.Distance(mainCamera.position, cameraTargetPosition) < 0.01f)
             {
+                // Aseguramos la posición final exacta
+                mainCamera.position = cameraTargetPosition;
                 FinishLevelTransition();
             }
         }
@@ -79,6 +77,9 @@ public class GameManager : MonoBehaviour
 
     void SpawnPlayer()
     {
+        // Limpieza de seguridad por si ya existe un jugador
+        if (currentPlayer != null) Destroy(currentPlayer);
+
         currentPlayer = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity);
     }
 
@@ -88,13 +89,9 @@ public class GameManager : MonoBehaviour
         UpdateLivesUI();
 
         if (lives <= 0)
-        {
             GameOver();
-        }
         else
-        {
             Invoke(nameof(SpawnPlayer), 1.5f);
-        }
     }
 
     void GameOver()
@@ -129,11 +126,10 @@ public class GameManager : MonoBehaviour
 
     public void ShowFloatingText(string text, Vector3 position)
     {
-        if (floatingTextPrefab == null)
-            return;
+        if (floatingTextPrefab == null) return;
 
         GameObject ft = Instantiate(floatingTextPrefab, position, Quaternion.identity);
-
+        // Nota: Asegúrate de que el script en el prefab se llame exactamente 'FloatingText'
         FloatingText floating = ft.GetComponent<FloatingText>();
         if (floating != null)
             floating.SetText(text);
@@ -141,49 +137,61 @@ public class GameManager : MonoBehaviour
 
     public void CheckLevelClear()
     {
-        Invoke(nameof(VerifyEnemies), 0.1f);
+        // Cancelamos invocaciones previas para evitar que se ejecute múltiples veces si mueren 2 enemigos a la vez
+        CancelInvoke(nameof(VerifyEnemies));
+        Invoke(nameof(VerifyEnemies), 0.2f);
     }
 
     void VerifyEnemies()
     {
-        // Encontramos a todos los enemigos de toda la escena
-        Enemy[] allEnemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+        // Optimizamos: Si ya estamos cambiando de nivel, no tiene sentido contar
+        if (isTransitioningLevel) return;
 
+        Enemy[] allEnemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
         int enemiesInCurrentScreen = 0;
 
-        // Calculamos los límites del nivel actual basándonos en la altura de la cámara
         float currentCameraY = mainCamera.position.y;
-        float halfCameraHeight = cameraHeight / 2f; // Mitad de la altura para calcular arriba y abajo
+        float halfHeight = cameraHeight / 2f;
 
         foreach (Enemy enemy in allEnemies)
         {
-            // Solo contamos a los enemigos que están en el rango de visión vertical de la cámara actual
-            // Le damos un margen extra de 1f por si algún enemigo salta o está ligeramente fuera
-            if (enemy.transform.position.y < (currentCameraY + halfCameraHeight + 1f) &&
-                enemy.transform.position.y > (currentCameraY - halfCameraHeight - 1f))
+            // CORRECCIÓN: Verificamos que el enemigo no sea nulo (por si se destruyó en este frame)
+            if (enemy == null) continue;
+
+            float enemyY = enemy.transform.position.y;
+            // Solo contamos enemigos dentro de la "franja" actual de la cámara
+            if (enemyY < (currentCameraY + halfHeight) && enemyY > (currentCameraY - halfHeight))
             {
                 enemiesInCurrentScreen++;
             }
         }
 
-        // Ahora comprobamos si limpiamos la pantalla actual
-        if (enemiesInCurrentScreen == 0 && !isTransitioningLevel)
+        if (enemiesInCurrentScreen == 0)
         {
             ShowFloatingText("LEVEL CLEAR!", spawnPoint.position + Vector3.up * 3f);
-            Invoke(nameof(StartLevelTransition), 2f); // Esperamos 2 segundos antes de subir
+            Invoke(nameof(StartLevelTransition), 2f);
         }
     }
 
     void StartLevelTransition()
     {
+        if (isTransitioningLevel) return;
+
         isTransitioningLevel = true;
         cameraTargetPosition = mainCamera.position + new Vector3(0, cameraHeight, 0);
+
+        // El nuevo punto de spawn ahora está un piso arriba
         spawnPoint.position += new Vector3(0, cameraHeight, 0);
 
         if (currentPlayer != null)
         {
-            float playerNewY = currentPlayer.transform.position.y + cameraHeight;
-            currentPlayer.GetComponent<PlayerMovement>().StartTransitionToNextLevel(playerNewY);
+            // CORRECCIÓN: Verificamos que el componente existe antes de llamar a la función
+            var movement = currentPlayer.GetComponent<PlayerMovement>();
+            if (movement != null)
+            {
+                float playerNewY = currentPlayer.transform.position.y + cameraHeight;
+                movement.StartTransitionToNextLevel(playerNewY);
+            }
         }
     }
 
@@ -193,7 +201,9 @@ public class GameManager : MonoBehaviour
 
         if (currentPlayer != null)
         {
-            currentPlayer.GetComponent<PlayerMovement>().EndTransition();
+            var movement = currentPlayer.GetComponent<PlayerMovement>();
+            if (movement != null)
+                movement.EndTransition();
         }
     }
 }

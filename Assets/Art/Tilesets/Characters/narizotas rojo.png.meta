@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 7db8b0205eb93164d81455c01d8305f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3890900355269341888
+    second: narizotas rojo_0
+  - first:
+      213: 2926022617722214621
+    second: narizotas rojo_1
+  - first:
+      213: -179823649365859839
+    second: narizotas rojo_2
+  - first:
+      213: 7439345292345420385
+    second: narizotas rojo_3
+  - first:
+      213: -3312811430608201055
+    second: narizotas rojo_4
+  - first:
+      213: 8611380015034774139
+    second: narizotas rojo_5
+  - first:
+      213: -7826440516063155903
+    second: narizotas rojo_6
+  - first:
+      213: -2267337141459431398
+    second: narizotas rojo_7
+  - first:
+      213: -5305722123488751559
+    second: narizotas rojo_8
+  - first:
+      213: 8375055863021858654
+    second: narizotas rojo_9
+  - first:
+      213: 6808809985816491943
+    second: narizotas rojo_10
+  - first:
+      213: 5676234037545943824
+    second: narizotas rojo_11
+  - first:
+      213: 1533948168513486161
+    second: narizotas rojo_12
+  - first:
+      213: -8171073967619198702
+    second: narizotas rojo_13
+  - first:
+      213: 6627007326789469876
+    second: narizotas rojo_14
+  - first:
+      213: 3337517571992278170
+    second: narizotas rojo_15
+  - first:
+      213: 2716067726005522966
+    second: narizotas rojo_16
+  - first:
+      213: 1426533154070862363
+    second: narizotas rojo_17
+  - first:
+      213: 340267231172453328
+    second: narizotas rojo_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: narizotas rojo_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 314
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2354c12414ff530800000000000000
+      internalID: 3890900355269341888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 314
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8571e61125b9820800000000000000
+      internalID: 2926022617722214621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 314
+        width: 192
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1026559f753218df0800000000000000
+      internalID: -179823649365859839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 314
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a29b7c02ddd3760800000000000000
+      internalID: 7439345292345420385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 314
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa9ebe4e878602d0800000000000000
+      internalID: -3312811430608201055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 93
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72bb06af74c18770800000000000000
+      internalID: 8611380015034774139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 122
+        width: 93
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149a45021d5e26390800000000000000
+      internalID: -7826440516063155903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 218
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10d249f1ecc880e0800000000000000
+      internalID: -2267337141459431398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 218
+        width: 183
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9309580f6d94e56b0800000000000000
+      internalID: -5305722123488751559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 218
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f68793fec2a3470800000000000000
+      internalID: 8375055863021858654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 26
+        width: 96
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a779b38b90cd7e50800000000000000
+      internalID: 6808809985816491943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_11
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 125
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01348ed78c806ce40800000000000000
+      internalID: 5676234037545943824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 119
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7b186bbda94510800000000000000
+      internalID: 1533948168513486161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 125
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211bd96c4838a9e80800000000000000
+      internalID: -8171073967619198702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 20
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b682356d0cd7fb50800000000000000
+      internalID: 6627007326789469876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 20
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94593e7c8e315e20800000000000000
+      internalID: 3337517571992278170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 26
+        width: 93
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612567ad43961b520800000000000000
+      internalID: 2716067726005522966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 26
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a16b478501cc310800000000000000
+      internalID: 1426533154070862363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: narizotas rojo_18
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 26
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d36db27e3fd8b400800000000000000
+      internalID: 340267231172453328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8193bc6243534f744b8904200fef471f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      narizotas rojo_0: 3890900355269341888
+      narizotas rojo_1: 2926022617722214621
+      narizotas rojo_10: 6808809985816491943
+      narizotas rojo_11: 5676234037545943824
+      narizotas rojo_12: 1533948168513486161
+      narizotas rojo_13: -8171073967619198702
+      narizotas rojo_14: 6627007326789469876
+      narizotas rojo_15: 3337517571992278170
+      narizotas rojo_16: 2716067726005522966
+      narizotas rojo_17: 1426533154070862363
+      narizotas rojo_18: 340267231172453328
+      narizotas rojo_2: -179823649365859839
+      narizotas rojo_3: 7439345292345420385
+      narizotas rojo_4: -3312811430608201055
+      narizotas rojo_5: 8611380015034774139
+      narizotas rojo_6: -7826440516063155903
+      narizotas rojo_7: -2267337141459431398
+      narizotas rojo_8: -5305722123488751559
+      narizotas rojo_9: 8375055863021858654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
