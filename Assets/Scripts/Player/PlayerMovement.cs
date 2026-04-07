@@ -8,9 +8,19 @@ public class PlayerMovement : MonoBehaviour
     public GameObject snowballPrefab;
     public Transform firePoint;
 
+    // <--- AGREGADO PARA POWER UPS: Guardamos los valores originales
+    private float defaultMoveSpeed;
+    private float defaultJumpForce;
+
+    // <--- AGREGADO PARA POWER UPS: Banderas para saber qué tomamos
+    [Header("Estado de Power Ups")]
+    public bool hasRedPotion = false;
+    public bool hasBluePotion = false;
+    public bool hasYellowPotion = false;
+
     private bool facingRight = true;
     private Rigidbody2D rb;
-    private Animator anim; // <--- AGREGADO: La variable de nuestro cerebro
+    private Animator anim;
     private bool isGrounded;
     private bool isDead = false;
 
@@ -23,8 +33,12 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // <--- AGREGADO: Enlazamos el componente al iniciar
+        anim = GetComponent<Animator>();
         originalGravity = rb.gravityScale;
+
+        // <--- AGREGADO PARA POWER UPS: Guardamos la velocidad normal al iniciar el nivel
+        defaultMoveSpeed = moveSpeed;
+        defaultJumpForce = jumpForce;
     }
 
     void Update()
@@ -38,16 +52,14 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        // <--- AGREGADO: Lógica para voltear el dibujo visualmente
         if (moveX > 0 && !facingRight) Flip();
         else if (moveX < 0 && facingRight) Flip();
 
-        // <--- AGREGADO: Le mandamos la velocidad y si toca el suelo al Animator en tiempo real
         anim.SetFloat("Speed", Mathf.Abs(moveX));
         anim.SetBool("isGrounded", isGrounded);
 
@@ -62,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
                 else
                 {
                     isGrounded = false;
-                    anim.SetBool("isGrounded", false); // <--- AGREGADO: Le avisa al cerebro al instante para reaccionar rápido
+                    anim.SetBool("isGrounded", false);
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
@@ -74,7 +86,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // <--- AGREGADO: Función que voltea el sprite del ajolote hacia la izquierda/derecha
     void Flip()
     {
         facingRight = !facingRight;
@@ -96,17 +107,23 @@ public class PlayerMovement : MonoBehaviour
                 if (enemy != null && enemy.currentState == Enemy.State.Ball)
                 {
                     int dir = facingRight ? 1 : -1;
-                    anim.SetTrigger("Kick"); // <--- AGREGADO: Activa la animación de la patada
+                    anim.SetTrigger("Kick");
                     enemy.Kick(dir);
                     return;
                 }
             }
         }
 
-        anim.SetTrigger("Shot"); // <--- AGREGADO: Activa la animación de escupir/disparar
+        anim.SetTrigger("Shot");
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
         Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
-        snowball.GetComponent<Snowball>().SetDirection(dirShoot);
+
+        Snowball snowballScript = snowball.GetComponent<Snowball>();
+        snowballScript.SetDirection(dirShoot);
+
+        // <--- AGREGADO PARA POWER UPS: Le avisamos a la bola de nieve qué pociones tenemos
+        // (Nota: Tendremos que agregar esta función en tu script 'Snowball.cs' después)
+        snowballScript.ApplyPowerUpEffects(hasBluePotion, hasYellowPotion);
     }
 
     private IEnumerator DisableCollision()
@@ -124,19 +141,26 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return; // Evita morir dos veces
+        if (isDead) return;
         isDead = true;
         rb.linearVelocity = Vector2.zero;
 
-        anim.SetTrigger("Die"); // <--- AGREGADO: Dispara la animación de muerte
+        anim.SetTrigger("Die");
 
-        StartCoroutine(DieRoutine()); // <--- AGREGADO: Cambiado a corrutina para darle tiempo a la animación
+        // <--- AGREGADO PARA POWER UPS: Al morir, perdemos todos los poderes y volvemos a la normalidad
+        hasRedPotion = false;
+        hasBluePotion = false;
+        hasYellowPotion = false;
+        moveSpeed = defaultMoveSpeed;
+        jumpForce = defaultJumpForce;
+        anim.SetBool("isFastRun", false); // Apagamos la animación de correr rápido
+
+        StartCoroutine(DieRoutine());
     }
 
-    // <--- AGREGADO: Espera un momento antes de desaparecer al jugador
     private IEnumerator DieRoutine()
     {
-        yield return new WaitForSeconds(1.5f); // Espera segundo y medio
+        yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
 
         if (GameManager.Instance != null)
@@ -201,7 +225,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;
 
-        anim.SetTrigger("Transition"); // <--- AGREGADO: Dispara la animación de aparición/transición
+        anim.SetTrigger("Transition");
 
         targetTransitionPosition = new Vector3(transform.position.x, targetY, transform.position.z);
     }
@@ -211,5 +235,39 @@ public class PlayerMovement : MonoBehaviour
         isTransitioning = false;
         rb.gravityScale = originalGravity;
         GetComponent<Collider2D>().enabled = true;
+    }
+
+    // =========================================================================
+    // <--- AGREGADO PARA POWER UPS: La función que recibe el ítem cuando lo tocas
+    // =========================================================================
+    public void ApplyPowerUp(PowerUp.Type type, int score)
+    {
+        switch (type)
+        {
+            case PowerUp.Type.Roja:
+                hasRedPotion = true;
+                moveSpeed = defaultMoveSpeed * 1.5f; // 50% más rápido
+                jumpForce = defaultJumpForce * 1.2f; // Salta 20% más alto
+                anim.SetBool("isFastRun", true); // Le avisa al Animator que use la nueva animación
+                break;
+
+            case PowerUp.Type.Azul:
+                hasBluePotion = true;
+                // La lógica de fuerza se aplicará al momento de disparar en la función Shoot()
+                break;
+
+            case PowerUp.Type.Amarilla:
+                hasYellowPotion = true;
+                // La lógica de distancia se aplicará al momento de disparar en la función Shoot()
+                break;
+
+            case PowerUp.Type.Comida:
+                // Sumamos puntos a tu GameManager
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.AddScore(score);
+                }
+                break;
+        }
     }
 }

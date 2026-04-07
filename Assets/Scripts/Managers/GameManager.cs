@@ -1,5 +1,6 @@
-using UnityEngine;
+using System.Diagnostics;
 using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -51,7 +52,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Debug.LogError("¡No hay ninguna cámara etiquetada como 'MainCamera' en la escena!");
+                UnityEngine.Debug.Log("¡No hay ninguna cámara etiquetada como 'MainCamera' en la escena!");
             }
         }
     }

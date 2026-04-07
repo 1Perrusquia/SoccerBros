@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
@@ -21,8 +22,8 @@ public class Enemy : MonoBehaviour
     private int currentHits = 0;
 
     [Header("Thawing (Descongelamiento)")]
-    public float thawTimeWalk = 3f; // Segundos para perder un impacto si sigue caminando
-    public float thawTimeBall = 5f; // Segundos para liberarse si ya es un balón
+    public float thawTimeWalk = 3f;
+    public float thawTimeBall = 5f;
     private float thawTimer = 0f;
 
     [Header("Rolling")]
@@ -30,6 +31,9 @@ public class Enemy : MonoBehaviour
     private int bounceCount = 0;
     private int direction = 1;
     private int comboCount = 0;
+
+    [Header("Premios y Power Ups")]
+    public GameObject[] powerUpPrefabs;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -55,7 +59,6 @@ public class Enemy : MonoBehaviour
 
             case State.Ball:
                 rb.linearVelocity = Vector2.zero;
-                // Efecto visual retro: El balón "tiembla" cuando está a punto de liberarse
                 if (thawTimer > thawTimeBall * 0.7f)
                 {
                     transform.position += new Vector3(Mathf.Sin(Time.time * 50f) * 0.02f, 0, 0);
@@ -68,10 +71,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // ⏱ Sistema de tiempo para perder impactos
     void HandleThawing()
     {
-        // Si no tiene impactos o ya está rodando como ataque, no se descongela
         if (currentHits == 0 || currentState == State.Rolling) return;
 
         thawTimer += Time.deltaTime;
@@ -85,19 +86,17 @@ public class Enemy : MonoBehaviour
             if (currentState == State.Ball)
             {
                 currentState = State.Walking;
-                // En el arcade original, salen furiosos. Podríamos aumentar su velocidad aquí luego.
             }
 
             UpdateVisualsAndSpeed();
         }
     }
 
-    // ⚽ Recibe impacto de balonazo
     public void TakeSnowHit()
     {
         if (currentState != State.Walking && currentState != State.Ball) return;
 
-        thawTimer = 0f; // Reseteamos el reloj porque acaba de recibir un golpe
+        thawTimer = 0f;
 
         if (currentHits < hitsToFreeze)
         {
@@ -105,7 +104,6 @@ public class Enemy : MonoBehaviour
             if (currentHits >= hitsToFreeze)
             {
                 currentState = State.Ball;
-                // Ajustamos la posición para que quede a ras de suelo y no flote al ser balón
                 rb.linearVelocity = Vector2.zero;
             }
         }
@@ -113,18 +111,13 @@ public class Enemy : MonoBehaviour
         UpdateVisualsAndSpeed();
     }
 
-    // 🎨 Actualiza color y velocidad según el daño
     void UpdateVisualsAndSpeed()
     {
-        // Ralentización progresiva: nunca llega a cero hasta ser balón (mínimo 20% de velocidad)
         float slowFactor = 1f - ((float)currentHits / hitsToFreeze);
         currentWalkSpeed = baseWalkSpeed * Mathf.Max(slowFactor, 0.2f);
-
-        // Cambio visual progresivo hacia cyan (o el color del balón de la copa del mundo)
         sr.color = Color.Lerp(Color.white, Color.cyan, (float)currentHits / hitsToFreeze);
     }
 
-    // 🦵 Patada (Se mantiene igual a tu lógica original)
     public void Kick(int dir)
     {
         if (currentState != State.Ball) return;
@@ -171,6 +164,11 @@ public class Enemy : MonoBehaviour
                     GameManager.Instance.ShowFloatingText("+" + points, collision.transform.position);
                 }
 
+                // =========================================================
+                // <--- AGREGADO: ¡Soltamos un premio justo donde muere este enemigo!
+                // =========================================================
+                GenerarPremio(collision.transform.position);
+
                 Destroy(collision.gameObject);
 
                 if (GameManager.Instance != null)
@@ -186,9 +184,48 @@ public class Enemy : MonoBehaviour
 
     void CheckAndDestroy()
     {
+        // =========================================================
+        // <--- AGREGADO: La bola gigante también suelta su propio premio al explotar
+        // =========================================================
+        GenerarPremio(transform.position);
+
         if (GameManager.Instance != null)
             GameManager.Instance.CheckLevelClear();
 
         Destroy(gameObject);
+    }
+
+    // =====================================================================
+    // <--- NUEVA FUNCIÓN: Nuestra "Fábrica de Premios" que podemos usar en cualquier lugar
+    // =====================================================================
+    void GenerarPremio(Vector3 posicionDeAparicion)
+    {
+        if (powerUpPrefabs != null && powerUpPrefabs.Length > 0)
+        {
+            int indiceElegido = 0;
+
+            if (powerUpPrefabs.Length > 3)
+            {
+                float suerte = UnityEngine.Random.value;
+
+                if (suerte <= 0.20f)
+                {
+                    // 20% de probabilidad: Soltar una Poción (Índices 0, 1 o 2)
+                    indiceElegido = UnityEngine.Random.Range(0, 3);
+                }
+                else
+                {
+                    // 80% de probabilidad: Soltar Comida Mexicana (Del índice 3 en adelante)
+                    indiceElegido = UnityEngine.Random.Range(3, powerUpPrefabs.Length);
+                }
+            }
+            else
+            {
+                indiceElegido = UnityEngine.Random.Range(0, powerUpPrefabs.Length);
+            }
+
+            // Aparece el premio en la posición exacta que le mandemos
+            Instantiate(powerUpPrefabs[indiceElegido], posicionDeAparicion, Quaternion.identity);
+        }
     }
 }
