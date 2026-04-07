@@ -3,24 +3,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum State
-    {
-        Walking,
-        Ball,
-        Rolling
-    }
-
+    public enum State { Walking, Ball, Rolling }
     public State currentState = State.Walking;
 
     [Header("Movement")]
     public float baseWalkSpeed = 2f;
     public float rollSpeed = 10f;
-    public float jumpForce = 12f; // <-- Ajustado para que alcance a subir bien
+    public float jumpForce = 12f;
     private float currentWalkSpeed;
     private int direction = 1;
 
     [Header("Inteligencia (Sensor de Abismos)")]
-    public Transform detectorSuelo; 
+    public Transform detectorSuelo;
     public float distanciaDeteccion = 0.5f;
     public LayerMask capaSuelo;
 
@@ -62,18 +56,15 @@ public class Enemy : MonoBehaviour
         switch (currentState)
         {
             case State.Walking:
-                // 1. Moverse
                 rb.linearVelocity = new Vector2(direction * currentWalkSpeed, rb.linearVelocity.y);
 
-                // Verificamos si tocamos piso
                 bool tocandoPiso = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, capaSuelo);
-                
-                if (!tocandoPiso) 
+
+                if (!tocandoPiso)
                 {
-                    Debug.Log("ERROR: No estoy tocando piso. Revisa la capa del suelo.");
+                    UnityEngine.Debug.Log("ERROR: No estoy tocando piso. Revisa la capa del suelo.");
                 }
 
-                // 2. Abismos
                 if (detectorSuelo != null)
                 {
                     RaycastHit2D haySuelo = Physics2D.Raycast(detectorSuelo.position, Vector2.down, distanciaDeteccion, capaSuelo);
@@ -83,25 +74,24 @@ public class Enemy : MonoBehaviour
                     }
                 }
 
-                // 3. Radar hacia arriba
                 if (tocandoPiso)
                 {
                     RaycastHit2D plataformaArriba = Physics2D.Raycast(transform.position, Vector2.up, 3.0f, capaSuelo);
-                    
+
                     if (plataformaArriba.collider != null)
                     {
                         if (plataformaArriba.distance > 1f)
                         {
-                            Debug.Log("¡Veo una plataforma arriba! Preparando salto...");
-                            if (Random.Range(0, 20) < 1) 
+                            UnityEngine.Debug.Log("¡Veo una plataforma arriba! Preparando salto...");
+                            if (UnityEngine.Random.Range(0, 20) < 1)
                             {
-                                Debug.Log("¡BRINCO!");
+                                UnityEngine.Debug.Log("¡BRINCO!");
                                 Saltar();
                             }
                         }
                         else
                         {
-                            Debug.Log("La plataforma me está aplastando la cabeza (muy cerca).");
+                            UnityEngine.Debug.Log("La plataforma me está aplastando la cabeza (muy cerca).");
                         }
                     }
                 }
@@ -121,11 +111,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
-<<<<<<< HEAD
-=======
     void Saltar()
     {
-        // Le damos un empujón hacia arriba manteniendo su velocidad horizontal
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
@@ -143,7 +130,6 @@ public class Enemy : MonoBehaviour
         }
     }
 
->>>>>>> e8e6e76e7382f5eda3cf9fbedbe6e790466f1eb0
     void HandleThawing()
     {
         if (currentHits == 0 || currentState == State.Rolling) return;
@@ -169,11 +155,7 @@ public class Enemy : MonoBehaviour
     {
         if (currentState != State.Walking && currentState != State.Ball) return;
 
-<<<<<<< HEAD
         thawTimer = 0f;
-=======
-        thawTimer = 0f; 
->>>>>>> e8e6e76e7382f5eda3cf9fbedbe6e790466f1eb0
 
         if (currentHits < hitsToFreeze)
         {
@@ -200,7 +182,7 @@ public class Enemy : MonoBehaviour
         if (currentState != State.Ball) return;
 
         direction = dir;
-        ActualizarMirada(); 
+        ActualizarMirada();
         bounceCount = 0;
         comboCount = 0;
         currentState = State.Rolling;
@@ -243,9 +225,6 @@ public class Enemy : MonoBehaviour
                     GameManager.Instance.CheckLevelClear();
                 }
 
-                // =========================================================
-                // <--- AGREGADO: ¡Soltamos un premio justo donde muere este enemigo!
-                // =========================================================
                 GenerarPremio(collision.transform.position);
 
                 Destroy(collision.gameObject);
@@ -260,9 +239,6 @@ public class Enemy : MonoBehaviour
 
     void CheckAndDestroy()
     {
-        // =========================================================
-        // <--- AGREGADO: La bola gigante también suelta su propio premio al explotar
-        // =========================================================
         GenerarPremio(transform.position);
 
         if (GameManager.Instance != null)
@@ -271,9 +247,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // =====================================================================
-    // <--- NUEVA FUNCIÓN: Nuestra "Fábrica de Premios" que podemos usar en cualquier lugar
-    // =====================================================================
     void GenerarPremio(Vector3 posicionDeAparicion)
     {
         if (powerUpPrefabs != null && powerUpPrefabs.Length > 0)
@@ -286,12 +259,10 @@ public class Enemy : MonoBehaviour
 
                 if (suerte <= 0.20f)
                 {
-                    // 20% de probabilidad: Soltar una Poción (Índices 0, 1 o 2)
                     indiceElegido = UnityEngine.Random.Range(0, 3);
                 }
                 else
                 {
-                    // 80% de probabilidad: Soltar Comida Mexicana (Del índice 3 en adelante)
                     indiceElegido = UnityEngine.Random.Range(3, powerUpPrefabs.Length);
                 }
             }
@@ -300,7 +271,6 @@ public class Enemy : MonoBehaviour
                 indiceElegido = UnityEngine.Random.Range(0, powerUpPrefabs.Length);
             }
 
-            // Aparece el premio en la posición exacta que le mandemos
             Instantiate(powerUpPrefabs[indiceElegido], posicionDeAparicion, Quaternion.identity);
         }
     }
