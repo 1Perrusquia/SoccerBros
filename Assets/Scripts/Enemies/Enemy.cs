@@ -15,7 +15,14 @@ public class Enemy : MonoBehaviour
     [Header("Movement")]
     public float baseWalkSpeed = 2f;
     public float rollSpeed = 10f;
+    public float jumpForce = 12f; // <-- Ajustado para que alcance a subir bien
     private float currentWalkSpeed;
+    private int direction = 1;
+
+    [Header("Inteligencia (Sensor de Abismos)")]
+    public Transform detectorSuelo; 
+    public float distanciaDeteccion = 0.5f;
+    public LayerMask capaSuelo;
 
     [Header("Ball System (Nieve/Balón)")]
     public int hitsToFreeze = 3;
@@ -29,7 +36,6 @@ public class Enemy : MonoBehaviour
     [Header("Rolling")]
     public int maxBounces = 3;
     private int bounceCount = 0;
-    private int direction = 1;
     private int comboCount = 0;
 
     [Header("Premios y Power Ups")]
@@ -45,6 +51,8 @@ public class Enemy : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         myCollider = GetComponent<Collider2D>();
         currentWalkSpeed = baseWalkSpeed;
+
+        ActualizarMirada();
     }
 
     void Update()
@@ -54,7 +62,49 @@ public class Enemy : MonoBehaviour
         switch (currentState)
         {
             case State.Walking:
+                // 1. Moverse
                 rb.linearVelocity = new Vector2(direction * currentWalkSpeed, rb.linearVelocity.y);
+
+                // Verificamos si tocamos piso
+                bool tocandoPiso = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, capaSuelo);
+                
+                if (!tocandoPiso) 
+                {
+                    Debug.Log("ERROR: No estoy tocando piso. Revisa la capa del suelo.");
+                }
+
+                // 2. Abismos
+                if (detectorSuelo != null)
+                {
+                    RaycastHit2D haySuelo = Physics2D.Raycast(detectorSuelo.position, Vector2.down, distanciaDeteccion, capaSuelo);
+                    if (haySuelo.collider == false && tocandoPiso)
+                    {
+                        Girar();
+                    }
+                }
+
+                // 3. Radar hacia arriba
+                if (tocandoPiso)
+                {
+                    RaycastHit2D plataformaArriba = Physics2D.Raycast(transform.position, Vector2.up, 3.0f, capaSuelo);
+                    
+                    if (plataformaArriba.collider != null)
+                    {
+                        if (plataformaArriba.distance > 1f)
+                        {
+                            Debug.Log("¡Veo una plataforma arriba! Preparando salto...");
+                            if (Random.Range(0, 20) < 1) 
+                            {
+                                Debug.Log("¡BRINCO!");
+                                Saltar();
+                            }
+                        }
+                        else
+                        {
+                            Debug.Log("La plataforma me está aplastando la cabeza (muy cerca).");
+                        }
+                    }
+                }
                 break;
 
             case State.Ball:
@@ -71,6 +121,29 @@ public class Enemy : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
+=======
+    void Saltar()
+    {
+        // Le damos un empujón hacia arriba manteniendo su velocidad horizontal
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+    }
+
+    void Girar()
+    {
+        direction *= -1;
+        ActualizarMirada();
+    }
+
+    void ActualizarMirada()
+    {
+        if (sr != null)
+        {
+            sr.flipX = (direction == -1);
+        }
+    }
+
+>>>>>>> e8e6e76e7382f5eda3cf9fbedbe6e790466f1eb0
     void HandleThawing()
     {
         if (currentHits == 0 || currentState == State.Rolling) return;
@@ -96,7 +169,11 @@ public class Enemy : MonoBehaviour
     {
         if (currentState != State.Walking && currentState != State.Ball) return;
 
+<<<<<<< HEAD
         thawTimer = 0f;
+=======
+        thawTimer = 0f; 
+>>>>>>> e8e6e76e7382f5eda3cf9fbedbe6e790466f1eb0
 
         if (currentHits < hitsToFreeze)
         {
@@ -123,6 +200,7 @@ public class Enemy : MonoBehaviour
         if (currentState != State.Ball) return;
 
         direction = dir;
+        ActualizarMirada(); 
         bounceCount = 0;
         comboCount = 0;
         currentState = State.Rolling;
@@ -142,7 +220,7 @@ public class Enemy : MonoBehaviour
     {
         if (currentState == State.Rolling && collision.gameObject.CompareTag("Wall"))
         {
-            direction *= -1;
+            Girar();
             bounceCount++;
 
             if (bounceCount >= maxBounces)
@@ -162,6 +240,7 @@ public class Enemy : MonoBehaviour
                 {
                     GameManager.Instance.AddScore(points);
                     GameManager.Instance.ShowFloatingText("+" + points, collision.transform.position);
+                    GameManager.Instance.CheckLevelClear();
                 }
 
                 // =========================================================
@@ -170,15 +249,12 @@ public class Enemy : MonoBehaviour
                 GenerarPremio(collision.transform.position);
 
                 Destroy(collision.gameObject);
-
-                if (GameManager.Instance != null)
-                    GameManager.Instance.CheckLevelClear();
             }
         }
 
-        if (currentState == State.Walking && collision.gameObject.CompareTag("Wall"))
+        if (currentState == State.Walking && (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Enemy")))
         {
-            direction *= -1;
+            Girar();
         }
     }
 
