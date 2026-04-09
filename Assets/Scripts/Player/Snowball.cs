@@ -3,13 +3,12 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class Snowball : MonoBehaviour
 {
+    [Header("Configuracion de Lanzamiento")]
     public float forwardSpeed = 8f;
     public float upwardForce = 3f;
     public float lifeTime = 1.5f;
 
     private Rigidbody2D rb;
-
-    // <--- AGREGADO: Variable para recordar si este disparo es súper poderoso
     private bool isSuperPowered = false;
 
     void Awake()
@@ -19,22 +18,17 @@ public class Snowball : MonoBehaviour
 
     public void SetDirection(Vector2 dir)
     {
-        // Aplicamos la velocidad hacia adelante y un ligero impulso hacia arriba
+        // Aplicamos velocidad inicial con un pequeño arco hacia arriba
         rb.linearVelocity = new Vector2(dir.x * forwardSpeed, upwardForce);
-
-        // OJO: Quitamos el Destroy de aquí porque ahora lo calcularemos con las pociones
     }
 
-    // =========================================================================
-    // <--- AGREGADO: La función que recibe la orden desde PlayerMovement.cs
-    // =========================================================================
     public void ApplyPowerUpEffects(bool hasBluePotion, bool hasYellowPotion)
     {
         isSuperPowered = hasBluePotion;
 
         if (hasBluePotion)
         {
-            // POCIÓN AZUL: Vuelve más grande el disparo
+            // POCIÓN AZUL: Aumenta el tamaño visual del proyectil
             transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
 
@@ -42,47 +36,50 @@ public class Snowball : MonoBehaviour
 
         if (hasYellowPotion)
         {
-            // POCIÓN AMARILLA: Otorga más alcance (duplica el tiempo de vida del proyectil)
+            // POCIÓN AMARILLA: Alcance mucho mayor
             finalLifeTime = lifeTime * 2.5f;
         }
 
-        // Ahora sí, destruimos el proyectil con el tiempo calculado
         Destroy(gameObject, finalLifeTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Chocar con el entorno
         if (collision.CompareTag("Ground") || collision.CompareTag("Platform") || collision.CompareTag("Wall"))
         {
             Destroy(gameObject);
             return;
         }
 
-        if (!collision.CompareTag("Enemy"))
-            return;
-
-        Enemy enemy = collision.GetComponent<Enemy>();
-
-        if (enemy == null)
-            return;
-
-        if (enemy.currentState == Enemy.State.Walking || enemy.currentState == Enemy.State.Ball)
+        // Chocar con un enemigo
+        if (collision.CompareTag("Enemy"))
         {
-            enemy.TakeSnowHit();
+            Enemy enemy = collision.GetComponent<Enemy>();
 
-            // <--- AGREGADO: El truco del golpe doble para la Poción Azul
-            if (isSuperPowered)
+            if (enemy != null)
             {
-                enemy.TakeSnowHit(); // Lo golpea de nuevo al instante para envolverlo más rápido
-            }
+                // Solo golpeamos si el enemigo está caminando o ya es bola (para rellenarlo más)
+                if (enemy.currentState == Enemy.State.Walking || enemy.currentState == Enemy.State.Ball)
+                {
+                    enemy.TakeSnowHit();
 
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.AddScore(100);
-                GameManager.Instance.ShowFloatingText("+100", enemy.transform.position);
+                    // EFECTO POCIÓN AZUL: Golpe doble instantáneo
+                    if (isSuperPowered)
+                    {
+                        enemy.TakeSnowHit();
+                    }
+
+                    // Sumar puntos a través del GameManager
+                    if (GameManager.Instance != null)
+                    {
+                        GameManager.Instance.AddScore(100);
+                        GameManager.Instance.ShowFloatingText("+100", enemy.transform.position);
+                    }
+                }
             }
+            // El proyectil siempre se destruye al tocar un enemigo
+            Destroy(gameObject);
         }
-
-        Destroy(gameObject);
     }
 }

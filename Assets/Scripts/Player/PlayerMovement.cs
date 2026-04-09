@@ -133,7 +133,12 @@ public class PlayerMovement : MonoBehaviour
                 {
                     int dir = facingRight ? 1 : -1;
                     anim.SetTrigger("Kick");
-                    enemy.Kick(dir);
+
+                    if (AudioManager.instance != null)
+                        AudioManager.instance.PlaySFX(AudioManager.instance.sonidoPatada);
+                    // ------------------------------------------
+
+                enemy.Kick(dir);
                     return;
                 }
             }
@@ -169,6 +174,13 @@ public class PlayerMovement : MonoBehaviour
         if (isDead) return;
         isDead = true;
         rb.linearVelocity = Vector2.zero;
+
+        // --- CORREGIDO: Usando el audio 'Die' del Jugador ---
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.sonidoDieJugador);
+        }
+        // ---------------------------------------------------
 
         anim.SetTrigger("Die");
 

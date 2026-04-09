@@ -1,49 +1,38 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class CopaVictoria : MonoBehaviour
 {
-    [Header("Configuracion Final")]
-    public GameObject panelVictoria; // Arrastra el Panel aqui
-    public float tiempoEspera = 5f;  // Cuanto tiempo se queda el texto antes de reiniciar
+    private bool recogida = false;
 
-    private bool yaGano = false;
-
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Si el jugador toca la copa y aun no hemos procesado la victoria
-        if (other.CompareTag("Player") && !yaGano)
+        // Solo el jugador puede reclamar la copa y solo una vez
+        if (collision.CompareTag("Player") && !recogida)
         {
-            yaGano = true;
-            IniciarSecuenciaVictoria();
+            recogida = true;
+            Victoria();
         }
     }
 
-    void IniciarSecuenciaVictoria()
+    void Victoria()
     {
-        // 1. Mostramos el letrero
-        if (panelVictoria != null)
-        {
-            panelVictoria.SetActive(true);
-        }
-
-        // 2. Sonido de Victoria (Opcional si ya lo tienes en el Boss)
+        // 1. Sonido de victoria triunfal
         if (AudioManager.instance != null)
         {
             AudioManager.instance.PlaySFX(AudioManager.instance.sonidoVictoria);
         }
 
-        // 3. Lanzamos la rutina para reiniciar
-        StartCoroutine(ReiniciarJuego());
+        UnityEngine.Debug.Log("¡CAMPEONES DEL MUNDO! Copa recogida.");
+
+        // 2. Aquí puedes hacer dos cosas:
+        // A) Mostrar un Canvas de "¡Ganaste!"
+        // B) Cargar la escena de créditos o volver al inicio después de 3 segundos
+        Invoke("RegresarAlMenu", 3f);
     }
 
-    IEnumerator ReiniciarJuego()
+    void RegresarAlMenu()
     {
-        // Esperamos unos segundos para que el jugador celebre
-        yield return new WaitForSeconds(tiempoEspera);
-
-        // Cargamos el Menu Principal (Asegurate que tu escena se llame "Menu")
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Inicio");
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Agregamos esto para detectar cambios de escena
 
 public class AudioManager : MonoBehaviour
 {
@@ -8,12 +9,16 @@ public class AudioManager : MonoBehaviour
     public AudioSource musicSource;
     public AudioSource sfxSource;
 
-    [Header("Clips de Sonido")]
+    [Header("Clips de Música")]
+    public AudioClip musicaMenu;
     public AudioClip musicaNivel;
     public AudioClip musicaJefe;
+
+    [Header("Clips de Efectos (SFX)")]
     public AudioClip sonidoPatada;
     public AudioClip sonidoDanoJefe;
     public AudioClip sonidoVictoria;
+    public AudioClip sonidoDieJugador;
 
     void Awake()
     {
@@ -21,6 +26,8 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            // Nos suscribimos al evento de carga de escena
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
@@ -28,11 +35,25 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start()
+    // Esta función se ejecuta CADA VEZ que cambia la escena
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (musicaNivel != null && musicSource != null)
+        // Si entramos a la escena de Inicio o Menu
+        if (scene.name == "Inicio" || scene.name == "Menu")
         {
-            musicSource.clip = musicaNivel;
+            ReproducirMusica(musicaMenu);
+        }
+    }
+
+    void ReproducirMusica(AudioClip clip)
+    {
+        if (musicSource != null && clip != null)
+        {
+            if (musicSource.clip == clip) return; // Si ya está sonando, no la reinicies
+
+            musicSource.Stop();
+            musicSource.clip = clip;
+            musicSource.loop = true;
             musicSource.Play();
         }
     }
@@ -45,13 +66,19 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void IniciarMusicaNivel()
+    {
+        ReproducirMusica(musicaNivel);
+    }
+
     public void CambiarMusicaJefe()
     {
-        if (musicSource != null && musicaJefe != null)
-        {
-            musicSource.Stop();
-            musicSource.clip = musicaJefe;
-            musicSource.Play();
-        }
+        ReproducirMusica(musicaJefe);
+    }
+
+    private void OnDestroy()
+    {
+        // Limpiamos el evento al destruir el objeto para evitar errores
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
