@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Wall
   - Platform
+  - PowerUp
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -42,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 4054135185
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

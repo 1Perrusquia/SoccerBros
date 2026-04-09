@@ -3,11 +3,13 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class Snowball : MonoBehaviour
 {
+    [Header("Configuracion de Lanzamiento")]
     public float forwardSpeed = 8f;
-    public float upwardForce = 3f; // La fuerza que crea la "parábola" al salir
-    public float lifeTime = 1.5f;  // Duración corta típica de los arcades
+    public float upwardForce = 3f;
+    public float lifeTime = 1.5f;
 
     private Rigidbody2D rb;
+    private bool isSuperPowered = false;
 
     void Awake()
     {
@@ -16,41 +18,68 @@ public class Snowball : MonoBehaviour
 
     public void SetDirection(Vector2 dir)
     {
-        // Aplicamos la velocidad hacia adelante y un ligero impulso hacia arriba
+        // Aplicamos velocidad inicial con un pequeño arco hacia arriba
         rb.linearVelocity = new Vector2(dir.x * forwardSpeed, upwardForce);
+    }
 
-        // Destruimos el proyectil rápido para limitar el rango de ataque
-        Destroy(gameObject, lifeTime);
+    public void ApplyPowerUpEffects(bool hasBluePotion, bool hasYellowPotion)
+    {
+        isSuperPowered = hasBluePotion;
+
+        if (hasBluePotion)
+        {
+            // POCIÓN AZUL: Aumenta el tamaño visual del proyectil
+            transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        }
+
+        float finalLifeTime = lifeTime;
+
+        if (hasYellowPotion)
+        {
+            // POCIÓN AMARILLA: Alcance mucho mayor
+            finalLifeTime = lifeTime * 2.5f;
+        }
+
+        Destroy(gameObject, finalLifeTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Si choca con el piso o paredes, se destruye al instante (típico de Snow Bros)
+        // Chocar con el entorno
         if (collision.CompareTag("Ground") || collision.CompareTag("Platform") || collision.CompareTag("Wall"))
         {
             Destroy(gameObject);
             return;
         }
 
-        if (!collision.CompareTag("Enemy"))
-            return;
-
-        Enemy enemy = collision.GetComponent<Enemy>();
-
-        if (enemy == null)
-            return;
-
-        if (enemy.currentState == Enemy.State.Walking || enemy.currentState == Enemy.State.Ball)
+        // Chocar con un enemigo
+        if (collision.CompareTag("Enemy"))
         {
-            enemy.TakeSnowHit();
+            Enemy enemy = collision.GetComponent<Enemy>();
 
-            if (GameManager.Instance != null)
+            if (enemy != null)
             {
-                GameManager.Instance.AddScore(100);
-                GameManager.Instance.ShowFloatingText("+100", enemy.transform.position);
-            }
-        }
+                // Solo golpeamos si el enemigo está caminando o ya es bola (para rellenarlo más)
+                if (enemy.currentState == Enemy.State.Walking || enemy.currentState == Enemy.State.Ball)
+                {
+                    enemy.TakeSnowHit();
 
-        Destroy(gameObject); // El balón se deshace al golpear al enemigo
+                    // EFECTO POCIÓN AZUL: Golpe doble instantáneo
+                    if (isSuperPowered)
+                    {
+                        enemy.TakeSnowHit();
+                    }
+
+                    // Sumar puntos a través del GameManager
+                    if (GameManager.Instance != null)
+                    {
+                        GameManager.Instance.AddScore(100);
+                        GameManager.Instance.ShowFloatingText("+100", enemy.transform.position);
+                    }
+                }
+            }
+            // El proyectil siempre se destruye al tocar un enemigo
+            Destroy(gameObject);
+        }
     }
 }

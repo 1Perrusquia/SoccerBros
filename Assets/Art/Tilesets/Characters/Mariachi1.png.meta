@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 66ec0e53c66672c49a6a1717e2f3e628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 851363603117111787
+    second: Mariachi1_0
+  - first:
+      213: 1089371458501406153
+    second: Mariachi1_1
+  - first:
+      213: -8748035186511603074
+    second: Mariachi1_2
+  - first:
+      213: -2925883766955052484
+    second: Mariachi1_3
+  - first:
+      213: -5354639697593350715
+    second: Mariachi1_4
+  - first:
+      213: 7249512849254451633
+    second: Mariachi1_5
+  - first:
+      213: -6033969592210479596
+    second: Mariachi1_6
+  - first:
+      213: 4450904221721490035
+    second: Mariachi1_7
+  - first:
+      213: -4486299495563534696
+    second: Mariachi1_8
+  - first:
+      213: 3094762411233196304
+    second: Mariachi1_9
+  - first:
+      213: 5078982666171852894
+    second: Mariachi1_10
+  - first:
+      213: 698599886666197511
+    second: Mariachi1_11
+  - first:
+      213: -2967287059484207219
+    second: Mariachi1_12
+  - first:
+      213: -3938304549201306287
+    second: Mariachi1_13
+  - first:
+      213: 4578463126565789776
+    second: Mariachi1_14
+  - first:
+      213: -1157843638416274294
+    second: Mariachi1_15
+  - first:
+      213: 7604823031797470255
+    second: Mariachi1_16
+  - first:
+      213: 74902348550900683
+    second: Mariachi1_17
+  - first:
+      213: -319795464068205280
+    second: Mariachi1_18
+  - first:
+      213: -2866831906492378810
+    second: Mariachi1_19
+  - first:
+      213: 6999668691722082084
+    second: Mariachi1_20
+  - first:
+      213: -870115934137592963
+    second: Mariachi1_21
+  - first:
+      213: 8948262851176218023
+    second: Mariachi1_22
+  - first:
+      213: -2427448112812238618
+    second: Mariachi1_23
+  - first:
+      213: 1754446972506220345
+    second: Mariachi1_24
+  - first:
+      213: -7961234878603544582
+    second: Mariachi1_25
+  - first:
+      213: 3915103066631230872
+    second: Mariachi1_26
+  - first:
+      213: 7702599029826318943
+    second: Mariachi1_27
+  - first:
+      213: 270335999840973259
+    second: Mariachi1_28
+  - first:
+      213: -6494831659966108664
+    second: Mariachi1_29
+  - first:
+      213: 6625125182691991321
+    second: Mariachi1_30
+  - first:
+      213: 8852164839615237711
+    second: Mariachi1_31
+  - first:
+      213: -2384728545133318629
+    second: Mariachi1_32
+  - first:
+      213: 6574609023277845416
+    second: Mariachi1_33
+  - first:
+      213: 1345124812903425890
+    second: Mariachi1_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mariachi1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 610
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9fd72bfa6a0db00800000000000000
+      internalID: 851363603117111787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 610
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdec6cd1993e1f00800000000000000
+      internalID: 1089371458501406153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 610
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a9b51d85cb89680800000000000000
+      internalID: -8748035186511603074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 610
+        width: 155
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32ff88473c2567d0800000000000000
+      internalID: -2925883766955052484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 610
+        width: 143
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c54ebca09f70b5b0800000000000000
+      internalID: -5354639697593350715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_5
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 610
+        width: 138
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9017ed6817b9460800000000000000
+      internalID: 7249512849254451633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_6
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 455
+        width: 151
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41629ce00a8034ca0800000000000000
+      internalID: -6033969592210479596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 455
+        width: 131
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372fef8cec9c4cd30800000000000000
+      internalID: 4450904221721490035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 455
+        width: 113
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89edbe2d0667db1c0800000000000000
+      internalID: -4486299495563534696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 478
+        width: 115
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01939c9240ec2fa20800000000000000
+      internalID: 3094762411233196304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 452
+        width: 115
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e582a8543db2c7640800000000000000
+      internalID: 5078982666171852894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 453
+        width: 102
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aedd445ece1b900800000000000000
+      internalID: 698599886666197511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_12
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 454
+        width: 148
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8794d8042412d6d0800000000000000
+      internalID: -2967287059484207219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_13
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 452
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d1d87e0e45859c0800000000000000
+      internalID: -3938304549201306287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 310
+        width: 156
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050ad24b4f7f98f30800000000000000
+      internalID: 4578463126565789776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 310
+        width: 169
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c80ca68538eefe0800000000000000
+      internalID: -1157843638416274294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_16
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 310
+        width: 143
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f245ffd5142c98960800000000000000
+      internalID: 7604823031797470255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_17
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 310
+        width: 132
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb08360a4b1a0100800000000000000
+      internalID: 74902348550900683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_18
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 308
+        width: 140
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025fe6348bbdf8bf0800000000000000
+      internalID: -319795464068205280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_19
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 310
+        width: 135
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64114c6f197f638d0800000000000000
+      internalID: -2866831906492378810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_20
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 310
+        width: 143
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427948bd691d32160800000000000000
+      internalID: 6999668691722082084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7352500b2abce3f0800000000000000
+      internalID: -870115934137592963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 118
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adbe2937ad9e2c70800000000000000
+      internalID: 8948262851176218023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_23
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 161
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e852257dc8ff4ed0800000000000000
+      internalID: -2427448112812238618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_24
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 161
+        width: 131
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9372e7dd93c095810800000000000000
+      internalID: 1754446972506220345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_25
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 161
+        width: 129
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7b26fee03048190800000000000000
+      internalID: -7961234878603544582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 161
+        width: 156
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895d899fe7d355630800000000000000
+      internalID: 3915103066631230872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_27
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 161
+        width: 145
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52f01ce10125ea60800000000000000
+      internalID: 7702599029826318943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 16
+        width: 134
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc17588d82d60c300800000000000000
+      internalID: 270335999840973259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 17
+        width: 172
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c62cf2409bdd5a0800000000000000
+      internalID: -6494831659966108664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_30
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 13
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fd9d2904c21fb50800000000000000
+      internalID: 6625125182691991321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_31
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 16
+        width: 159
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e0876550539da70800000000000000
+      internalID: 8852164839615237711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_32
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 17
+        width: 173
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e2895e50eb7eed0800000000000000
+      internalID: -2384728545133318629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_33
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 16
+        width: 173
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abcd89a214bd3b50800000000000000
+      internalID: 6574609023277845416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mariachi1_34
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 19
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2672cabf3e7daa210800000000000000
+      internalID: 1345124812903425890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 17984c8b8555b864abf4569caa78db75
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Mariachi1_0: 851363603117111787
+      Mariachi1_1: 1089371458501406153
+      Mariachi1_10: 5078982666171852894
+      Mariachi1_11: 698599886666197511
+      Mariachi1_12: -2967287059484207219
+      Mariachi1_13: -3938304549201306287
+      Mariachi1_14: 4578463126565789776
+      Mariachi1_15: -1157843638416274294
+      Mariachi1_16: 7604823031797470255
+      Mariachi1_17: 74902348550900683
+      Mariachi1_18: -319795464068205280
+      Mariachi1_19: -2866831906492378810
+      Mariachi1_2: -8748035186511603074
+      Mariachi1_20: 6999668691722082084
+      Mariachi1_21: -870115934137592963
+      Mariachi1_22: 8948262851176218023
+      Mariachi1_23: -2427448112812238618
+      Mariachi1_24: 1754446972506220345
+      Mariachi1_25: -7961234878603544582
+      Mariachi1_26: 3915103066631230872
+      Mariachi1_27: 7702599029826318943
+      Mariachi1_28: 270335999840973259
+      Mariachi1_29: -6494831659966108664
+      Mariachi1_3: -2925883766955052484
+      Mariachi1_30: 6625125182691991321
+      Mariachi1_31: 8852164839615237711
+      Mariachi1_32: -2384728545133318629
+      Mariachi1_33: 6574609023277845416
+      Mariachi1_34: 1345124812903425890
+      Mariachi1_4: -5354639697593350715
+      Mariachi1_5: 7249512849254451633
+      Mariachi1_6: -6033969592210479596
+      Mariachi1_7: 4450904221721490035
+      Mariachi1_8: -4486299495563534696
+      Mariachi1_9: 3094762411233196304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

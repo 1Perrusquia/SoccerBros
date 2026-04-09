@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,14 +9,24 @@ public class PlayerMovement : MonoBehaviour
     public GameObject snowballPrefab;
     public Transform firePoint;
 
+    // Power Ups config
+    private float defaultMoveSpeed;
+    private float defaultJumpForce;
+
+    [Header("Estado de Power Ups")]
+    public bool hasRedPotion = false;
+    public bool hasBluePotion = false;
+    public bool hasYellowPotion = false;
+
+    // Inmunidad de la nube
     [Header("Inmunidad")]
-    public float tiempoInmunidad = 2.5f; // Tiempo que serás intocable al aparecer
+    public float tiempoInmunidad = 2.5f;
     private bool esInmune = false;
-    private SpriteRenderer playerSR; // Para hacer el efecto de parpadeo
+    private SpriteRenderer playerSR;
 
     private bool facingRight = true;
     private Rigidbody2D rb;
-    private Animator anim; 
+    private Animator anim;
     private bool isGrounded;
     private bool isDead = false;
 
@@ -28,11 +39,13 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); 
-        playerSR = GetComponent<SpriteRenderer>(); // Enlazamos el dibujo
+        anim = GetComponent<Animator>();
+        playerSR = GetComponent<SpriteRenderer>();
         originalGravity = rb.gravityScale;
 
-        // Activamos la inmunidad nada más nacer
+        defaultMoveSpeed = moveSpeed;
+        defaultJumpForce = jumpForce;
+
         StartCoroutine(ActivarInmunidad());
     }
 
@@ -47,8 +60,8 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
@@ -69,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
                 else
                 {
                     isGrounded = false;
-                    anim.SetBool("isGrounded", false); 
+                    anim.SetBool("isGrounded", false);
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
@@ -86,17 +99,15 @@ public class PlayerMovement : MonoBehaviour
     {
         esInmune = true;
         float tiempoPasado = 0;
-        
-        // Mientras no se acabe el tiempo, parpadea
+
         while (tiempoPasado < tiempoInmunidad)
         {
-            playerSR.enabled = !playerSR.enabled; 
-            yield return new WaitForSeconds(0.15f); // Velocidad del parpadeo
+            if (playerSR != null) playerSR.enabled = !playerSR.enabled;
+            yield return new WaitForSeconds(0.15f);
             tiempoPasado += 0.15f;
         }
-        
-        // Al terminar, aseguramos que quede visible y sea mortal otra vez
-        playerSR.enabled = true; 
+
+        if (playerSR != null) playerSR.enabled = true;
         esInmune = false;
     }
 
@@ -121,17 +132,28 @@ public class PlayerMovement : MonoBehaviour
                 if (enemy != null && enemy.currentState == Enemy.State.Ball)
                 {
                     int dir = facingRight ? 1 : -1;
-                    anim.SetTrigger("Kick"); 
-                    enemy.Kick(dir);
+                    anim.SetTrigger("Kick");
+
+                    if (AudioManager.instance != null)
+                        AudioManager.instance.PlaySFX(AudioManager.instance.sonidoPatada);
+                    // ------------------------------------------
+
+                enemy.Kick(dir);
                     return;
                 }
             }
         }
 
-        anim.SetTrigger("Shot"); 
+        anim.SetTrigger("Shot");
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, Quaternion.identity);
         Vector2 dirShoot = facingRight ? Vector2.right : Vector2.left;
-        snowball.GetComponent<Snowball>().SetDirection(dirShoot);
+
+        Snowball snowballScript = snowball.GetComponent<Snowball>();
+        if (snowballScript != null)
+        {
+            snowballScript.SetDirection(dirShoot);
+            snowballScript.ApplyPowerUpEffects(hasBluePotion, hasYellowPotion);
+        }
     }
 
     private IEnumerator DisableCollision()
@@ -149,18 +171,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return; 
+        if (isDead) return;
         isDead = true;
         rb.linearVelocity = Vector2.zero;
 
-        anim.SetTrigger("Die"); 
+        // --- CORREGIDO: Usando el audio 'Die' del Jugador ---
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.sonidoDieJugador);
+        }
+        // ---------------------------------------------------
 
-        StartCoroutine(DieRoutine()); 
+        anim.SetTrigger("Die");
+
+        hasRedPotion = false;
+        hasBluePotion = false;
+        hasYellowPotion = false;
+        moveSpeed = defaultMoveSpeed;
+        jumpForce = defaultJumpForce;
+        anim.SetBool("isFastRun", false);
+
+        StartCoroutine(DieRoutine());
     }
 
     private IEnumerator DieRoutine()
     {
-        yield return new WaitForSeconds(1.5f); 
+        yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
 
         if (GameManager.Instance != null)
@@ -192,8 +228,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            // SI SOMOS INMUNES, IGNORAMOS EL CHOQUE Y SALIMOS DE AQUÍ
-            if (esInmune) return; 
+            // SI SOMOS INMUNES, IGNORAMOS EL CHOQUE
+            if (esInmune) return;
 
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
             if (enemy != null && enemy.currentState == Enemy.State.Walking)
@@ -228,7 +264,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;
 
-        anim.SetTrigger("Transition"); 
+        anim.SetTrigger("Transition");
 
         targetTransitionPosition = new Vector3(transform.position.x, targetY, transform.position.z);
     }
@@ -238,5 +274,33 @@ public class PlayerMovement : MonoBehaviour
         isTransitioning = false;
         rb.gravityScale = originalGravity;
         GetComponent<Collider2D>().enabled = true;
+    }
+
+    public void ApplyPowerUp(PowerUp.Type type, int score)
+    {
+        switch (type)
+        {
+            case PowerUp.Type.Roja:
+                hasRedPotion = true;
+                moveSpeed = defaultMoveSpeed * 1.5f;
+                jumpForce = defaultJumpForce * 1.2f;
+                anim.SetBool("isFastRun", true);
+                break;
+
+            case PowerUp.Type.Azul:
+                hasBluePotion = true;
+                break;
+
+            case PowerUp.Type.Amarilla:
+                hasYellowPotion = true;
+                break;
+
+            case PowerUp.Type.Comida:
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.AddScore(score);
+                }
+                break;
+        }
     }
 }

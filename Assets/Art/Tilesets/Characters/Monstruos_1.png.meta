@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: 1ed5f15ce4cdeb746994f62a821aaa8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6556621243022404363
+    second: Monstruos_1_0
+  - first:
+      213: 7464382331985073154
+    second: Monstruos_1_1
+  - first:
+      213: 7913247532737548987
+    second: Monstruos_1_2
+  - first:
+      213: -3240229861056173306
+    second: Monstruos_1_3
+  - first:
+      213: 2855456622569127760
+    second: Monstruos_1_4
+  - first:
+      213: -1065154045853642798
+    second: Monstruos_1_5
+  - first:
+      213: 7063002566217565765
+    second: Monstruos_1_6
+  - first:
+      213: -8867039943984044647
+    second: Monstruos_1_7
+  - first:
+      213: -4162206622183133953
+    second: Monstruos_1_8
+  - first:
+      213: 8906890204945373221
+    second: Monstruos_1_9
+  - first:
+      213: 8216240624236345416
+    second: Monstruos_1_10
+  - first:
+      213: -3662822600167296308
+    second: Monstruos_1_11
+  - first:
+      213: 8910971232097862733
+    second: Monstruos_1_12
+  - first:
+      213: -2327145345832101000
+    second: Monstruos_1_13
+  - first:
+      213: -7353621771173790641
+    second: Monstruos_1_14
+  - first:
+      213: 7281904441528546342
+    second: Monstruos_1_15
+  - first:
+      213: 5921616124735932242
+    second: Monstruos_1_16
+  - first:
+      213: -628250943516336048
+    second: Monstruos_1_17
+  - first:
+      213: 4885934666501847988
+    second: Monstruos_1_18
+  - first:
+      213: 872290247957171127
+    second: Monstruos_1_19
+  - first:
+      213: -6229147107168371821
+    second: Monstruos_1_20
+  - first:
+      213: 7003888148185012365
+    second: Monstruos_1_21
+  - first:
+      213: -4681170737733044062
+    second: Monstruos_1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monstruos_1_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1309
+        width: 290
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f49edac7b33205a0800000000000000
+      internalID: -6556621243022404363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1319
+        width: 403
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2041ca5de20d69760800000000000000
+      internalID: 7464382331985073154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1321
+        width: 817
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2de8074b081dd60800000000000000
+      internalID: 7913247532737548987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_3
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1322
+        width: 393
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b222ddb146803d0800000000000000
+      internalID: -3240229861056173306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_4
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1322
+        width: 416
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ff4cb5bae90a720800000000000000
+      internalID: 2855456622569127760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 892
+        width: 393
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfc2d9e900d731f0800000000000000
+      internalID: -1065154045853642798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 902
+        width: 364
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546021f9963d40260800000000000000
+      internalID: 7063002566217565765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 915
+        width: 399
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995a1a98622f1f480800000000000000
+      internalID: -8867039943984044647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_8
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 914
+        width: 776
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffceef2212fdc36c0800000000000000
+      internalID: -4162206622183133953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_9
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 914
+        width: 412
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528dc2f5371ab9b70800000000000000
+      internalID: 8906890204945373221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 511
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848bdb4f053f50270800000000000000
+      internalID: 8216240624236345416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 511
+        width: 393
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc271c9604a0b2dc0800000000000000
+      internalID: -3662822600167296308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 103
+        width: 418
+        height: 784
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d440bec8f112aab70800000000000000
+      internalID: 8910971232097862733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_13
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 524
+        width: 393
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b59f043a154bfd0800000000000000
+      internalID: -2327145345832101000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 498
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c7b94d5ffa2f990800000000000000
+      internalID: -7353621771173790641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_15
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 521
+        width: 379
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624f5a522858e0560800000000000000
+      internalID: 7281904441528546342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 344
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2574c1bcd7ecd2250800000000000000
+      internalID: 5921616124735932242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_17
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 77
+        width: 382
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050a7e178110847f0800000000000000
+      internalID: -628250943516336048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 395
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfb9041b35ec340800000000000000
+      internalID: 4885934666501847988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_19
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 103
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb4682eb5ffa1c00800000000000000
+      internalID: 872290247957171127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 77
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bb39f95bf9d89a0800000000000000
+      internalID: -6229147107168371821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_21
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 103
+        width: 402
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88d22f992fc23160800000000000000
+      internalID: 7003888148185012365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstruos_1_22
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 103
+        width: 412
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8f7741404290fb0800000000000000
+      internalID: -4681170737733044062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ca00b26cf647f64db45d95596e694d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Monstruos_1_0: -6556621243022404363
+      Monstruos_1_1: 7464382331985073154
+      Monstruos_1_10: 8216240624236345416
+      Monstruos_1_11: -3662822600167296308
+      Monstruos_1_12: 8910971232097862733
+      Monstruos_1_13: -2327145345832101000
+      Monstruos_1_14: -7353621771173790641
+      Monstruos_1_15: 7281904441528546342
+      Monstruos_1_16: 5921616124735932242
+      Monstruos_1_17: -628250943516336048
+      Monstruos_1_18: 4885934666501847988
+      Monstruos_1_19: 872290247957171127
+      Monstruos_1_2: 7913247532737548987
+      Monstruos_1_20: -6229147107168371821
+      Monstruos_1_21: 7003888148185012365
+      Monstruos_1_22: -4681170737733044062
+      Monstruos_1_3: -3240229861056173306
+      Monstruos_1_4: 2855456622569127760
+      Monstruos_1_5: -1065154045853642798
+      Monstruos_1_6: 7063002566217565765
+      Monstruos_1_7: -8867039943984044647
+      Monstruos_1_8: -4162206622183133953
+      Monstruos_1_9: 8906890204945373221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
